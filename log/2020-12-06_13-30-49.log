@@ -1,0 +1,9 @@
+2020-12-06 13:32:37 - train.py[line:110] - INFO: epoch 0, step 100, loss 7768.2705, start_recall 0.7241, start_precise 0.0134, start_f1 0.0264, end_recall 0.6552, end_precise 0.0128, end_f1 0.0251, span_f1 0.0012, flag_f1 nan
+2020-12-06 13:33:03 - train.py[line:110] - INFO: epoch 0, step 200, loss 5427.5044, start_recall 0.8438, start_precise 0.0154, start_f1 0.0303, end_recall 0.6875, end_precise 0.0125, end_f1 0.0245, span_f1 0.0006, flag_f1 nan
+2020-12-06 13:33:28 - train.py[line:110] - INFO: epoch 0, step 300, loss 2730.5879, start_recall 0.7000, start_precise 0.0136, start_f1 0.0268, end_recall 0.4750, end_precise 0.0112, end_f1 0.0218, span_f1 nan, flag_f1 nan
+2020-12-06 13:33:53 - train.py[line:110] - INFO: epoch 0, step 400, loss 555.5441, start_recall 0.7200, start_precise 0.0089, start_f1 0.0177, end_recall 0.2400, end_precise 0.0048, end_f1 0.0094, span_f1 nan, flag_f1 nan
+2020-12-06 13:34:19 - train.py[line:110] - INFO: epoch 0, step 500, loss 46.6499, start_recall 0.0000, start_precise 0.0000, start_f1 nan, end_recall 0.0000, end_precise 0.0000, end_f1 nan, span_f1 nan, flag_f1 nan
+2020-12-06 13:34:44 - train.py[line:110] - INFO: epoch 0, step 600, loss 11.8940, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan, span_f1 nan, flag_f1 nan
+2020-12-06 13:35:10 - train.py[line:110] - INFO: epoch 0, step 700, loss 9.6057, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan, span_f1 nan, flag_f1 nan
+2020-12-06 13:35:36 - train.py[line:110] - INFO: epoch 0, step 800, loss 7.0709, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise 0.0000, end_f1 nan, span_f1 nan, flag_f1 nan
+2020-12-06 13:36:01 - train.py[line:110] - INFO: epoch 0, step 900, loss 5.5296, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.3333, end_precise 0.8333, end_f1 0.4762, span_f1 nan, flag_f1 nan

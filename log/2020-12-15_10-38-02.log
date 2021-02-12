@@ -1,0 +1,2 @@
+2020-12-15 10:39:50 - train.py[line:109] - INFO: epoch 0, step 100, loss 10.5894, start_f1 0.0000, end_f1 0.0000, flag_f1 0.5104
+2020-12-15 10:40:23 - train.py[line:109] - INFO: epoch 0, step 200, loss 3.8904, start_f1 0.2432, end_f1 0.3297, flag_f1 0.5833

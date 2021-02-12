@@ -1,0 +1,101 @@
+2020-12-15 12:51:36 - train.py[line:105] - INFO: epoch 0, step 50, loss 64.0118, start_f1 0.0162, end_f1 0.0189
+2020-12-15 12:52:15 - train.py[line:105] - INFO: epoch 0, step 100, loss 10.0600, start_f1 0.0000, end_f1 0.0000
+2020-12-15 12:52:54 - train.py[line:105] - INFO: epoch 0, step 150, loss 6.2113, start_f1 0.4078, end_f1 0.2653
+2020-12-15 12:53:32 - train.py[line:105] - INFO: epoch 0, step 200, loss 3.9540, start_f1 0.5738, end_f1 0.6767
+2020-12-15 12:54:11 - train.py[line:105] - INFO: epoch 0, step 250, loss 2.7252, start_f1 0.7483, end_f1 0.7397
+2020-12-15 12:54:50 - train.py[line:105] - INFO: epoch 0, step 300, loss 2.7682, start_f1 0.6567, end_f1 0.7333
+2020-12-15 12:55:29 - train.py[line:105] - INFO: epoch 0, step 350, loss 2.1596, start_f1 0.7467, end_f1 0.8000
+2020-12-15 12:56:08 - train.py[line:105] - INFO: epoch 0, step 400, loss 2.5109, start_f1 0.7211, end_f1 0.7397
+2020-12-15 12:56:47 - train.py[line:105] - INFO: epoch 0, step 450, loss 2.5093, start_f1 0.7324, end_f1 0.7606
+2020-12-15 12:57:26 - train.py[line:105] - INFO: epoch 0, step 500, loss 2.2923, start_f1 0.7703, end_f1 0.8054
+2020-12-15 12:58:05 - train.py[line:105] - INFO: epoch 0, step 550, loss 1.8846, start_f1 0.7778, end_f1 0.8649
+2020-12-15 12:58:44 - train.py[line:105] - INFO: epoch 0, step 600, loss 1.8012, start_f1 0.8029, end_f1 0.8138
+2020-12-15 12:59:25 - train.py[line:135] - INFO: -----eval----
+2020-12-15 12:59:25 - train.py[line:137] - INFO: epoch 0, step 627, loss 2.0116, start_f1 0.8255, end_f1 0.8438
+2020-12-15 12:59:25 - train.py[line:138] - INFO: -----eval----
+2020-12-15 12:59:52 - train.py[line:105] - INFO: epoch 1, step 650, loss 1.6522, start_f1 0.8163, end_f1 0.8571
+2020-12-15 13:00:31 - train.py[line:105] - INFO: epoch 1, step 700, loss 2.0235, start_f1 0.8153, end_f1 0.8101
+2020-12-15 13:01:10 - train.py[line:105] - INFO: epoch 1, step 750, loss 1.7655, start_f1 0.8138, end_f1 0.8333
+2020-12-15 13:01:49 - train.py[line:105] - INFO: epoch 1, step 800, loss 1.6062, start_f1 0.8356, end_f1 0.8784
+2020-12-15 13:02:29 - train.py[line:105] - INFO: epoch 1, step 850, loss 1.4895, start_f1 0.8511, end_f1 0.8671
+2020-12-15 13:03:08 - train.py[line:105] - INFO: epoch 1, step 900, loss 1.2015, start_f1 0.8767, end_f1 0.8571
+2020-12-15 13:03:47 - train.py[line:105] - INFO: epoch 1, step 950, loss 1.7452, start_f1 0.8163, end_f1 0.8344
+2020-12-15 13:04:26 - train.py[line:105] - INFO: epoch 1, step 1000, loss 1.8051, start_f1 0.8591, end_f1 0.8591
+2020-12-15 13:05:05 - train.py[line:105] - INFO: epoch 1, step 1050, loss 1.4552, start_f1 0.8414, end_f1 0.8299
+2020-12-15 13:05:44 - train.py[line:105] - INFO: epoch 1, step 1100, loss 1.6074, start_f1 0.8378, end_f1 0.8844
+2020-12-15 13:06:23 - train.py[line:105] - INFO: epoch 1, step 1150, loss 1.6262, start_f1 0.8366, end_f1 0.8344
+2020-12-15 13:07:02 - train.py[line:105] - INFO: epoch 1, step 1200, loss 0.9842, start_f1 0.9178, end_f1 0.9041
+2020-12-15 13:07:41 - train.py[line:105] - INFO: epoch 1, step 1250, loss 1.0045, start_f1 0.9189, end_f1 0.9103
+2020-12-15 13:08:05 - train.py[line:135] - INFO: -----eval----
+2020-12-15 13:08:05 - train.py[line:137] - INFO: epoch 1, step 1254, loss 1.5363, start_f1 0.8486, end_f1 0.8604
+2020-12-15 13:08:05 - train.py[line:138] - INFO: -----eval----
+2020-12-15 13:08:51 - train.py[line:105] - INFO: epoch 2, step 1300, loss 0.9082, start_f1 0.9189, end_f1 0.9396
+2020-12-15 13:09:30 - train.py[line:105] - INFO: epoch 2, step 1350, loss 1.3140, start_f1 0.8800, end_f1 0.8630
+2020-12-15 13:10:09 - train.py[line:105] - INFO: epoch 2, step 1400, loss 0.8649, start_f1 0.8966, end_f1 0.9444
+2020-12-15 13:10:48 - train.py[line:105] - INFO: epoch 2, step 1450, loss 1.3009, start_f1 0.8472, end_f1 0.8844
+2020-12-15 13:11:27 - train.py[line:105] - INFO: epoch 2, step 1500, loss 1.6468, start_f1 0.8645, end_f1 0.8684
+2020-12-15 13:12:06 - train.py[line:105] - INFO: epoch 2, step 1550, loss 0.6135, start_f1 0.9524, end_f1 0.9664
+2020-12-15 13:12:45 - train.py[line:105] - INFO: epoch 2, step 1600, loss 1.0502, start_f1 0.8392, end_f1 0.8966
+2020-12-15 13:13:24 - train.py[line:105] - INFO: epoch 2, step 1650, loss 1.0102, start_f1 0.8794, end_f1 0.9028
+2020-12-15 13:14:03 - train.py[line:105] - INFO: epoch 2, step 1700, loss 1.4012, start_f1 0.8811, end_f1 0.8630
+2020-12-15 13:14:43 - train.py[line:105] - INFO: epoch 2, step 1750, loss 1.1613, start_f1 0.9091, end_f1 0.9139
+2020-12-15 13:15:22 - train.py[line:105] - INFO: epoch 2, step 1800, loss 0.4938, start_f1 0.9571, end_f1 0.9583
+2020-12-15 13:16:01 - train.py[line:105] - INFO: epoch 2, step 1850, loss 1.0149, start_f1 0.8828, end_f1 0.9028
+2020-12-15 13:16:46 - train.py[line:135] - INFO: -----eval----
+2020-12-15 13:16:46 - train.py[line:137] - INFO: epoch 2, step 1881, loss 1.3730, start_f1 0.8464, end_f1 0.8583
+2020-12-15 13:16:46 - train.py[line:138] - INFO: -----eval----
+2020-12-15 13:17:10 - train.py[line:105] - INFO: epoch 3, step 1900, loss 1.3169, start_f1 0.8846, end_f1 0.9427
+2020-12-15 13:17:49 - train.py[line:105] - INFO: epoch 3, step 1950, loss 0.7467, start_f1 0.9079, end_f1 0.9211
+2020-12-15 13:18:28 - train.py[line:105] - INFO: epoch 3, step 2000, loss 0.8995, start_f1 0.9241, end_f1 0.9178
+2020-12-15 13:19:08 - train.py[line:105] - INFO: epoch 3, step 2050, loss 0.4960, start_f1 0.9536, end_f1 0.9669
+2020-12-15 13:19:47 - train.py[line:105] - INFO: epoch 3, step 2100, loss 0.4884, start_f1 0.9536, end_f1 0.9467
+2020-12-15 13:20:26 - train.py[line:105] - INFO: epoch 3, step 2150, loss 0.6048, start_f1 0.9427, end_f1 0.9548
+2020-12-15 13:21:05 - train.py[line:105] - INFO: epoch 3, step 2200, loss 0.6623, start_f1 0.9404, end_f1 0.9272
+2020-12-15 13:21:44 - train.py[line:105] - INFO: epoch 3, step 2250, loss 0.3550, start_f1 0.9733, end_f1 0.9669
+2020-12-15 13:22:23 - train.py[line:105] - INFO: epoch 3, step 2300, loss 0.5854, start_f1 0.9139, end_f1 0.9467
+2020-12-15 13:23:03 - train.py[line:105] - INFO: epoch 3, step 2350, loss 0.4969, start_f1 0.9673, end_f1 0.9481
+2020-12-15 13:23:42 - train.py[line:105] - INFO: epoch 3, step 2400, loss 0.5453, start_f1 0.9396, end_f1 0.9396
+2020-12-15 13:24:21 - train.py[line:105] - INFO: epoch 3, step 2450, loss 0.5651, start_f1 0.9467, end_f1 0.9404
+2020-12-15 13:25:00 - train.py[line:105] - INFO: epoch 3, step 2500, loss 0.4403, start_f1 0.9494, end_f1 0.9620
+2020-12-15 13:25:27 - train.py[line:135] - INFO: -----eval----
+2020-12-15 13:25:27 - train.py[line:137] - INFO: epoch 3, step 2508, loss 0.3725, start_f1 0.8394, end_f1 0.8470
+2020-12-15 13:25:27 - train.py[line:138] - INFO: -----eval----
+2020-12-15 13:26:09 - train.py[line:105] - INFO: epoch 4, step 2550, loss 0.4335, start_f1 0.9542, end_f1 0.9605
+2020-12-15 13:26:48 - train.py[line:105] - INFO: epoch 4, step 2600, loss 0.3548, start_f1 0.9589, end_f1 0.9655
+2020-12-15 13:27:27 - train.py[line:105] - INFO: epoch 4, step 2650, loss 0.5055, start_f1 0.9737, end_f1 0.9600
+2020-12-15 13:28:06 - train.py[line:105] - INFO: epoch 4, step 2700, loss 0.2811, start_f1 0.9733, end_f1 0.9660
+2020-12-15 13:28:45 - train.py[line:105] - INFO: epoch 4, step 2750, loss 0.2788, start_f1 0.9740, end_f1 0.9740
+2020-12-15 13:29:25 - train.py[line:105] - INFO: epoch 4, step 2800, loss 0.3741, start_f1 0.9467, end_f1 0.9600
+2020-12-15 13:30:04 - train.py[line:105] - INFO: epoch 4, step 2850, loss 0.3918, start_f1 0.9868, end_f1 0.9673
+2020-12-15 13:30:43 - train.py[line:105] - INFO: epoch 4, step 2900, loss 0.6606, start_f1 0.9481, end_f1 0.9221
+2020-12-15 13:31:22 - train.py[line:105] - INFO: epoch 4, step 2950, loss 0.2087, start_f1 0.9796, end_f1 0.9589
+2020-12-15 13:32:01 - train.py[line:105] - INFO: epoch 4, step 3000, loss 0.6218, start_f1 0.9342, end_f1 0.9459
+2020-12-15 13:32:40 - train.py[line:105] - INFO: epoch 4, step 3050, loss 0.6440, start_f1 0.9481, end_f1 0.9290
+2020-12-15 13:33:19 - train.py[line:105] - INFO: epoch 4, step 3100, loss 0.3884, start_f1 0.9589, end_f1 0.9437
+2020-12-15 13:34:07 - train.py[line:135] - INFO: -----eval----
+2020-12-15 13:34:07 - train.py[line:137] - INFO: epoch 4, step 3135, loss 0.3887, start_f1 0.8467, end_f1 0.8562
+2020-12-15 13:34:07 - train.py[line:138] - INFO: -----eval----
+2020-12-15 13:34:29 - train.py[line:105] - INFO: epoch 5, step 3150, loss 0.7265, start_f1 0.9591, end_f1 0.9341
+2020-12-15 13:35:11 - train.py[line:105] - INFO: epoch 5, step 3200, loss 0.2136, start_f1 0.9740, end_f1 0.9673
+2020-12-15 13:35:51 - train.py[line:105] - INFO: epoch 5, step 3250, loss 0.1478, start_f1 0.9796, end_f1 0.9726
+2020-12-15 13:36:30 - train.py[line:105] - INFO: epoch 5, step 3300, loss 0.4182, start_f1 0.9799, end_f1 0.9799
+2020-12-15 13:37:10 - train.py[line:105] - INFO: epoch 5, step 3350, loss 0.4689, start_f1 0.9740, end_f1 0.9669
+2020-12-15 13:37:50 - train.py[line:105] - INFO: epoch 5, step 3400, loss 0.2196, start_f1 0.9796, end_f1 0.9796
+2020-12-15 13:38:29 - train.py[line:105] - INFO: epoch 5, step 3450, loss 0.3108, start_f1 0.9664, end_f1 0.9530
+2020-12-15 13:39:09 - train.py[line:105] - INFO: epoch 5, step 3500, loss 0.6153, start_f1 0.9412, end_f1 0.9412
+2020-12-15 13:39:49 - train.py[line:105] - INFO: epoch 5, step 3550, loss 0.2844, start_f1 0.9806, end_f1 0.9673
+2020-12-15 13:40:29 - train.py[line:105] - INFO: epoch 5, step 3600, loss 0.5117, start_f1 0.9801, end_f1 0.9806
+2020-12-15 13:41:08 - train.py[line:105] - INFO: epoch 5, step 3650, loss 0.3838, start_f1 0.9231, end_f1 0.9790
+2020-12-15 13:41:48 - train.py[line:105] - INFO: epoch 5, step 3700, loss 0.1700, start_f1 0.9722, end_f1 0.9790
+2020-12-15 13:42:27 - train.py[line:105] - INFO: epoch 5, step 3750, loss 0.1494, start_f1 0.9870, end_f1 0.9799
+2020-12-15 13:42:57 - train.py[line:135] - INFO: -----eval----
+2020-12-15 13:42:57 - train.py[line:137] - INFO: epoch 5, step 3762, loss 0.4624, start_f1 0.8415, end_f1 0.8529
+2020-12-15 13:42:57 - train.py[line:138] - INFO: -----eval----
+2020-12-15 13:43:36 - train.py[line:105] - INFO: epoch 6, step 3800, loss 0.6329, start_f1 0.9595, end_f1 0.9459
+2020-12-15 13:44:16 - train.py[line:105] - INFO: epoch 6, step 3850, loss 0.1085, start_f1 0.9935, end_f1 0.9673
+2020-12-15 13:44:55 - train.py[line:105] - INFO: epoch 6, step 3900, loss 0.3817, start_f1 0.9865, end_f1 0.9796
+2020-12-15 13:45:34 - train.py[line:105] - INFO: epoch 6, step 3950, loss 0.3213, start_f1 0.9726, end_f1 0.9583
+2020-12-15 13:46:14 - train.py[line:105] - INFO: epoch 6, step 4000, loss 0.1440, start_f1 0.9868, end_f1 0.9806
+2020-12-15 13:46:53 - train.py[line:105] - INFO: epoch 6, step 4050, loss 0.2756, start_f1 0.9801, end_f1 0.9737
+2020-12-15 13:47:33 - train.py[line:105] - INFO: epoch 6, step 4100, loss 0.1530, start_f1 0.9799, end_f1 0.9801
+2020-12-15 13:48:12 - train.py[line:105] - INFO: epoch 6, step 4150, loss 0.3033, start_f1 0.9605, end_f1 0.9669

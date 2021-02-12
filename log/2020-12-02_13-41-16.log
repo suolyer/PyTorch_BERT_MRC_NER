@@ -1,0 +1,130 @@
+2020-12-02 13:41:54 - configuration_utils.py[line:281] - INFO: loading configuration file ./pretrained_model/chinese_roberta_wwm_ext\config.json
+2020-12-02 13:41:54 - configuration_utils.py[line:319] - INFO: Model config BertConfig {
+  "_num_labels": 2,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bad_words_ids": null,
+  "bos_token_id": 0,
+  "decoder_start_token_id": null,
+  "directionality": "bidi",
+  "do_sample": false,
+  "early_stopping": false,
+  "eos_token_id": 2,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "is_encoder_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "min_length": 0,
+  "model_type": "bert",
+  "no_repeat_ngram_size": 0,
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "prefix": null,
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "task_specific_params": null,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2020-12-02 13:41:54 - modeling_utils.py[line:505] - INFO: loading weights file ./pretrained_model/chinese_roberta_wwm_ext\pytorch_model.bin
+2020-12-02 13:43:06 - train.py[line:99] - INFO: epoch 0, step 100, loss 0.0869, start_recall 1.0000, start_precise 0.9815, start_f1 0.9907, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 13:44:14 - train.py[line:99] - INFO: epoch 0, step 200, loss 0.1831, start_recall 0.9667, start_precise 1.0000, start_f1 0.9831, end_recall 0.9667, end_precise 1.0000, end_f1 0.9831
+2020-12-02 13:45:22 - train.py[line:99] - INFO: epoch 0, step 300, loss 0.1231, start_recall 0.9825, start_precise 1.0000, start_f1 0.9912, end_recall 0.9828, end_precise 1.0000, end_f1 0.9913
+2020-12-02 13:46:30 - train.py[line:99] - INFO: epoch 0, step 400, loss 0.1072, start_recall 0.9643, start_precise 1.0000, start_f1 0.9818, end_recall 0.9474, end_precise 0.9818, end_f1 0.9643
+2020-12-02 13:47:38 - train.py[line:99] - INFO: epoch 0, step 500, loss 0.3513, start_recall 0.9444, start_precise 0.9623, start_f1 0.9533, end_recall 0.9630, end_precise 1.0000, end_f1 0.9811
+2020-12-02 13:47:53 - train.py[line:138] - INFO: -----eval----
+2020-12-02 13:47:53 - train.py[line:140] - INFO: epoch 0, step 502, loss 0.0823, start_recall 0.8514, start_precise 0.8439, start_f1 0.8471, end_recall 0.8780, end_precise 0.8705, end_f1 0.8738
+2020-12-02 13:47:53 - train.py[line:141] - INFO: -----eval----
+2020-12-02 13:49:02 - train.py[line:99] - INFO: epoch 1, step 600, loss 0.0120, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 13:50:10 - train.py[line:99] - INFO: epoch 1, step 700, loss 0.0475, start_recall 0.9815, start_precise 1.0000, start_f1 0.9907, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 13:51:17 - train.py[line:99] - INFO: epoch 1, step 800, loss 0.2793, start_recall 0.9180, start_precise 0.9825, start_f1 0.9492, end_recall 0.9344, end_precise 1.0000, end_f1 0.9661
+2020-12-02 13:52:25 - train.py[line:99] - INFO: epoch 1, step 900, loss 0.1317, start_recall 0.9818, start_precise 1.0000, start_f1 0.9908, end_recall 0.9818, end_precise 1.0000, end_f1 0.9908
+2020-12-02 13:53:33 - train.py[line:99] - INFO: epoch 1, step 1000, loss 0.3541, start_recall 0.9062, start_precise 1.0000, start_f1 0.9508, end_recall 0.9375, end_precise 0.9836, end_f1 0.9600
+2020-12-02 13:53:49 - train.py[line:138] - INFO: -----eval----
+2020-12-02 13:53:49 - train.py[line:140] - INFO: epoch 1, step 1004, loss 0.0130, start_recall 0.8443, start_precise 0.8495, start_f1 0.8463, end_recall 0.8799, end_precise 0.8668, end_f1 0.8728
+2020-12-02 13:53:49 - train.py[line:141] - INFO: -----eval----
+2020-12-02 13:54:56 - train.py[line:99] - INFO: epoch 2, step 1100, loss 0.1800, start_recall 0.9259, start_precise 1.0000, start_f1 0.9615, end_recall 0.9444, end_precise 1.0000, end_f1 0.9714
+2020-12-02 13:56:03 - train.py[line:99] - INFO: epoch 2, step 1200, loss 0.2051, start_recall 0.9630, start_precise 0.9811, start_f1 0.9720, end_recall 0.9455, end_precise 0.9811, end_f1 0.9630
+2020-12-02 13:57:11 - train.py[line:99] - INFO: epoch 2, step 1300, loss 0.0102, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 13:58:19 - train.py[line:99] - INFO: epoch 2, step 1400, loss 0.4092, start_recall 0.8857, start_precise 1.0000, start_f1 0.9394, end_recall 0.9420, end_precise 0.9701, end_f1 0.9559
+2020-12-02 13:59:26 - train.py[line:99] - INFO: epoch 2, step 1500, loss 0.0490, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 0.9821, end_precise 1.0000, end_f1 0.9910
+2020-12-02 13:59:45 - train.py[line:138] - INFO: -----eval----
+2020-12-02 13:59:45 - train.py[line:140] - INFO: epoch 2, step 1506, loss 0.0222, start_recall 0.8467, start_precise 0.8452, start_f1 0.8454, end_recall 0.8741, end_precise 0.8703, end_f1 0.8717
+2020-12-02 13:59:45 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:00:49 - train.py[line:99] - INFO: epoch 3, step 1600, loss 0.1191, start_recall 0.9815, start_precise 1.0000, start_f1 0.9907, end_recall 0.9815, end_precise 1.0000, end_f1 0.9907
+2020-12-02 14:01:57 - train.py[line:99] - INFO: epoch 3, step 1700, loss 0.2200, start_recall 0.9643, start_precise 1.0000, start_f1 0.9818, end_recall 0.9643, end_precise 1.0000, end_f1 0.9818
+2020-12-02 14:03:05 - train.py[line:99] - INFO: epoch 3, step 1800, loss 0.0043, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:04:12 - train.py[line:99] - INFO: epoch 3, step 1900, loss 0.1005, start_recall 0.9833, start_precise 1.0000, start_f1 0.9916, end_recall 0.9672, end_precise 1.0000, end_f1 0.9833
+2020-12-02 14:05:20 - train.py[line:99] - INFO: epoch 3, step 2000, loss 0.0850, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 0.9818, end_precise 1.0000, end_f1 0.9908
+2020-12-02 14:05:39 - train.py[line:138] - INFO: -----eval----
+2020-12-02 14:05:39 - train.py[line:140] - INFO: epoch 3, step 2008, loss 0.0024, start_recall 0.8385, start_precise 0.8534, start_f1 0.8455, end_recall 0.8691, end_precise 0.8738, end_f1 0.8710
+2020-12-02 14:05:39 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:06:43 - train.py[line:99] - INFO: epoch 4, step 2100, loss 0.0326, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 0.9825, end_precise 1.0000, end_f1 0.9912
+2020-12-02 14:07:51 - train.py[line:99] - INFO: epoch 4, step 2200, loss 0.0032, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:08:58 - train.py[line:99] - INFO: epoch 4, step 2300, loss 0.0130, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:10:06 - train.py[line:99] - INFO: epoch 4, step 2400, loss 0.0234, start_recall 0.9818, start_precise 1.0000, start_f1 0.9908, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:11:14 - train.py[line:99] - INFO: epoch 4, step 2500, loss 0.0639, start_recall 0.9811, start_precise 1.0000, start_f1 0.9905, end_recall 0.9811, end_precise 1.0000, end_f1 0.9905
+2020-12-02 14:11:35 - train.py[line:138] - INFO: -----eval----
+2020-12-02 14:11:35 - train.py[line:140] - INFO: epoch 4, step 2510, loss 0.0022, start_recall 0.8446, start_precise 0.8469, start_f1 0.8452, end_recall 0.8734, end_precise 0.8694, end_f1 0.8708
+2020-12-02 14:11:35 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:12:37 - train.py[line:99] - INFO: epoch 5, step 2600, loss 0.0045, start_recall 0.9821, start_precise 1.0000, start_f1 0.9910, end_recall 0.9825, end_precise 1.0000, end_f1 0.9912
+2020-12-02 14:13:45 - train.py[line:99] - INFO: epoch 5, step 2700, loss 0.0059, start_recall 0.9643, start_precise 1.0000, start_f1 0.9818, end_recall 0.9643, end_precise 1.0000, end_f1 0.9818
+2020-12-02 14:14:53 - train.py[line:99] - INFO: epoch 5, step 2800, loss 0.0019, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:16:00 - train.py[line:99] - INFO: epoch 5, step 2900, loss 0.0024, start_recall 0.9821, start_precise 1.0000, start_f1 0.9910, end_recall 0.9821, end_precise 1.0000, end_f1 0.9910
+2020-12-02 14:17:08 - train.py[line:99] - INFO: epoch 5, step 3000, loss 0.2456, start_recall 0.9649, start_precise 1.0000, start_f1 0.9821, end_recall 0.9483, end_precise 0.9821, end_f1 0.9649
+2020-12-02 14:17:30 - train.py[line:138] - INFO: -----eval----
+2020-12-02 14:17:30 - train.py[line:140] - INFO: epoch 5, step 3012, loss 0.0012, start_recall 0.8413, start_precise 0.8505, start_f1 0.8456, end_recall 0.8676, end_precise 0.8732, end_f1 0.8701
+2020-12-02 14:17:30 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:18:31 - train.py[line:99] - INFO: epoch 6, step 3100, loss 0.1198, start_recall 0.9808, start_precise 0.9808, start_f1 0.9808, end_recall 1.0000, end_precise 0.9811, end_f1 0.9905
+2020-12-02 14:19:39 - train.py[line:99] - INFO: epoch 6, step 3200, loss 0.7117, start_recall 0.9444, start_precise 0.9444, start_f1 0.9444, end_recall 0.9630, end_precise 0.9630, end_f1 0.9630
+2020-12-02 14:20:47 - train.py[line:99] - INFO: epoch 6, step 3300, loss 0.1976, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 0.9821, end_precise 1.0000, end_f1 0.9910
+2020-12-02 14:21:54 - train.py[line:99] - INFO: epoch 6, step 3400, loss 0.0064, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:23:02 - train.py[line:99] - INFO: epoch 6, step 3500, loss 0.5584, start_recall 0.9643, start_precise 0.9643, start_f1 0.9643, end_recall 0.9643, end_precise 0.9818, end_f1 0.9730
+2020-12-02 14:23:25 - train.py[line:138] - INFO: -----eval----
+2020-12-02 14:23:25 - train.py[line:140] - INFO: epoch 6, step 3514, loss 0.0011, start_recall 0.8363, start_precise 0.8523, start_f1 0.8438, end_recall 0.8631, end_precise 0.8758, end_f1 0.8690
+2020-12-02 14:23:25 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:24:25 - train.py[line:99] - INFO: epoch 7, step 3600, loss 0.1088, start_recall 0.9811, start_precise 1.0000, start_f1 0.9905, end_recall 0.9811, end_precise 1.0000, end_f1 0.9905
+2020-12-02 14:25:33 - train.py[line:99] - INFO: epoch 7, step 3700, loss 0.1227, start_recall 0.9815, start_precise 0.9815, start_f1 0.9815, end_recall 0.9815, end_precise 0.9815, end_f1 0.9815
+2020-12-02 14:26:41 - train.py[line:99] - INFO: epoch 7, step 3800, loss 0.0730, start_recall 0.9821, start_precise 1.0000, start_f1 0.9910, end_recall 0.9821, end_precise 1.0000, end_f1 0.9910
+2020-12-02 14:27:48 - train.py[line:99] - INFO: epoch 7, step 3900, loss 0.0125, start_recall 0.9833, start_precise 1.0000, start_f1 0.9916, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:28:56 - train.py[line:99] - INFO: epoch 7, step 4000, loss 0.0007, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 1.0000, end_precise 1.0000, end_f1 1.0000
+2020-12-02 14:29:21 - train.py[line:138] - INFO: -----eval----
+2020-12-02 14:29:21 - train.py[line:140] - INFO: epoch 7, step 4016, loss 0.0008, start_recall 0.8377, start_precise 0.8471, start_f1 0.8420, end_recall 0.8697, end_precise 0.8679, end_f1 0.8684
+2020-12-02 14:29:21 - train.py[line:141] - INFO: -----eval----
+2020-12-02 14:30:20 - train.py[line:99] - INFO: epoch 8, step 4100, loss 0.2233, start_recall 0.9643, start_precise 1.0000, start_f1 0.9818, end_recall 0.9153, end_precise 0.9818, end_f1 0.9474
+2020-12-02 14:31:27 - train.py[line:99] - INFO: epoch 8, step 4200, loss 0.0574, start_recall 0.9643, start_precise 1.0000, start_f1 0.9818, end_recall 0.9643, end_precise 1.0000, end_f1 0.9818

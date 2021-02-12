@@ -1,0 +1,549 @@
+2020-11-30 19:04:48 - configuration_utils.py[line:281] - INFO: loading configuration file ./pretrained_model/chinese_roberta_wwm_ext\config.json
+2020-11-30 19:04:48 - configuration_utils.py[line:319] - INFO: Model config BertConfig {
+  "_num_labels": 2,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bad_words_ids": null,
+  "bos_token_id": 0,
+  "decoder_start_token_id": null,
+  "directionality": "bidi",
+  "do_sample": false,
+  "early_stopping": false,
+  "eos_token_id": 2,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "is_encoder_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "min_length": 0,
+  "model_type": "bert",
+  "no_repeat_ngram_size": 0,
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "prefix": null,
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "task_specific_params": null,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2020-11-30 19:04:48 - modeling_utils.py[line:505] - INFO: loading weights file ./pretrained_model/chinese_roberta_wwm_ext\pytorch_model.bin
+2020-11-30 19:05:06 - role_extract_train.py[line:97] - INFO: epoch 0, step 20, loss 59.2248, start_recall 0.4074, start_precise 0.0071, start_f1 0.0139, end_recall 0.0370, end_precise 0.0114, end_f1 0.0174
+2020-11-30 19:05:19 - role_extract_train.py[line:97] - INFO: epoch 0, step 40, loss 43.9982, start_recall 0.1455, start_precise 0.0097, start_f1 0.0182, end_recall 0.0182, end_precise 0.0154, end_f1 0.0167
+2020-11-30 19:05:33 - role_extract_train.py[line:97] - INFO: epoch 0, step 60, loss 36.3042, start_recall 0.0000, start_precise 0.0000, start_f1 nan, end_recall 0.0000, end_precise 0.0000, end_f1 nan
+2020-11-30 19:05:46 - role_extract_train.py[line:97] - INFO: epoch 0, step 80, loss 21.6407, start_recall 0.0000, start_precise 0.0000, start_f1 nan, end_recall 0.0000, end_precise 0.0000, end_f1 nan
+2020-11-30 19:05:59 - role_extract_train.py[line:97] - INFO: epoch 0, step 100, loss 16.0601, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:06:13 - role_extract_train.py[line:97] - INFO: epoch 0, step 120, loss 11.6632, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:06:26 - role_extract_train.py[line:97] - INFO: epoch 0, step 140, loss 10.2483, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:06:40 - role_extract_train.py[line:97] - INFO: epoch 0, step 160, loss 9.1860, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:06:53 - role_extract_train.py[line:97] - INFO: epoch 0, step 180, loss 8.8669, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:07:07 - role_extract_train.py[line:97] - INFO: epoch 0, step 200, loss 8.6850, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:07:20 - role_extract_train.py[line:97] - INFO: epoch 0, step 220, loss 8.0969, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:07:34 - role_extract_train.py[line:97] - INFO: epoch 0, step 240, loss 8.5046, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:07:47 - role_extract_train.py[line:97] - INFO: epoch 0, step 260, loss 7.0619, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:08:01 - role_extract_train.py[line:97] - INFO: epoch 0, step 280, loss 6.5754, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan
+2020-11-30 19:08:14 - role_extract_train.py[line:97] - INFO: epoch 0, step 300, loss 6.1797, start_recall 0.0545, start_precise 0.7500, start_f1 0.1017, end_recall 0.0182, end_precise 1.0000, end_f1 0.0357
+2020-11-30 19:08:28 - role_extract_train.py[line:97] - INFO: epoch 0, step 320, loss 6.2264, start_recall 0.0179, start_precise 0.5000, start_f1 0.0345, end_recall 0.0536, end_precise 0.7500, end_f1 0.1000
+2020-11-30 19:08:41 - role_extract_train.py[line:97] - INFO: epoch 0, step 340, loss 6.7228, start_recall 0.0169, start_precise 1.0000, start_f1 0.0333, end_recall 0.0339, end_precise 0.5000, end_f1 0.0635
+2020-11-30 19:08:55 - role_extract_train.py[line:97] - INFO: epoch 0, step 360, loss 5.8513, start_recall 0.0877, start_precise 0.8333, start_f1 0.1587, end_recall 0.0877, end_precise 0.6250, end_f1 0.1538
+2020-11-30 19:09:08 - role_extract_train.py[line:97] - INFO: epoch 0, step 380, loss 5.1725, start_recall 0.0755, start_precise 0.4000, start_f1 0.1270, end_recall 0.2075, end_precise 0.6875, end_f1 0.3188
+2020-11-30 19:09:22 - role_extract_train.py[line:97] - INFO: epoch 0, step 400, loss 5.5898, start_recall 0.0536, start_precise 0.3750, start_f1 0.0938, end_recall 0.1071, end_precise 0.4615, end_f1 0.1739
+2020-11-30 19:09:35 - role_extract_train.py[line:97] - INFO: epoch 0, step 420, loss 4.5866, start_recall 0.0962, start_precise 0.5556, start_f1 0.1639, end_recall 0.2692, end_precise 0.7778, end_f1 0.4000
+2020-11-30 19:09:49 - role_extract_train.py[line:97] - INFO: epoch 0, step 440, loss 5.1032, start_recall 0.1250, start_precise 0.7778, start_f1 0.2154, end_recall 0.2857, end_precise 0.5926, end_f1 0.3855
+2020-11-30 19:10:03 - role_extract_train.py[line:97] - INFO: epoch 0, step 460, loss 4.9532, start_recall 0.1455, start_precise 0.5333, start_f1 0.2286, end_recall 0.4727, end_precise 0.6842, end_f1 0.5591
+2020-11-30 19:10:16 - role_extract_train.py[line:97] - INFO: epoch 0, step 480, loss 4.9529, start_recall 0.1250, start_precise 0.4118, start_f1 0.1918, end_recall 0.3214, end_precise 0.6207, end_f1 0.4235
+2020-11-30 19:10:30 - role_extract_train.py[line:97] - INFO: epoch 0, step 500, loss 4.8655, start_recall 0.2167, start_precise 0.6842, start_f1 0.3291, end_recall 0.3729, end_precise 0.7586, end_f1 0.5000
+2020-11-30 19:10:45 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:10:45 - role_extract_train.py[line:139] - INFO: epoch 0, step 502, loss 3.8850, start_recall 0.2706, start_precise 0.6689, start_f1 0.3822, end_recall 0.3984, end_precise 0.7049, end_f1 0.5065
+2020-11-30 19:10:45 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:11:00 - role_extract_train.py[line:97] - INFO: epoch 1, step 520, loss 3.9802, start_recall 0.3019, start_precise 0.6400, start_f1 0.4103, end_recall 0.5472, end_precise 0.7250, end_f1 0.6237
+2020-11-30 19:11:13 - role_extract_train.py[line:97] - INFO: epoch 1, step 540, loss 4.7052, start_recall 0.2807, start_precise 0.6154, start_f1 0.3855, end_recall 0.4737, end_precise 0.6750, end_f1 0.5567
+2020-11-30 19:11:27 - role_extract_train.py[line:97] - INFO: epoch 1, step 560, loss 4.7807, start_recall 0.2727, start_precise 0.6250, start_f1 0.3797, end_recall 0.3636, end_precise 0.6061, end_f1 0.4545
+2020-11-30 19:11:40 - role_extract_train.py[line:97] - INFO: epoch 1, step 580, loss 3.4035, start_recall 0.3929, start_precise 0.7333, start_f1 0.5116, end_recall 0.5179, end_precise 0.7632, end_f1 0.6170
+2020-11-30 19:11:54 - role_extract_train.py[line:97] - INFO: epoch 1, step 600, loss 3.4868, start_recall 0.4737, start_precise 0.7714, start_f1 0.5870, end_recall 0.5439, end_precise 0.7209, end_f1 0.6200
+2020-11-30 19:12:07 - role_extract_train.py[line:97] - INFO: epoch 1, step 620, loss 4.3204, start_recall 0.2778, start_precise 0.6250, start_f1 0.3846, end_recall 0.4444, end_precise 0.6316, end_f1 0.5217
+2020-11-30 19:12:21 - role_extract_train.py[line:97] - INFO: epoch 1, step 640, loss 3.3258, start_recall 0.5000, start_precise 0.7632, start_f1 0.6042, end_recall 0.6102, end_precise 0.7826, end_f1 0.6857
+2020-11-30 19:12:35 - role_extract_train.py[line:97] - INFO: epoch 1, step 660, loss 3.1209, start_recall 0.5556, start_precise 0.7500, start_f1 0.6383, end_recall 0.6481, end_precise 0.6863, end_f1 0.6667
+2020-11-30 19:12:48 - role_extract_train.py[line:97] - INFO: epoch 1, step 680, loss 3.4369, start_recall 0.5000, start_precise 0.7568, start_f1 0.6022, end_recall 0.6140, end_precise 0.7447, end_f1 0.6731
+2020-11-30 19:13:02 - role_extract_train.py[line:97] - INFO: epoch 1, step 700, loss 3.1673, start_recall 0.5094, start_precise 0.7500, start_f1 0.6067, end_recall 0.6604, end_precise 0.6604, end_f1 0.6604
+2020-11-30 19:13:15 - role_extract_train.py[line:97] - INFO: epoch 1, step 720, loss 3.5065, start_recall 0.5818, start_precise 0.7111, start_f1 0.6400, end_recall 0.6364, end_precise 0.5738, end_f1 0.6034
+2020-11-30 19:13:29 - role_extract_train.py[line:97] - INFO: epoch 1, step 740, loss 3.8537, start_recall 0.6071, start_precise 0.7556, start_f1 0.6733, end_recall 0.5789, end_precise 0.7857, end_f1 0.6667
+2020-11-30 19:13:42 - role_extract_train.py[line:97] - INFO: epoch 1, step 760, loss 3.4464, start_recall 0.5455, start_precise 0.7692, start_f1 0.6383, end_recall 0.6000, end_precise 0.7674, end_f1 0.6735
+2020-11-30 19:13:56 - role_extract_train.py[line:97] - INFO: epoch 1, step 780, loss 2.4435, start_recall 0.6364, start_precise 0.8750, start_f1 0.7368, end_recall 0.8000, end_precise 0.8800, end_f1 0.8381
+2020-11-30 19:14:09 - role_extract_train.py[line:97] - INFO: epoch 1, step 800, loss 3.4119, start_recall 0.5385, start_precise 0.6667, start_f1 0.5957, end_recall 0.6346, end_precise 0.6471, end_f1 0.6408
+2020-11-30 19:14:23 - role_extract_train.py[line:97] - INFO: epoch 1, step 820, loss 3.3019, start_recall 0.5238, start_precise 0.8049, start_f1 0.6346, end_recall 0.6032, end_precise 0.7308, end_f1 0.6609
+2020-11-30 19:14:36 - role_extract_train.py[line:97] - INFO: epoch 1, step 840, loss 2.8850, start_recall 0.5926, start_precise 0.7442, start_f1 0.6598, end_recall 0.6296, end_precise 0.7234, end_f1 0.6733
+2020-11-30 19:14:50 - role_extract_train.py[line:97] - INFO: epoch 1, step 860, loss 2.7290, start_recall 0.6346, start_precise 0.7500, start_f1 0.6875, end_recall 0.7692, end_precise 0.6557, end_f1 0.7080
+2020-11-30 19:15:03 - role_extract_train.py[line:97] - INFO: epoch 1, step 880, loss 3.8746, start_recall 0.5833, start_precise 0.7778, start_f1 0.6667, end_recall 0.6000, end_precise 0.7200, end_f1 0.6545
+2020-11-30 19:15:17 - role_extract_train.py[line:97] - INFO: epoch 1, step 900, loss 3.4128, start_recall 0.5690, start_precise 0.6346, start_f1 0.6000, end_recall 0.7759, end_precise 0.7895, end_f1 0.7826
+2020-11-30 19:15:30 - role_extract_train.py[line:97] - INFO: epoch 1, step 920, loss 2.8062, start_recall 0.6071, start_precise 0.7391, start_f1 0.6667, end_recall 0.6429, end_precise 0.8780, end_f1 0.7423
+2020-11-30 19:15:44 - role_extract_train.py[line:97] - INFO: epoch 1, step 940, loss 2.6290, start_recall 0.6415, start_precise 0.7391, start_f1 0.6869, end_recall 0.6981, end_precise 0.7115, end_f1 0.7048
+2020-11-30 19:15:57 - role_extract_train.py[line:97] - INFO: epoch 1, step 960, loss 3.1042, start_recall 0.6842, start_precise 0.7222, start_f1 0.7027, end_recall 0.7719, end_precise 0.8302, end_f1 0.8000
+2020-11-30 19:16:11 - role_extract_train.py[line:97] - INFO: epoch 1, step 980, loss 2.4315, start_recall 0.6415, start_precise 0.7556, start_f1 0.6939, end_recall 0.7925, end_precise 0.8077, end_f1 0.8000
+2020-11-30 19:16:24 - role_extract_train.py[line:97] - INFO: epoch 1, step 1000, loss 2.6983, start_recall 0.5965, start_precise 0.8500, start_f1 0.7010, end_recall 0.7368, end_precise 0.7778, end_f1 0.7568
+2020-11-30 19:16:41 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:16:41 - role_extract_train.py[line:139] - INFO: epoch 1, step 1004, loss 4.3941, start_recall 0.6401, start_precise 0.7599, start_f1 0.6937, end_recall 0.7026, end_precise 0.7758, end_f1 0.7362
+2020-11-30 19:16:41 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:16:53 - role_extract_train.py[line:97] - INFO: epoch 2, step 1020, loss 2.6105, start_recall 0.6607, start_precise 0.8605, start_f1 0.7475, end_recall 0.6964, end_precise 0.8298, end_f1 0.7573
+2020-11-30 19:17:07 - role_extract_train.py[line:97] - INFO: epoch 2, step 1040, loss 2.9738, start_recall 0.6731, start_precise 0.6034, start_f1 0.6364, end_recall 0.6923, end_precise 0.6667, end_f1 0.6792
+2020-11-30 19:17:20 - role_extract_train.py[line:97] - INFO: epoch 2, step 1060, loss 2.1963, start_recall 0.7500, start_precise 0.8936, start_f1 0.8155, end_recall 0.7143, end_precise 0.7843, end_f1 0.7477
+2020-11-30 19:17:34 - role_extract_train.py[line:97] - INFO: epoch 2, step 1080, loss 3.0204, start_recall 0.6111, start_precise 0.6226, start_f1 0.6168, end_recall 0.6852, end_precise 0.7708, end_f1 0.7255
+2020-11-30 19:17:47 - role_extract_train.py[line:97] - INFO: epoch 2, step 1100, loss 2.5972, start_recall 0.6897, start_precise 0.8000, start_f1 0.7407, end_recall 0.6897, end_precise 0.7692, end_f1 0.7273
+2020-11-30 19:18:01 - role_extract_train.py[line:97] - INFO: epoch 2, step 1120, loss 2.3854, start_recall 0.6545, start_precise 0.7826, start_f1 0.7129, end_recall 0.6909, end_precise 0.8085, end_f1 0.7451
+2020-11-30 19:18:14 - role_extract_train.py[line:97] - INFO: epoch 2, step 1140, loss 2.9294, start_recall 0.6667, start_precise 0.7755, start_f1 0.7170, end_recall 0.7544, end_precise 0.8776, end_f1 0.8113
+2020-11-30 19:18:28 - role_extract_train.py[line:97] - INFO: epoch 2, step 1160, loss 3.5422, start_recall 0.6481, start_precise 0.7000, start_f1 0.6731, end_recall 0.7222, end_precise 0.7647, end_f1 0.7429
+2020-11-30 19:18:41 - role_extract_train.py[line:97] - INFO: epoch 2, step 1180, loss 2.3546, start_recall 0.6481, start_precise 0.7447, start_f1 0.6931, end_recall 0.7963, end_precise 0.8776, end_f1 0.8350
+2020-11-30 19:18:55 - role_extract_train.py[line:97] - INFO: epoch 2, step 1200, loss 3.0193, start_recall 0.6290, start_precise 0.7358, start_f1 0.6783, end_recall 0.6508, end_precise 0.8039, end_f1 0.7193
+2020-11-30 19:19:08 - role_extract_train.py[line:97] - INFO: epoch 2, step 1220, loss 2.3149, start_recall 0.7308, start_precise 0.8261, start_f1 0.7755, end_recall 0.7115, end_precise 0.8043, end_f1 0.7551
+2020-11-30 19:19:22 - role_extract_train.py[line:97] - INFO: epoch 2, step 1240, loss 2.3981, start_recall 0.6780, start_precise 0.8000, start_f1 0.7339, end_recall 0.7931, end_precise 0.8364, end_f1 0.8142
+2020-11-30 19:19:35 - role_extract_train.py[line:97] - INFO: epoch 2, step 1260, loss 2.6409, start_recall 0.7069, start_precise 0.7885, start_f1 0.7455, end_recall 0.7544, end_precise 0.8600, end_f1 0.8037
+2020-11-30 19:19:49 - role_extract_train.py[line:97] - INFO: epoch 2, step 1280, loss 2.9659, start_recall 0.6441, start_precise 0.7451, start_f1 0.6909, end_recall 0.6271, end_precise 0.7708, end_f1 0.6916
+2020-11-30 19:20:02 - role_extract_train.py[line:97] - INFO: epoch 2, step 1300, loss 2.0182, start_recall 0.7778, start_precise 0.8571, start_f1 0.8155, end_recall 0.8148, end_precise 0.8148, end_f1 0.8148
+2020-11-30 19:20:16 - role_extract_train.py[line:97] - INFO: epoch 2, step 1320, loss 2.6394, start_recall 0.6545, start_precise 0.8000, start_f1 0.7200, end_recall 0.7636, end_precise 0.8235, end_f1 0.7925
+2020-11-30 19:20:30 - role_extract_train.py[line:97] - INFO: epoch 2, step 1340, loss 2.9212, start_recall 0.6545, start_precise 0.7059, start_f1 0.6792, end_recall 0.6545, end_precise 0.7347, end_f1 0.6923
+2020-11-30 19:20:43 - role_extract_train.py[line:97] - INFO: epoch 2, step 1360, loss 2.6878, start_recall 0.7170, start_precise 0.7755, start_f1 0.7451, end_recall 0.7925, end_precise 0.7368, end_f1 0.7636
+2020-11-30 19:20:57 - role_extract_train.py[line:97] - INFO: epoch 2, step 1380, loss 2.3334, start_recall 0.6897, start_precise 0.7692, start_f1 0.7273, end_recall 0.8448, end_precise 0.8305, end_f1 0.8376
+2020-11-30 19:21:10 - role_extract_train.py[line:97] - INFO: epoch 2, step 1400, loss 2.3720, start_recall 0.8214, start_precise 0.8519, start_f1 0.8364, end_recall 0.7857, end_precise 0.7586, end_f1 0.7719
+2020-11-30 19:21:24 - role_extract_train.py[line:97] - INFO: epoch 2, step 1420, loss 2.1578, start_recall 0.7000, start_precise 0.9545, start_f1 0.8077, end_recall 0.7333, end_precise 0.8980, end_f1 0.8073
+2020-11-30 19:21:37 - role_extract_train.py[line:97] - INFO: epoch 2, step 1440, loss 1.8021, start_recall 0.6981, start_precise 0.7551, start_f1 0.7255, end_recall 0.8491, end_precise 0.9184, end_f1 0.8824
+2020-11-30 19:21:51 - role_extract_train.py[line:97] - INFO: epoch 2, step 1460, loss 1.9843, start_recall 0.8036, start_precise 0.8654, start_f1 0.8333, end_recall 0.7857, end_precise 0.8000, end_f1 0.7928
+2020-11-30 19:22:04 - role_extract_train.py[line:97] - INFO: epoch 2, step 1480, loss 2.9624, start_recall 0.7069, start_precise 0.7885, start_f1 0.7455, end_recall 0.7069, end_precise 0.7455, end_f1 0.7257
+2020-11-30 19:22:18 - role_extract_train.py[line:97] - INFO: epoch 2, step 1500, loss 2.3922, start_recall 0.7544, start_precise 0.8269, start_f1 0.7890, end_recall 0.7500, end_precise 0.7925, end_f1 0.7706
+2020-11-30 19:22:36 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:22:36 - role_extract_train.py[line:139] - INFO: epoch 2, step 1506, loss 2.7641, start_recall 0.7023, start_precise 0.8064, start_f1 0.7494, end_recall 0.7496, end_precise 0.8004, end_f1 0.7725
+2020-11-30 19:22:36 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:22:47 - role_extract_train.py[line:97] - INFO: epoch 3, step 1520, loss 2.5693, start_recall 0.6923, start_precise 0.7660, start_f1 0.7273, end_recall 0.7308, end_precise 0.7600, end_f1 0.7451
+2020-11-30 19:23:00 - role_extract_train.py[line:97] - INFO: epoch 3, step 1540, loss 2.4086, start_recall 0.7308, start_precise 0.7600, start_f1 0.7451, end_recall 0.7885, end_precise 0.8367, end_f1 0.8119
+2020-11-30 19:23:14 - role_extract_train.py[line:97] - INFO: epoch 3, step 1560, loss 2.8965, start_recall 0.6721, start_precise 0.7885, start_f1 0.7257, end_recall 0.7213, end_precise 0.8000, end_f1 0.7586
+2020-11-30 19:23:27 - role_extract_train.py[line:97] - INFO: epoch 3, step 1580, loss 2.1321, start_recall 0.7778, start_precise 0.8077, start_f1 0.7925, end_recall 0.8333, end_precise 0.8036, end_f1 0.8182
+2020-11-30 19:23:41 - role_extract_train.py[line:97] - INFO: epoch 3, step 1600, loss 1.8449, start_recall 0.7963, start_precise 0.8113, start_f1 0.8037, end_recall 0.8333, end_precise 0.8654, end_f1 0.8491
+2020-11-30 19:23:54 - role_extract_train.py[line:97] - INFO: epoch 3, step 1620, loss 2.9159, start_recall 0.6897, start_precise 0.7547, start_f1 0.7207, end_recall 0.7414, end_precise 0.8269, end_f1 0.7818
+2020-11-30 19:24:08 - role_extract_train.py[line:97] - INFO: epoch 3, step 1640, loss 2.4730, start_recall 0.6607, start_precise 0.8043, start_f1 0.7255, end_recall 0.8036, end_precise 0.8491, end_f1 0.8257
+2020-11-30 19:24:21 - role_extract_train.py[line:97] - INFO: epoch 3, step 1660, loss 1.8285, start_recall 0.8070, start_precise 0.8214, start_f1 0.8142, end_recall 0.8246, end_precise 0.8704, end_f1 0.8468
+2020-11-30 19:24:35 - role_extract_train.py[line:97] - INFO: epoch 3, step 1680, loss 1.9679, start_recall 0.8070, start_precise 0.8070, start_f1 0.8070, end_recall 0.8246, end_precise 0.8868, end_f1 0.8545
+2020-11-30 19:24:48 - role_extract_train.py[line:97] - INFO: epoch 3, step 1700, loss 2.1655, start_recall 0.7170, start_precise 0.7755, start_f1 0.7451, end_recall 0.7736, end_precise 0.8723, end_f1 0.8200
+2020-11-30 19:25:02 - role_extract_train.py[line:97] - INFO: epoch 3, step 1720, loss 2.7272, start_recall 0.7193, start_precise 0.6949, start_f1 0.7069, end_recall 0.7719, end_precise 0.7719, end_f1 0.7719
+2020-11-30 19:25:16 - role_extract_train.py[line:97] - INFO: epoch 3, step 1740, loss 2.6754, start_recall 0.6207, start_precise 0.7200, start_f1 0.6667, end_recall 0.7414, end_precise 0.7818, end_f1 0.7611
+2020-11-30 19:25:29 - role_extract_train.py[line:97] - INFO: epoch 3, step 1760, loss 2.4615, start_recall 0.8182, start_precise 0.7759, start_f1 0.7965, end_recall 0.7818, end_precise 0.7167, end_f1 0.7478
+2020-11-30 19:25:43 - role_extract_train.py[line:97] - INFO: epoch 3, step 1780, loss 2.1716, start_recall 0.7963, start_precise 0.7818, start_f1 0.7890, end_recall 0.7222, end_precise 0.7959, end_f1 0.7573
+2020-11-30 19:25:56 - role_extract_train.py[line:97] - INFO: epoch 3, step 1800, loss 1.4274, start_recall 0.8302, start_precise 0.8462, start_f1 0.8381, end_recall 0.8868, end_precise 0.8868, end_f1 0.8868
+2020-11-30 19:26:10 - role_extract_train.py[line:97] - INFO: epoch 3, step 1820, loss 2.2128, start_recall 0.7593, start_precise 0.7885, start_f1 0.7736, end_recall 0.7778, end_precise 0.7925, end_f1 0.7850
+2020-11-30 19:26:23 - role_extract_train.py[line:97] - INFO: epoch 3, step 1840, loss 1.7822, start_recall 0.8929, start_precise 0.9434, start_f1 0.9174, end_recall 0.8214, end_precise 0.7667, end_f1 0.7931
+2020-11-30 19:26:37 - role_extract_train.py[line:97] - INFO: epoch 3, step 1860, loss 1.9743, start_recall 0.8750, start_precise 0.6712, start_f1 0.7597, end_recall 0.8393, end_precise 0.8545, end_f1 0.8468
+2020-11-30 19:26:50 - role_extract_train.py[line:97] - INFO: epoch 3, step 1880, loss 2.7148, start_recall 0.6613, start_precise 0.8542, start_f1 0.7455, end_recall 0.6667, end_precise 0.7636, end_f1 0.7119
+2020-11-30 19:27:04 - role_extract_train.py[line:97] - INFO: epoch 3, step 1900, loss 3.5222, start_recall 0.5667, start_precise 0.7727, start_f1 0.6538, end_recall 0.6833, end_precise 0.8039, end_f1 0.7387
+2020-11-30 19:27:18 - role_extract_train.py[line:97] - INFO: epoch 3, step 1920, loss 2.1326, start_recall 0.7963, start_precise 0.8776, start_f1 0.8350, end_recall 0.8148, end_precise 0.8148, end_f1 0.8148
+2020-11-30 19:27:31 - role_extract_train.py[line:97] - INFO: epoch 3, step 1940, loss 1.9577, start_recall 0.7679, start_precise 0.8269, start_f1 0.7963, end_recall 0.8036, end_precise 0.8036, end_f1 0.8036
+2020-11-30 19:27:45 - role_extract_train.py[line:97] - INFO: epoch 3, step 1960, loss 2.3925, start_recall 0.7759, start_precise 0.8036, start_f1 0.7895, end_recall 0.7414, end_precise 0.7818, end_f1 0.7611
+2020-11-30 19:27:58 - role_extract_train.py[line:97] - INFO: epoch 3, step 1980, loss 2.5714, start_recall 0.7544, start_precise 0.8431, start_f1 0.7963, end_recall 0.7895, end_precise 0.8182, end_f1 0.8036
+2020-11-30 19:28:12 - role_extract_train.py[line:97] - INFO: epoch 3, step 2000, loss 1.8993, start_recall 0.7895, start_precise 0.8333, start_f1 0.8108, end_recall 0.8772, end_precise 0.8772, end_f1 0.8772
+2020-11-30 19:28:31 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:28:31 - role_extract_train.py[line:139] - INFO: epoch 3, step 2008, loss 2.0535, start_recall 0.7517, start_precise 0.8104, start_f1 0.7788, end_recall 0.7931, end_precise 0.8069, end_f1 0.7989
+2020-11-30 19:28:31 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:28:41 - role_extract_train.py[line:97] - INFO: epoch 4, step 2020, loss 1.7865, start_recall 0.8182, start_precise 0.8333, start_f1 0.8257, end_recall 0.9074, end_precise 0.8909, end_f1 0.8991
+2020-11-30 19:28:54 - role_extract_train.py[line:97] - INFO: epoch 4, step 2040, loss 1.4092, start_recall 0.8750, start_precise 0.8448, start_f1 0.8596, end_recall 0.8393, end_precise 0.9216, end_f1 0.8785
+2020-11-30 19:29:08 - role_extract_train.py[line:97] - INFO: epoch 4, step 2060, loss 2.4854, start_recall 0.7222, start_precise 0.7647, start_f1 0.7429, end_recall 0.8000, end_precise 0.7857, end_f1 0.7928
+2020-11-30 19:29:21 - role_extract_train.py[line:97] - INFO: epoch 4, step 2080, loss 3.1157, start_recall 0.7188, start_precise 0.6479, start_f1 0.6815, end_recall 0.6719, end_precise 0.7414, end_f1 0.7049
+2020-11-30 19:29:35 - role_extract_train.py[line:97] - INFO: epoch 4, step 2100, loss 1.6201, start_recall 0.7544, start_precise 0.8600, start_f1 0.8037, end_recall 0.8036, end_precise 0.8654, end_f1 0.8333
+2020-11-30 19:29:48 - role_extract_train.py[line:97] - INFO: epoch 4, step 2120, loss 2.4002, start_recall 0.7627, start_precise 0.7377, start_f1 0.7500, end_recall 0.8103, end_precise 0.7966, end_f1 0.8034
+2020-11-30 19:30:02 - role_extract_train.py[line:97] - INFO: epoch 4, step 2140, loss 2.9990, start_recall 0.6935, start_precise 0.7963, start_f1 0.7414, end_recall 0.6774, end_precise 0.7368, end_f1 0.7059
+2020-11-30 19:30:15 - role_extract_train.py[line:97] - INFO: epoch 4, step 2160, loss 2.3140, start_recall 0.7885, start_precise 0.7455, start_f1 0.7664, end_recall 0.8077, end_precise 0.6885, end_f1 0.7434
+2020-11-30 19:30:29 - role_extract_train.py[line:97] - INFO: epoch 4, step 2180, loss 2.0861, start_recall 0.7636, start_precise 0.8400, start_f1 0.8000, end_recall 0.8214, end_precise 0.8679, end_f1 0.8440
+2020-11-30 19:30:42 - role_extract_train.py[line:97] - INFO: epoch 4, step 2200, loss 1.5101, start_recall 0.8421, start_precise 0.8571, start_f1 0.8496, end_recall 0.8772, end_precise 0.9259, end_f1 0.9009
+2020-11-30 19:30:56 - role_extract_train.py[line:97] - INFO: epoch 4, step 2220, loss 2.7459, start_recall 0.6885, start_precise 0.7636, start_f1 0.7241, end_recall 0.8033, end_precise 0.8750, end_f1 0.8376
+2020-11-30 19:31:10 - role_extract_train.py[line:97] - INFO: epoch 4, step 2240, loss 2.3773, start_recall 0.7636, start_precise 0.7500, start_f1 0.7568, end_recall 0.8000, end_precise 0.7857, end_f1 0.7928
+2020-11-30 19:31:23 - role_extract_train.py[line:97] - INFO: epoch 4, step 2260, loss 2.3542, start_recall 0.7037, start_precise 0.7600, start_f1 0.7308, end_recall 0.7222, end_precise 0.7800, end_f1 0.7500
+2020-11-30 19:31:37 - role_extract_train.py[line:97] - INFO: epoch 4, step 2280, loss 1.3078, start_recall 0.8333, start_precise 0.9000, start_f1 0.8654, end_recall 0.8889, end_precise 0.8727, end_f1 0.8807
+2020-11-30 19:31:50 - role_extract_train.py[line:97] - INFO: epoch 4, step 2300, loss 1.5721, start_recall 0.8036, start_precise 0.9000, start_f1 0.8491, end_recall 0.8393, end_precise 0.8868, end_f1 0.8624
+2020-11-30 19:32:04 - role_extract_train.py[line:97] - INFO: epoch 4, step 2320, loss 2.5618, start_recall 0.7368, start_precise 0.7925, start_f1 0.7636, end_recall 0.8246, end_precise 0.8393, end_f1 0.8319
+2020-11-30 19:32:17 - role_extract_train.py[line:97] - INFO: epoch 4, step 2340, loss 1.8022, start_recall 0.8302, start_precise 0.7586, start_f1 0.7928, end_recall 0.8491, end_precise 0.8182, end_f1 0.8333
+2020-11-30 19:32:31 - role_extract_train.py[line:97] - INFO: epoch 4, step 2360, loss 2.3550, start_recall 0.7119, start_precise 0.7778, start_f1 0.7434, end_recall 0.8305, end_precise 0.8448, end_f1 0.8376
+2020-11-30 19:32:44 - role_extract_train.py[line:97] - INFO: epoch 4, step 2380, loss 2.2168, start_recall 0.7931, start_precise 0.8214, start_f1 0.8070, end_recall 0.7931, end_precise 0.8519, end_f1 0.8214
+2020-11-30 19:32:58 - role_extract_train.py[line:97] - INFO: epoch 4, step 2400, loss 2.5035, start_recall 0.8364, start_precise 0.8364, start_f1 0.8364, end_recall 0.7273, end_precise 0.7547, end_f1 0.7407
+2020-11-30 19:33:11 - role_extract_train.py[line:97] - INFO: epoch 4, step 2420, loss 2.3060, start_recall 0.8065, start_precise 0.9091, start_f1 0.8547, end_recall 0.7742, end_precise 0.8727, end_f1 0.8205
+2020-11-30 19:33:25 - role_extract_train.py[line:97] - INFO: epoch 4, step 2440, loss 2.0128, start_recall 0.8491, start_precise 0.8491, start_f1 0.8491, end_recall 0.7358, end_precise 0.7358, end_f1 0.7358
+2020-11-30 19:33:39 - role_extract_train.py[line:97] - INFO: epoch 4, step 2460, loss 2.1057, start_recall 0.7736, start_precise 0.8913, start_f1 0.8283, end_recall 0.8113, end_precise 0.7818, end_f1 0.7963
+2020-11-30 19:33:52 - role_extract_train.py[line:97] - INFO: epoch 4, step 2480, loss 2.1211, start_recall 0.7273, start_precise 0.8000, start_f1 0.7619, end_recall 0.7636, end_precise 0.8235, end_f1 0.7925
+2020-11-30 19:34:06 - role_extract_train.py[line:97] - INFO: epoch 4, step 2500, loss 1.6110, start_recall 0.7885, start_precise 0.8913, start_f1 0.8367, end_recall 0.8269, end_precise 0.8958, end_f1 0.8600
+2020-11-30 19:34:26 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:34:26 - role_extract_train.py[line:139] - INFO: epoch 4, step 2510, loss 3.1027, start_recall 0.7621, start_precise 0.8380, start_f1 0.7969, end_recall 0.7952, end_precise 0.8346, end_f1 0.8135
+2020-11-30 19:34:26 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:34:35 - role_extract_train.py[line:97] - INFO: epoch 5, step 2520, loss 1.5011, start_recall 0.7544, start_precise 0.8113, start_f1 0.7818, end_recall 0.9107, end_precise 0.8644, end_f1 0.8870
+2020-11-30 19:34:48 - role_extract_train.py[line:97] - INFO: epoch 5, step 2540, loss 2.3443, start_recall 0.7679, start_precise 0.7963, start_f1 0.7818, end_recall 0.7857, end_precise 0.8000, end_f1 0.7928
+2020-11-30 19:35:02 - role_extract_train.py[line:97] - INFO: epoch 5, step 2560, loss 3.1106, start_recall 0.6721, start_precise 0.7593, start_f1 0.7130, end_recall 0.7705, end_precise 0.8393, end_f1 0.8034
+2020-11-30 19:35:15 - role_extract_train.py[line:97] - INFO: epoch 5, step 2580, loss 2.1183, start_recall 0.8070, start_precise 0.8070, start_f1 0.8070, end_recall 0.7544, end_precise 0.8113, end_f1 0.7818
+2020-11-30 19:35:29 - role_extract_train.py[line:97] - INFO: epoch 5, step 2600, loss 1.9079, start_recall 0.7547, start_precise 0.9091, start_f1 0.8247, end_recall 0.8302, end_precise 0.8302, end_f1 0.8302
+2020-11-30 19:35:42 - role_extract_train.py[line:97] - INFO: epoch 5, step 2620, loss 2.4146, start_recall 0.7321, start_precise 0.7455, start_f1 0.7387, end_recall 0.8393, end_precise 0.7966, end_f1 0.8174
+2020-11-30 19:35:56 - role_extract_train.py[line:97] - INFO: epoch 5, step 2640, loss 2.1793, start_recall 0.7544, start_precise 0.8600, start_f1 0.8037, end_recall 0.7759, end_precise 0.8824, end_f1 0.8257
+2020-11-30 19:36:09 - role_extract_train.py[line:97] - INFO: epoch 5, step 2660, loss 1.5637, start_recall 0.8070, start_precise 0.9020, start_f1 0.8519, end_recall 0.9123, end_precise 0.8814, end_f1 0.8966
+2020-11-30 19:36:23 - role_extract_train.py[line:97] - INFO: epoch 5, step 2680, loss 1.3937, start_recall 0.8596, start_precise 0.9245, start_f1 0.8909, end_recall 0.8929, end_precise 0.9091, end_f1 0.9009
+2020-11-30 19:36:36 - role_extract_train.py[line:97] - INFO: epoch 5, step 2700, loss 1.4570, start_recall 0.7547, start_precise 0.8511, start_f1 0.8000, end_recall 0.8868, end_precise 0.8393, end_f1 0.8624
+2020-11-30 19:36:50 - role_extract_train.py[line:97] - INFO: epoch 5, step 2720, loss 1.9220, start_recall 0.7719, start_precise 0.8462, start_f1 0.8073, end_recall 0.8246, end_precise 0.7966, end_f1 0.8103
+2020-11-30 19:37:03 - role_extract_train.py[line:97] - INFO: epoch 5, step 2740, loss 1.6800, start_recall 0.7778, start_precise 0.7241, start_f1 0.7500, end_recall 0.8519, end_precise 0.8679, end_f1 0.8598
+2020-11-30 19:37:17 - role_extract_train.py[line:97] - INFO: epoch 5, step 2760, loss 1.3655, start_recall 0.8364, start_precise 0.9388, start_f1 0.8846, end_recall 0.8727, end_precise 0.8889, end_f1 0.8807
+2020-11-30 19:37:31 - role_extract_train.py[line:97] - INFO: epoch 5, step 2780, loss 1.6707, start_recall 0.8421, start_precise 0.8421, start_f1 0.8421, end_recall 0.9474, end_precise 0.8852, end_f1 0.9153
+2020-11-30 19:37:44 - role_extract_train.py[line:97] - INFO: epoch 5, step 2800, loss 1.6887, start_recall 0.9091, start_precise 0.9259, start_f1 0.9174, end_recall 0.8364, end_precise 0.7931, end_f1 0.8142
+2020-11-30 19:37:58 - role_extract_train.py[line:97] - INFO: epoch 5, step 2820, loss 1.5355, start_recall 0.7925, start_precise 0.7368, start_f1 0.7636, end_recall 0.8491, end_precise 0.9000, end_f1 0.8738
+2020-11-30 19:38:11 - role_extract_train.py[line:97] - INFO: epoch 5, step 2840, loss 1.4627, start_recall 0.8302, start_precise 0.8627, start_f1 0.8462, end_recall 0.9057, end_precise 0.8889, end_f1 0.8972
+2020-11-30 19:38:25 - role_extract_train.py[line:97] - INFO: epoch 5, step 2860, loss 2.0661, start_recall 0.8214, start_precise 0.8070, start_f1 0.8142, end_recall 0.9107, end_precise 0.7969, end_f1 0.8500
+2020-11-30 19:38:38 - role_extract_train.py[line:97] - INFO: epoch 5, step 2880, loss 1.6854, start_recall 0.8545, start_precise 0.8393, start_f1 0.8468, end_recall 0.9091, end_precise 0.7937, end_f1 0.8475
+2020-11-30 19:38:52 - role_extract_train.py[line:97] - INFO: epoch 5, step 2900, loss 1.8772, start_recall 0.8000, start_precise 0.8148, start_f1 0.8073, end_recall 0.8182, end_precise 0.8182, end_f1 0.8182
+2020-11-30 19:39:05 - role_extract_train.py[line:97] - INFO: epoch 5, step 2920, loss 1.6270, start_recall 0.8148, start_precise 0.8800, start_f1 0.8462, end_recall 0.9074, end_precise 0.8448, end_f1 0.8750
+2020-11-30 19:39:19 - role_extract_train.py[line:97] - INFO: epoch 5, step 2940, loss 1.8594, start_recall 0.8519, start_precise 0.8519, start_f1 0.8519, end_recall 0.8519, end_precise 0.8519, end_f1 0.8519
+2020-11-30 19:39:32 - role_extract_train.py[line:97] - INFO: epoch 5, step 2960, loss 1.2175, start_recall 0.9038, start_precise 0.8868, start_f1 0.8952, end_recall 0.8654, end_precise 0.9375, end_f1 0.9000
+2020-11-30 19:39:46 - role_extract_train.py[line:97] - INFO: epoch 5, step 2980, loss 1.5516, start_recall 0.8182, start_precise 0.8654, start_f1 0.8411, end_recall 0.9074, end_precise 0.8750, end_f1 0.8909
+2020-11-30 19:40:00 - role_extract_train.py[line:97] - INFO: epoch 5, step 3000, loss 2.1123, start_recall 0.7308, start_precise 0.7451, start_f1 0.7379, end_recall 0.8302, end_precise 0.7719, end_f1 0.8000
+2020-11-30 19:40:22 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:40:22 - role_extract_train.py[line:139] - INFO: epoch 5, step 3012, loss 1.2232, start_recall 0.7948, start_precise 0.8325, start_f1 0.8121, end_recall 0.8304, end_precise 0.8372, end_f1 0.8330
+2020-11-30 19:40:22 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:40:28 - role_extract_train.py[line:97] - INFO: epoch 6, step 3020, loss 1.7620, start_recall 0.8302, start_precise 0.8302, start_f1 0.8302, end_recall 0.8302, end_precise 0.8462, end_f1 0.8381
+2020-11-30 19:40:42 - role_extract_train.py[line:97] - INFO: epoch 6, step 3040, loss 1.2108, start_recall 0.8889, start_precise 0.9600, start_f1 0.9231, end_recall 0.9630, end_precise 0.9630, end_f1 0.9630
+2020-11-30 19:40:56 - role_extract_train.py[line:97] - INFO: epoch 6, step 3060, loss 1.2545, start_recall 0.8909, start_precise 0.8448, start_f1 0.8673, end_recall 0.8727, end_precise 0.8727, end_f1 0.8727
+2020-11-30 19:41:09 - role_extract_train.py[line:97] - INFO: epoch 6, step 3080, loss 1.4582, start_recall 0.8621, start_precise 0.9091, start_f1 0.8850, end_recall 0.8793, end_precise 0.8644, end_f1 0.8718
+2020-11-30 19:41:23 - role_extract_train.py[line:97] - INFO: epoch 6, step 3100, loss 1.4237, start_recall 0.8148, start_precise 0.8627, start_f1 0.8381, end_recall 0.9057, end_precise 0.9057, end_f1 0.9057
+2020-11-30 19:41:36 - role_extract_train.py[line:97] - INFO: epoch 6, step 3120, loss 1.8196, start_recall 0.8182, start_precise 0.8036, start_f1 0.8108, end_recall 0.8364, end_precise 0.8846, end_f1 0.8598
+2020-11-30 19:41:50 - role_extract_train.py[line:97] - INFO: epoch 6, step 3140, loss 1.2584, start_recall 0.8214, start_precise 0.9020, start_f1 0.8598, end_recall 0.8750, end_precise 0.9608, end_f1 0.9159
+2020-11-30 19:42:03 - role_extract_train.py[line:97] - INFO: epoch 6, step 3160, loss 1.5708, start_recall 0.8525, start_precise 0.8387, start_f1 0.8455, end_recall 0.8525, end_precise 0.9455, end_f1 0.8966
+2020-11-30 19:42:17 - role_extract_train.py[line:97] - INFO: epoch 6, step 3180, loss 1.5957, start_recall 0.7963, start_precise 0.8113, start_f1 0.8037, end_recall 0.8704, end_precise 0.8868, end_f1 0.8785
+2020-11-30 19:42:30 - role_extract_train.py[line:97] - INFO: epoch 6, step 3200, loss 1.8377, start_recall 0.8448, start_precise 0.8750, start_f1 0.8596, end_recall 0.8103, end_precise 0.7966, end_f1 0.8034
+2020-11-30 19:42:44 - role_extract_train.py[line:97] - INFO: epoch 6, step 3220, loss 1.8219, start_recall 0.7778, start_precise 0.8571, start_f1 0.8155, end_recall 0.8519, end_precise 0.8519, end_f1 0.8519
+2020-11-30 19:42:57 - role_extract_train.py[line:97] - INFO: epoch 6, step 3240, loss 1.6326, start_recall 0.8393, start_precise 0.8103, start_f1 0.8246, end_recall 0.8929, end_precise 0.8197, end_f1 0.8547
+2020-11-30 19:43:11 - role_extract_train.py[line:97] - INFO: epoch 6, step 3260, loss 1.7995, start_recall 0.7797, start_precise 0.8679, start_f1 0.8214, end_recall 0.7627, end_precise 0.9000, end_f1 0.8257
+2020-11-30 19:43:24 - role_extract_train.py[line:97] - INFO: epoch 6, step 3280, loss 1.9969, start_recall 0.7719, start_precise 0.8980, start_f1 0.8302, end_recall 0.8276, end_precise 0.8889, end_f1 0.8571
+2020-11-30 19:43:38 - role_extract_train.py[line:97] - INFO: epoch 6, step 3300, loss 1.1993, start_recall 0.9231, start_precise 0.9057, start_f1 0.9143, end_recall 0.8654, end_precise 0.8654, end_f1 0.8654
+2020-11-30 19:43:52 - role_extract_train.py[line:97] - INFO: epoch 6, step 3320, loss 2.2683, start_recall 0.7679, start_precise 0.9149, start_f1 0.8350, end_recall 0.7857, end_precise 0.8980, end_f1 0.8381
+2020-11-30 19:44:05 - role_extract_train.py[line:97] - INFO: epoch 6, step 3340, loss 1.8791, start_recall 0.7736, start_precise 0.7885, start_f1 0.7810, end_recall 0.8491, end_precise 0.8491, end_f1 0.8491
+2020-11-30 19:44:19 - role_extract_train.py[line:97] - INFO: epoch 6, step 3360, loss 1.8338, start_recall 0.8103, start_precise 0.7344, start_f1 0.7705, end_recall 0.8103, end_precise 0.8393, end_f1 0.8246
+2020-11-30 19:44:32 - role_extract_train.py[line:97] - INFO: epoch 6, step 3380, loss 1.3310, start_recall 0.8364, start_precise 0.8519, start_f1 0.8440, end_recall 0.8909, end_precise 0.9423, end_f1 0.9159
+2020-11-30 19:44:46 - role_extract_train.py[line:97] - INFO: epoch 6, step 3400, loss 2.6565, start_recall 0.7593, start_precise 0.7885, start_f1 0.7736, end_recall 0.8148, end_precise 0.7586, end_f1 0.7857
+2020-11-30 19:44:59 - role_extract_train.py[line:97] - INFO: epoch 6, step 3420, loss 1.3129, start_recall 0.8214, start_precise 0.7419, start_f1 0.7797, end_recall 0.8929, end_precise 0.9259, end_f1 0.9091
+2020-11-30 19:45:13 - role_extract_train.py[line:97] - INFO: epoch 6, step 3440, loss 1.3963, start_recall 0.8000, start_precise 0.8627, start_f1 0.8302, end_recall 0.8000, end_precise 0.8980, end_f1 0.8462
+2020-11-30 19:45:26 - role_extract_train.py[line:97] - INFO: epoch 6, step 3460, loss 1.4782, start_recall 0.8868, start_precise 0.8393, start_f1 0.8624, end_recall 0.7736, end_precise 0.8039, end_f1 0.7885
+2020-11-30 19:45:40 - role_extract_train.py[line:97] - INFO: epoch 6, step 3480, loss 1.6725, start_recall 0.8727, start_precise 0.8727, start_f1 0.8727, end_recall 0.8182, end_precise 0.7895, end_f1 0.8036
+2020-11-30 19:45:54 - role_extract_train.py[line:97] - INFO: epoch 6, step 3500, loss 1.7700, start_recall 0.7679, start_precise 0.5811, start_f1 0.6615, end_recall 0.8571, end_precise 0.8421, end_f1 0.8496
+2020-11-30 19:46:17 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:46:17 - role_extract_train.py[line:139] - INFO: epoch 6, step 3514, loss 1.8441, start_recall 0.7886, start_precise 0.8474, start_f1 0.8156, end_recall 0.8282, end_precise 0.8541, end_f1 0.8402
+2020-11-30 19:46:17 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:46:23 - role_extract_train.py[line:97] - INFO: epoch 7, step 3520, loss 1.0342, start_recall 0.9259, start_precise 0.8475, start_f1 0.8850, end_recall 0.9074, end_precise 0.8448, end_f1 0.8750
+2020-11-30 19:46:36 - role_extract_train.py[line:97] - INFO: epoch 7, step 3540, loss 1.2415, start_recall 0.9273, start_precise 0.9444, start_f1 0.9358, end_recall 0.8727, end_precise 0.8889, end_f1 0.8807
+2020-11-30 19:46:50 - role_extract_train.py[line:97] - INFO: epoch 7, step 3560, loss 1.2752, start_recall 0.8596, start_precise 0.8596, start_f1 0.8596, end_recall 0.8772, end_precise 0.9259, end_f1 0.9009
+2020-11-30 19:47:03 - role_extract_train.py[line:97] - INFO: epoch 7, step 3580, loss 1.4319, start_recall 0.8966, start_precise 0.8814, start_f1 0.8889, end_recall 0.8793, end_precise 0.8947, end_f1 0.8870
+2020-11-30 19:47:17 - role_extract_train.py[line:97] - INFO: epoch 7, step 3600, loss 1.3958, start_recall 0.8333, start_precise 0.8824, start_f1 0.8571, end_recall 0.8545, end_precise 0.9038, end_f1 0.8785
+2020-11-30 19:47:31 - role_extract_train.py[line:97] - INFO: epoch 7, step 3620, loss 1.2692, start_recall 0.8889, start_precise 0.8889, start_f1 0.8889, end_recall 0.9259, end_precise 0.9259, end_f1 0.9259
+2020-11-30 19:47:45 - role_extract_train.py[line:97] - INFO: epoch 7, step 3640, loss 1.6122, start_recall 0.8246, start_precise 0.8545, start_f1 0.8393, end_recall 0.8772, end_precise 0.8929, end_f1 0.8850
+2020-11-30 19:47:58 - role_extract_train.py[line:97] - INFO: epoch 7, step 3660, loss 1.2846, start_recall 0.9091, start_precise 0.9434, start_f1 0.9259, end_recall 0.8364, end_precise 0.9020, end_f1 0.8679
+2020-11-30 19:48:12 - role_extract_train.py[line:97] - INFO: epoch 7, step 3680, loss 1.5926, start_recall 0.8421, start_precise 0.6957, start_f1 0.7619, end_recall 0.8596, end_precise 0.9074, end_f1 0.8829
+2020-11-30 19:48:25 - role_extract_train.py[line:97] - INFO: epoch 7, step 3700, loss 1.5272, start_recall 0.8148, start_precise 0.8148, start_f1 0.8148, end_recall 0.8519, end_precise 0.8519, end_f1 0.8519
+2020-11-30 19:48:39 - role_extract_train.py[line:97] - INFO: epoch 7, step 3720, loss 2.5134, start_recall 0.8305, start_precise 0.9245, start_f1 0.8750, end_recall 0.6949, end_precise 0.7736, end_f1 0.7321
+2020-11-30 19:48:53 - role_extract_train.py[line:97] - INFO: epoch 7, step 3740, loss 1.7225, start_recall 0.8704, start_precise 0.8868, start_f1 0.8785, end_recall 0.7778, end_precise 0.9130, end_f1 0.8400
+2020-11-30 19:49:06 - role_extract_train.py[line:97] - INFO: epoch 7, step 3760, loss 1.7185, start_recall 0.7719, start_precise 0.8800, start_f1 0.8224, end_recall 0.8947, end_precise 0.8947, end_f1 0.8947
+2020-11-30 19:49:20 - role_extract_train.py[line:97] - INFO: epoch 7, step 3780, loss 1.4430, start_recall 0.8070, start_precise 0.8214, start_f1 0.8142, end_recall 0.8947, end_precise 0.8793, end_f1 0.8870
+2020-11-30 19:49:33 - role_extract_train.py[line:97] - INFO: epoch 7, step 3800, loss 2.6444, start_recall 0.7925, start_precise 0.7636, start_f1 0.7778, end_recall 0.7925, end_precise 0.8077, end_f1 0.8000
+2020-11-30 19:49:47 - role_extract_train.py[line:97] - INFO: epoch 7, step 3820, loss 1.5147, start_recall 0.8679, start_precise 0.8679, start_f1 0.8679, end_recall 0.8491, end_precise 0.8654, end_f1 0.8571
+2020-11-30 19:50:00 - role_extract_train.py[line:97] - INFO: epoch 7, step 3840, loss 1.5757, start_recall 0.8947, start_precise 0.8644, start_f1 0.8793, end_recall 0.9474, end_precise 0.8710, end_f1 0.9076
+2020-11-30 19:50:14 - role_extract_train.py[line:97] - INFO: epoch 7, step 3860, loss 1.1553, start_recall 0.8889, start_precise 0.8727, start_f1 0.8807, end_recall 0.9444, end_precise 0.9273, end_f1 0.9358
+2020-11-30 19:50:27 - role_extract_train.py[line:97] - INFO: epoch 7, step 3880, loss 1.3702, start_recall 0.8448, start_precise 0.9074, start_f1 0.8750, end_recall 0.8966, end_precise 0.9123, end_f1 0.9043
+2020-11-30 19:50:41 - role_extract_train.py[line:97] - INFO: epoch 7, step 3900, loss 1.1312, start_recall 0.8596, start_precise 0.8909, start_f1 0.8750, end_recall 0.8947, end_precise 0.8947, end_f1 0.8947
+2020-11-30 19:50:54 - role_extract_train.py[line:97] - INFO: epoch 7, step 3920, loss 1.1443, start_recall 0.8148, start_precise 0.9362, start_f1 0.8713, end_recall 0.8889, end_precise 0.8571, end_f1 0.8727
+2020-11-30 19:51:08 - role_extract_train.py[line:97] - INFO: epoch 7, step 3940, loss 1.6519, start_recall 0.7818, start_precise 0.8269, start_f1 0.8037, end_recall 0.8545, end_precise 0.8704, end_f1 0.8624
+2020-11-30 19:51:22 - role_extract_train.py[line:97] - INFO: epoch 7, step 3960, loss 1.6586, start_recall 0.8113, start_precise 0.8600, start_f1 0.8350, end_recall 0.8302, end_precise 0.8462, end_f1 0.8381
+2020-11-30 19:51:35 - role_extract_train.py[line:97] - INFO: epoch 7, step 3980, loss 1.5763, start_recall 0.8519, start_precise 0.7797, start_f1 0.8142, end_recall 0.8333, end_precise 0.8824, end_f1 0.8571
+2020-11-30 19:51:49 - role_extract_train.py[line:97] - INFO: epoch 7, step 4000, loss 1.4236, start_recall 0.7869, start_precise 0.8889, start_f1 0.8348, end_recall 0.8525, end_precise 0.9455, end_f1 0.8966
+2020-11-30 19:52:14 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:52:14 - role_extract_train.py[line:139] - INFO: epoch 7, step 4016, loss 2.0221, start_recall 0.7947, start_precise 0.8480, start_f1 0.8197, end_recall 0.8183, end_precise 0.8774, end_f1 0.8461
+2020-11-30 19:52:14 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:52:18 - role_extract_train.py[line:97] - INFO: epoch 8, step 4020, loss 1.1764, start_recall 0.8704, start_precise 0.8704, start_f1 0.8704, end_recall 0.8519, end_precise 0.9020, end_f1 0.8762
+2020-11-30 19:52:32 - role_extract_train.py[line:97] - INFO: epoch 8, step 4040, loss 2.0319, start_recall 0.7500, start_precise 0.8182, start_f1 0.7826, end_recall 0.8000, end_precise 0.8276, end_f1 0.8136
+2020-11-30 19:52:45 - role_extract_train.py[line:97] - INFO: epoch 8, step 4060, loss 1.1117, start_recall 0.9107, start_precise 0.9107, start_f1 0.9107, end_recall 0.9286, end_precise 0.8814, end_f1 0.9043
+2020-11-30 19:52:59 - role_extract_train.py[line:97] - INFO: epoch 8, step 4080, loss 1.5219, start_recall 0.7885, start_precise 0.7885, start_f1 0.7885, end_recall 0.8654, end_precise 0.8491, end_f1 0.8571
+2020-11-30 19:53:12 - role_extract_train.py[line:97] - INFO: epoch 8, step 4100, loss 1.1403, start_recall 0.8596, start_precise 0.8750, start_f1 0.8673, end_recall 0.9298, end_precise 0.9464, end_f1 0.9381
+2020-11-30 19:53:26 - role_extract_train.py[line:97] - INFO: epoch 8, step 4120, loss 1.3554, start_recall 0.8519, start_precise 0.8679, start_f1 0.8598, end_recall 0.8889, end_precise 0.9057, end_f1 0.8972
+2020-11-30 19:53:39 - role_extract_train.py[line:97] - INFO: epoch 8, step 4140, loss 1.6895, start_recall 0.8727, start_precise 0.8571, start_f1 0.8649, end_recall 0.8727, end_precise 0.8421, end_f1 0.8571
+2020-11-30 19:53:53 - role_extract_train.py[line:97] - INFO: epoch 8, step 4160, loss 1.8271, start_recall 0.8621, start_precise 0.8621, start_f1 0.8621, end_recall 0.8793, end_precise 0.8793, end_f1 0.8793
+2020-11-30 19:54:06 - role_extract_train.py[line:97] - INFO: epoch 8, step 4180, loss 1.9560, start_recall 0.7679, start_precise 0.8431, start_f1 0.8037, end_recall 0.8036, end_precise 0.8182, end_f1 0.8108
+2020-11-30 19:54:20 - role_extract_train.py[line:97] - INFO: epoch 8, step 4200, loss 1.4814, start_recall 0.7963, start_precise 0.8269, start_f1 0.8113, end_recall 0.8704, end_precise 0.9216, end_f1 0.8952
+2020-11-30 19:54:33 - role_extract_train.py[line:97] - INFO: epoch 8, step 4220, loss 1.9794, start_recall 0.8136, start_precise 0.8421, start_f1 0.8276, end_recall 0.7627, end_precise 0.8182, end_f1 0.7895
+2020-11-30 19:54:47 - role_extract_train.py[line:97] - INFO: epoch 8, step 4240, loss 2.6549, start_recall 0.6164, start_precise 0.7759, start_f1 0.6870, end_recall 0.7260, end_precise 0.8548, end_f1 0.7852
+2020-11-30 19:55:00 - role_extract_train.py[line:97] - INFO: epoch 8, step 4260, loss 1.8279, start_recall 0.7736, start_precise 0.6119, start_f1 0.6833, end_recall 0.8491, end_precise 0.8491, end_f1 0.8491
+2020-11-30 19:55:14 - role_extract_train.py[line:97] - INFO: epoch 8, step 4280, loss 2.0546, start_recall 0.7636, start_precise 0.8235, start_f1 0.7925, end_recall 0.8182, end_precise 0.9000, end_f1 0.8571
+2020-11-30 19:55:27 - role_extract_train.py[line:97] - INFO: epoch 8, step 4300, loss 1.2513, start_recall 0.8727, start_precise 0.6857, start_f1 0.7680, end_recall 0.9091, end_precise 0.9091, end_f1 0.9091
+2020-11-30 19:55:41 - role_extract_train.py[line:97] - INFO: epoch 8, step 4320, loss 1.3512, start_recall 0.8393, start_precise 0.8393, start_f1 0.8393, end_recall 0.8750, end_precise 0.9074, end_f1 0.8909
+2020-11-30 19:55:55 - role_extract_train.py[line:97] - INFO: epoch 8, step 4340, loss 2.7775, start_recall 0.6406, start_precise 0.8200, start_f1 0.7193, end_recall 0.6562, end_precise 0.7636, end_f1 0.7059
+2020-11-30 19:56:08 - role_extract_train.py[line:97] - INFO: epoch 8, step 4360, loss 1.4081, start_recall 0.8889, start_precise 0.8571, start_f1 0.8727, end_recall 0.8704, end_precise 0.9400, end_f1 0.9038
+2020-11-30 19:56:22 - role_extract_train.py[line:97] - INFO: epoch 8, step 4380, loss 1.6443, start_recall 0.7778, start_precise 0.8936, start_f1 0.8317, end_recall 0.8519, end_precise 0.8364, end_f1 0.8440
+2020-11-30 19:56:35 - role_extract_train.py[line:97] - INFO: epoch 8, step 4400, loss 1.0680, start_recall 0.8276, start_precise 0.9231, start_f1 0.8727, end_recall 0.9123, end_precise 0.9286, end_f1 0.9204
+2020-11-30 19:56:49 - role_extract_train.py[line:97] - INFO: epoch 8, step 4420, loss 1.6597, start_recall 0.8491, start_precise 0.8491, start_f1 0.8491, end_recall 0.8333, end_precise 0.9000, end_f1 0.8654
+2020-11-30 19:57:02 - role_extract_train.py[line:97] - INFO: epoch 8, step 4440, loss 0.9874, start_recall 0.9643, start_precise 0.8571, start_f1 0.9076, end_recall 0.9286, end_precise 0.9455, end_f1 0.9369
+2020-11-30 19:57:16 - role_extract_train.py[line:97] - INFO: epoch 8, step 4460, loss 1.5939, start_recall 0.7963, start_precise 0.9149, start_f1 0.8515, end_recall 0.7963, end_precise 0.8600, end_f1 0.8269
+2020-11-30 19:57:29 - role_extract_train.py[line:97] - INFO: epoch 8, step 4480, loss 1.6193, start_recall 0.8475, start_precise 0.9259, start_f1 0.8850, end_recall 0.8814, end_precise 0.8966, end_f1 0.8889
+2020-11-30 19:57:43 - role_extract_train.py[line:97] - INFO: epoch 8, step 4500, loss 1.0046, start_recall 0.8929, start_precise 0.8929, start_f1 0.8929, end_recall 0.9107, end_precise 0.9444, end_f1 0.9273
+2020-11-30 19:58:09 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 19:58:09 - role_extract_train.py[line:139] - INFO: epoch 8, step 4518, loss 1.9078, start_recall 0.7991, start_precise 0.8543, start_f1 0.8247, end_recall 0.8236, end_precise 0.8771, end_f1 0.8489
+2020-11-30 19:58:09 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 19:58:12 - role_extract_train.py[line:97] - INFO: epoch 9, step 4520, loss 1.1683, start_recall 0.8833, start_precise 0.9298, start_f1 0.9060, end_recall 0.8167, end_precise 0.9423, end_f1 0.8750
+2020-11-30 19:58:26 - role_extract_train.py[line:97] - INFO: epoch 9, step 4540, loss 1.1430, start_recall 0.8545, start_precise 0.8545, start_f1 0.8545, end_recall 0.9286, end_precise 0.9286, end_f1 0.9286
+2020-11-30 19:58:39 - role_extract_train.py[line:97] - INFO: epoch 9, step 4560, loss 1.4139, start_recall 0.8519, start_precise 0.8364, start_f1 0.8440, end_recall 0.8889, end_precise 0.8571, end_f1 0.8727
+2020-11-30 19:58:53 - role_extract_train.py[line:97] - INFO: epoch 9, step 4580, loss 1.1440, start_recall 0.8393, start_precise 0.9038, start_f1 0.8704, end_recall 0.9286, end_precise 0.9455, end_f1 0.9369
+2020-11-30 19:59:06 - role_extract_train.py[line:97] - INFO: epoch 9, step 4600, loss 1.2167, start_recall 0.9434, start_precise 0.9259, start_f1 0.9346, end_recall 0.8868, end_precise 0.8704, end_f1 0.8785
+2020-11-30 19:59:20 - role_extract_train.py[line:97] - INFO: epoch 9, step 4620, loss 1.3453, start_recall 0.7818, start_precise 0.8776, start_f1 0.8269, end_recall 0.8909, end_precise 0.8448, end_f1 0.8673
+2020-11-30 19:59:33 - role_extract_train.py[line:97] - INFO: epoch 9, step 4640, loss 1.3402, start_recall 0.8364, start_precise 0.9020, start_f1 0.8679, end_recall 0.9091, end_precise 0.8772, end_f1 0.8929
+2020-11-30 19:59:47 - role_extract_train.py[line:97] - INFO: epoch 9, step 4660, loss 1.7032, start_recall 0.8393, start_precise 0.9038, start_f1 0.8704, end_recall 0.8036, end_precise 0.9000, end_f1 0.8491
+2020-11-30 20:00:00 - role_extract_train.py[line:97] - INFO: epoch 9, step 4680, loss 0.7069, start_recall 0.9492, start_precise 0.9333, start_f1 0.9412, end_recall 0.8833, end_precise 0.9464, end_f1 0.9138
+2020-11-30 20:00:14 - role_extract_train.py[line:97] - INFO: epoch 9, step 4700, loss 1.0657, start_recall 0.9259, start_precise 0.8929, start_f1 0.9091, end_recall 0.9444, end_precise 0.9273, end_f1 0.9358
+2020-11-30 20:00:27 - role_extract_train.py[line:97] - INFO: epoch 9, step 4720, loss 1.5690, start_recall 0.8871, start_precise 0.9483, start_f1 0.9167, end_recall 0.8226, end_precise 0.8793, end_f1 0.8500
+2020-11-30 20:00:41 - role_extract_train.py[line:97] - INFO: epoch 9, step 4740, loss 1.6198, start_recall 0.8545, start_precise 0.7581, start_f1 0.8034, end_recall 0.8727, end_precise 0.8571, end_f1 0.8649
+2020-11-30 20:00:54 - role_extract_train.py[line:97] - INFO: epoch 9, step 4760, loss 1.5744, start_recall 0.8269, start_precise 0.7963, start_f1 0.8113, end_recall 0.8462, end_precise 0.7857, end_f1 0.8148
+2020-11-30 20:01:08 - role_extract_train.py[line:97] - INFO: epoch 9, step 4780, loss 1.0953, start_recall 0.8947, start_precise 0.8226, start_f1 0.8571, end_recall 0.8596, end_precise 0.9245, end_f1 0.8909
+2020-11-30 20:01:21 - role_extract_train.py[line:97] - INFO: epoch 9, step 4800, loss 1.1079, start_recall 0.8929, start_precise 0.9091, start_f1 0.9009, end_recall 0.8750, end_precise 0.9608, end_f1 0.9159
+2020-11-30 20:01:35 - role_extract_train.py[line:97] - INFO: epoch 9, step 4820, loss 1.2959, start_recall 0.8276, start_precise 0.9057, start_f1 0.8649, end_recall 0.8966, end_precise 0.8525, end_f1 0.8739
+2020-11-30 20:01:48 - role_extract_train.py[line:97] - INFO: epoch 9, step 4840, loss 1.3982, start_recall 0.8596, start_precise 0.8596, start_f1 0.8596, end_recall 0.9123, end_precise 0.8667, end_f1 0.8889
+2020-11-30 20:02:02 - role_extract_train.py[line:97] - INFO: epoch 9, step 4860, loss 1.6359, start_recall 0.7679, start_precise 0.9149, start_f1 0.8350, end_recall 0.8750, end_precise 0.8596, end_f1 0.8673
+2020-11-30 20:02:16 - role_extract_train.py[line:97] - INFO: epoch 9, step 4880, loss 0.6039, start_recall 0.9245, start_precise 0.8909, start_f1 0.9074, end_recall 1.0000, end_precise 0.9464, end_f1 0.9725
+2020-11-30 20:02:29 - role_extract_train.py[line:97] - INFO: epoch 9, step 4900, loss 0.9158, start_recall 0.9074, start_precise 0.9074, start_f1 0.9074, end_recall 0.8519, end_precise 0.8846, end_f1 0.8679
+2020-11-30 20:02:43 - role_extract_train.py[line:97] - INFO: epoch 9, step 4920, loss 1.3982, start_recall 0.8679, start_precise 0.9020, start_f1 0.8846, end_recall 0.8868, end_precise 0.8704, end_f1 0.8785
+2020-11-30 20:02:56 - role_extract_train.py[line:97] - INFO: epoch 9, step 4940, loss 1.0762, start_recall 0.8364, start_precise 0.8846, start_f1 0.8598, end_recall 0.9107, end_precise 0.9444, end_f1 0.9273
+2020-11-30 20:03:10 - role_extract_train.py[line:97] - INFO: epoch 9, step 4960, loss 1.0240, start_recall 0.9000, start_precise 0.9643, start_f1 0.9310, end_recall 0.9000, end_precise 0.9818, end_f1 0.9391
+2020-11-30 20:03:23 - role_extract_train.py[line:97] - INFO: epoch 9, step 4980, loss 1.8212, start_recall 0.7778, start_precise 0.7778, start_f1 0.7778, end_recall 0.7818, end_precise 0.8431, end_f1 0.8113
+2020-11-30 20:03:37 - role_extract_train.py[line:97] - INFO: epoch 9, step 5000, loss 1.4834, start_recall 0.8246, start_precise 0.8704, start_f1 0.8468, end_recall 0.8571, end_precise 0.8727, end_f1 0.8649
+2020-11-30 20:03:50 - role_extract_train.py[line:97] - INFO: epoch 9, step 5020, loss 0.9247, start_recall 1.0000, start_precise 1.0000, start_f1 1.0000, end_recall 0.8824, end_precise 0.7895, end_f1 0.8333
+2020-11-30 20:04:04 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:04:04 - role_extract_train.py[line:139] - INFO: epoch 9, step 5020, loss 0.9247, start_recall 0.8100, start_precise 0.8439, start_f1 0.8255, end_recall 0.8393, end_precise 0.8663, end_f1 0.8519
+2020-11-30 20:04:04 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:04:19 - role_extract_train.py[line:97] - INFO: epoch 10, step 5040, loss 1.4534, start_recall 0.8103, start_precise 0.9038, start_f1 0.8545, end_recall 0.8621, end_precise 0.9259, end_f1 0.8929
+2020-11-30 20:04:33 - role_extract_train.py[line:97] - INFO: epoch 10, step 5060, loss 1.5295, start_recall 0.8710, start_precise 0.9643, start_f1 0.9153, end_recall 0.8065, end_precise 0.8475, end_f1 0.8264
+2020-11-30 20:04:46 - role_extract_train.py[line:97] - INFO: epoch 10, step 5080, loss 0.9681, start_recall 0.8889, start_precise 0.9825, start_f1 0.9333, end_recall 0.8730, end_precise 0.9649, end_f1 0.9167
+2020-11-30 20:05:00 - role_extract_train.py[line:97] - INFO: epoch 10, step 5100, loss 0.8292, start_recall 0.7778, start_precise 0.8750, start_f1 0.8235, end_recall 0.8889, end_precise 0.9796, end_f1 0.9320
+2020-11-30 20:05:13 - role_extract_train.py[line:97] - INFO: epoch 10, step 5120, loss 1.4128, start_recall 0.9074, start_precise 0.9074, start_f1 0.9074, end_recall 0.9444, end_precise 0.8500, end_f1 0.8947
+2020-11-30 20:05:27 - role_extract_train.py[line:97] - INFO: epoch 10, step 5140, loss 1.4372, start_recall 0.8596, start_precise 0.8909, start_f1 0.8750, end_recall 0.8772, end_precise 0.9259, end_f1 0.9009
+2020-11-30 20:05:40 - role_extract_train.py[line:97] - INFO: epoch 10, step 5160, loss 1.7984, start_recall 0.7424, start_precise 0.8305, start_f1 0.7840, end_recall 0.8030, end_precise 0.8983, end_f1 0.8480
+2020-11-30 20:05:54 - role_extract_train.py[line:97] - INFO: epoch 10, step 5180, loss 1.9087, start_recall 0.8065, start_precise 0.9091, start_f1 0.8547, end_recall 0.7742, end_precise 0.8276, end_f1 0.8000
+2020-11-30 20:06:07 - role_extract_train.py[line:97] - INFO: epoch 10, step 5200, loss 0.9904, start_recall 0.8750, start_precise 0.9423, start_f1 0.9074, end_recall 0.8929, end_precise 0.9804, end_f1 0.9346
+2020-11-30 20:06:21 - role_extract_train.py[line:97] - INFO: epoch 10, step 5220, loss 0.7518, start_recall 0.8750, start_precise 0.9608, start_f1 0.9159, end_recall 0.9107, end_precise 0.9107, end_f1 0.9107
+2020-11-30 20:06:35 - role_extract_train.py[line:97] - INFO: epoch 10, step 5240, loss 1.1689, start_recall 0.8966, start_precise 0.8254, start_f1 0.8595, end_recall 0.9310, end_precise 0.9310, end_f1 0.9310
+2020-11-30 20:06:48 - role_extract_train.py[line:97] - INFO: epoch 10, step 5260, loss 0.9448, start_recall 0.8833, start_precise 0.9464, start_f1 0.9138, end_recall 0.9333, end_precise 0.9655, end_f1 0.9492
+2020-11-30 20:07:02 - role_extract_train.py[line:97] - INFO: epoch 10, step 5280, loss 1.4004, start_recall 0.8750, start_precise 0.8448, start_f1 0.8596, end_recall 0.8214, end_precise 0.8846, end_f1 0.8519
+2020-11-30 20:07:15 - role_extract_train.py[line:97] - INFO: epoch 10, step 5300, loss 1.7643, start_recall 0.8868, start_precise 0.7966, start_f1 0.8393, end_recall 0.8148, end_precise 0.8800, end_f1 0.8462
+2020-11-30 20:07:29 - role_extract_train.py[line:97] - INFO: epoch 10, step 5320, loss 0.9167, start_recall 0.8545, start_precise 0.9400, start_f1 0.8952, end_recall 0.8909, end_precise 0.9423, end_f1 0.9159
+2020-11-30 20:07:42 - role_extract_train.py[line:97] - INFO: epoch 10, step 5340, loss 0.9931, start_recall 0.8596, start_precise 0.9074, start_f1 0.8829, end_recall 0.8947, end_precise 0.9273, end_f1 0.9107
+2020-11-30 20:07:56 - role_extract_train.py[line:97] - INFO: epoch 10, step 5360, loss 1.2519, start_recall 0.8571, start_precise 0.7869, start_f1 0.8205, end_recall 0.9091, end_precise 0.8929, end_f1 0.9009
+2020-11-30 20:08:09 - role_extract_train.py[line:97] - INFO: epoch 10, step 5380, loss 1.3842, start_recall 0.8000, start_precise 0.9167, start_f1 0.8544, end_recall 0.8909, end_precise 0.9608, end_f1 0.9245
+2020-11-30 20:08:23 - role_extract_train.py[line:97] - INFO: epoch 10, step 5400, loss 1.3479, start_recall 0.7885, start_precise 0.8200, start_f1 0.8039, end_recall 0.9231, end_precise 0.8421, end_f1 0.8807
+2020-11-30 20:08:36 - role_extract_train.py[line:97] - INFO: epoch 10, step 5420, loss 0.9580, start_recall 0.9091, start_precise 0.8929, start_f1 0.9009, end_recall 0.9091, end_precise 0.8929, end_f1 0.9009
+2020-11-30 20:08:50 - role_extract_train.py[line:97] - INFO: epoch 10, step 5440, loss 1.3151, start_recall 0.8750, start_precise 0.8596, start_f1 0.8673, end_recall 0.9286, end_precise 0.9123, end_f1 0.9204
+2020-11-30 20:09:04 - role_extract_train.py[line:97] - INFO: epoch 10, step 5460, loss 1.3445, start_recall 0.8246, start_precise 0.9038, start_f1 0.8624, end_recall 0.8421, end_precise 0.9057, end_f1 0.8727
+2020-11-30 20:09:17 - role_extract_train.py[line:97] - INFO: epoch 10, step 5480, loss 1.8434, start_recall 0.7833, start_precise 0.7966, start_f1 0.7899, end_recall 0.8667, end_precise 0.9286, end_f1 0.8966
+2020-11-30 20:09:31 - role_extract_train.py[line:97] - INFO: epoch 10, step 5500, loss 1.2464, start_recall 0.8889, start_precise 0.8727, start_f1 0.8807, end_recall 0.9259, end_precise 0.8929, end_f1 0.9091
+2020-11-30 20:09:44 - role_extract_train.py[line:97] - INFO: epoch 10, step 5520, loss 1.2488, start_recall 0.8596, start_precise 0.8909, start_f1 0.8750, end_recall 0.8448, end_precise 0.8596, end_f1 0.8522
+2020-11-30 20:10:00 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:10:00 - role_extract_train.py[line:139] - INFO: epoch 10, step 5522, loss 0.7279, start_recall 0.8171, start_precise 0.8413, start_f1 0.8280, end_recall 0.8481, end_precise 0.8642, end_f1 0.8554
+2020-11-30 20:10:00 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:10:13 - role_extract_train.py[line:97] - INFO: epoch 11, step 5540, loss 0.6691, start_recall 0.9630, start_precise 0.9630, start_f1 0.9630, end_recall 0.9444, end_precise 0.9444, end_f1 0.9444
+2020-11-30 20:10:27 - role_extract_train.py[line:97] - INFO: epoch 11, step 5560, loss 1.6704, start_recall 0.8113, start_precise 0.8113, start_f1 0.8113, end_recall 0.8889, end_precise 0.9231, end_f1 0.9057
+2020-11-30 20:10:40 - role_extract_train.py[line:97] - INFO: epoch 11, step 5580, loss 1.2374, start_recall 0.8727, start_precise 0.8421, start_f1 0.8571, end_recall 0.9091, end_precise 0.9091, end_f1 0.9091
+2020-11-30 20:10:54 - role_extract_train.py[line:97] - INFO: epoch 11, step 5600, loss 1.6656, start_recall 0.8197, start_precise 0.8929, start_f1 0.8547, end_recall 0.7869, end_precise 0.9057, end_f1 0.8421
+2020-11-30 20:11:07 - role_extract_train.py[line:97] - INFO: epoch 11, step 5620, loss 1.0403, start_recall 0.8889, start_precise 0.9231, start_f1 0.9057, end_recall 0.8889, end_precise 0.9796, end_f1 0.9320
+2020-11-30 20:11:21 - role_extract_train.py[line:97] - INFO: epoch 11, step 5640, loss 1.2098, start_recall 0.8448, start_precise 0.8596, start_f1 0.8522, end_recall 0.8793, end_precise 0.9444, end_f1 0.9107
+2020-11-30 20:11:34 - role_extract_train.py[line:97] - INFO: epoch 11, step 5660, loss 1.2835, start_recall 0.9123, start_precise 0.8814, start_f1 0.8966, end_recall 0.8596, end_precise 0.9074, end_f1 0.8829
+2020-11-30 20:11:48 - role_extract_train.py[line:97] - INFO: epoch 11, step 5680, loss 1.1652, start_recall 0.8182, start_precise 0.9184, start_f1 0.8654, end_recall 0.9091, end_precise 0.8772, end_f1 0.8929
+2020-11-30 20:12:01 - role_extract_train.py[line:97] - INFO: epoch 11, step 5700, loss 1.2825, start_recall 0.8545, start_precise 0.9592, start_f1 0.9038, end_recall 0.8621, end_precise 0.9804, end_f1 0.9174
+2020-11-30 20:12:15 - role_extract_train.py[line:97] - INFO: epoch 11, step 5720, loss 1.6410, start_recall 0.8333, start_precise 0.8475, start_f1 0.8403, end_recall 0.8033, end_precise 0.9245, end_f1 0.8596
+2020-11-30 20:12:29 - role_extract_train.py[line:97] - INFO: epoch 11, step 5740, loss 2.0120, start_recall 0.8065, start_precise 0.8475, start_f1 0.8264, end_recall 0.8226, end_precise 0.8644, end_f1 0.8430
+2020-11-30 20:12:42 - role_extract_train.py[line:97] - INFO: epoch 11, step 5760, loss 1.4104, start_recall 0.7963, start_precise 0.8600, start_f1 0.8269, end_recall 0.9259, end_precise 0.9091, end_f1 0.9174
+2020-11-30 20:12:56 - role_extract_train.py[line:97] - INFO: epoch 11, step 5780, loss 1.1873, start_recall 0.8276, start_precise 0.9796, start_f1 0.8972, end_recall 0.8621, end_precise 0.9615, end_f1 0.9091
+2020-11-30 20:13:09 - role_extract_train.py[line:97] - INFO: epoch 11, step 5800, loss 1.3448, start_recall 0.8772, start_precise 0.8929, start_f1 0.8850, end_recall 0.8772, end_precise 0.8929, end_f1 0.8850
+2020-11-30 20:13:23 - role_extract_train.py[line:97] - INFO: epoch 11, step 5820, loss 1.4736, start_recall 0.8167, start_precise 0.8448, start_f1 0.8305, end_recall 0.8833, end_precise 0.8983, end_f1 0.8908
+2020-11-30 20:13:36 - role_extract_train.py[line:97] - INFO: epoch 11, step 5840, loss 1.2400, start_recall 0.8421, start_precise 0.9057, start_f1 0.8727, end_recall 0.8596, end_precise 0.9608, end_f1 0.9074
+2020-11-30 20:13:50 - role_extract_train.py[line:97] - INFO: epoch 11, step 5860, loss 1.1922, start_recall 0.9091, start_precise 0.8333, start_f1 0.8696, end_recall 0.8545, end_precise 0.9216, end_f1 0.8868
+2020-11-30 20:14:03 - role_extract_train.py[line:97] - INFO: epoch 11, step 5880, loss 1.1601, start_recall 0.8966, start_precise 0.9123, start_f1 0.9043, end_recall 0.8448, end_precise 0.8750, end_f1 0.8596
+2020-11-30 20:14:17 - role_extract_train.py[line:97] - INFO: epoch 11, step 5900, loss 1.2915, start_recall 0.9273, start_precise 0.9107, start_f1 0.9189, end_recall 0.8545, end_precise 0.8246, end_f1 0.8393
+2020-11-30 20:14:31 - role_extract_train.py[line:97] - INFO: epoch 11, step 5920, loss 0.9242, start_recall 0.9464, start_precise 0.8833, start_f1 0.9138, end_recall 0.9107, end_precise 0.9273, end_f1 0.9189
+2020-11-30 20:14:44 - role_extract_train.py[line:97] - INFO: epoch 11, step 5940, loss 1.0885, start_recall 0.9074, start_precise 0.9074, start_f1 0.9074, end_recall 0.8889, end_precise 0.8889, end_f1 0.8889
+2020-11-30 20:14:58 - role_extract_train.py[line:97] - INFO: epoch 11, step 5960, loss 0.9992, start_recall 0.9245, start_precise 0.9074, start_f1 0.9159, end_recall 0.9245, end_precise 0.9423, end_f1 0.9333
+2020-11-30 20:15:11 - role_extract_train.py[line:97] - INFO: epoch 11, step 5980, loss 1.0684, start_recall 0.8545, start_precise 0.9038, start_f1 0.8785, end_recall 0.9636, end_precise 0.9815, end_f1 0.9725
+2020-11-30 20:15:25 - role_extract_train.py[line:97] - INFO: epoch 11, step 6000, loss 1.1595, start_recall 0.8889, start_precise 0.9412, start_f1 0.9143, end_recall 0.9259, end_precise 0.9259, end_f1 0.9259
+2020-11-30 20:15:38 - role_extract_train.py[line:97] - INFO: epoch 11, step 6020, loss 1.1835, start_recall 0.8364, start_precise 0.8846, start_f1 0.8598, end_recall 0.9273, end_precise 0.9444, end_f1 0.9358
+2020-11-30 20:15:55 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:15:55 - role_extract_train.py[line:139] - INFO: epoch 11, step 6024, loss 0.4968, start_recall 0.8197, start_precise 0.8428, start_f1 0.8299, end_recall 0.8578, end_precise 0.8553, end_f1 0.8559
+2020-11-30 20:15:55 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:16:07 - role_extract_train.py[line:97] - INFO: epoch 12, step 6040, loss 1.2123, start_recall 0.8448, start_precise 0.8448, start_f1 0.8448, end_recall 0.7931, end_precise 0.9020, end_f1 0.8440
+2020-11-30 20:16:21 - role_extract_train.py[line:97] - INFO: epoch 12, step 6060, loss 0.9888, start_recall 0.8276, start_precise 0.9412, start_f1 0.8807, end_recall 0.8814, end_precise 0.8814, end_f1 0.8814
+2020-11-30 20:16:34 - role_extract_train.py[line:97] - INFO: epoch 12, step 6080, loss 0.8151, start_recall 0.9273, start_precise 0.9107, start_f1 0.9189, end_recall 0.9636, end_precise 0.9298, end_f1 0.9464
+2020-11-30 20:16:48 - role_extract_train.py[line:97] - INFO: epoch 12, step 6100, loss 1.5842, start_recall 0.7857, start_precise 0.8980, start_f1 0.8381, end_recall 0.8393, end_precise 0.8545, end_f1 0.8468
+2020-11-30 20:17:01 - role_extract_train.py[line:97] - INFO: epoch 12, step 6120, loss 1.0536, start_recall 0.8889, start_precise 0.9057, start_f1 0.8972, end_recall 0.9444, end_precise 0.9273, end_f1 0.9358
+2020-11-30 20:17:15 - role_extract_train.py[line:97] - INFO: epoch 12, step 6140, loss 1.0808, start_recall 0.8596, start_precise 0.9074, start_f1 0.8829, end_recall 0.9298, end_precise 0.9464, end_f1 0.9381
+2020-11-30 20:17:29 - role_extract_train.py[line:97] - INFO: epoch 12, step 6160, loss 1.2123, start_recall 0.9091, start_precise 0.9091, start_f1 0.9091, end_recall 0.9455, end_precise 0.9286, end_f1 0.9369
+2020-11-30 20:17:42 - role_extract_train.py[line:97] - INFO: epoch 12, step 6180, loss 1.8860, start_recall 0.7797, start_precise 0.8214, start_f1 0.8000, end_recall 0.7797, end_precise 0.8214, end_f1 0.8000
+2020-11-30 20:17:56 - role_extract_train.py[line:97] - INFO: epoch 12, step 6200, loss 1.2508, start_recall 0.8621, start_precise 0.8772, start_f1 0.8696, end_recall 0.8793, end_precise 0.9444, end_f1 0.9107
+2020-11-30 20:18:09 - role_extract_train.py[line:97] - INFO: epoch 12, step 6220, loss 0.8597, start_recall 0.9153, start_precise 0.9643, start_f1 0.9391, end_recall 0.9153, end_precise 1.0000, end_f1 0.9558
+2020-11-30 20:18:23 - role_extract_train.py[line:97] - INFO: epoch 12, step 6240, loss 1.1235, start_recall 0.8966, start_precise 0.9123, start_f1 0.9043, end_recall 0.8793, end_precise 0.8644, end_f1 0.8718
+2020-11-30 20:18:36 - role_extract_train.py[line:97] - INFO: epoch 12, step 6260, loss 1.1458, start_recall 0.8704, start_precise 0.9216, start_f1 0.8952, end_recall 0.8889, end_precise 0.9231, end_f1 0.9057
+2020-11-30 20:18:50 - role_extract_train.py[line:97] - INFO: epoch 12, step 6280, loss 1.1183, start_recall 0.9273, start_precise 0.9808, start_f1 0.9533, end_recall 0.8909, end_precise 0.8909, end_f1 0.8909
+2020-11-30 20:19:04 - role_extract_train.py[line:97] - INFO: epoch 12, step 6300, loss 1.0092, start_recall 0.8500, start_precise 0.9623, start_f1 0.9027, end_recall 0.9167, end_precise 0.9167, end_f1 0.9167
+2020-11-30 20:19:17 - role_extract_train.py[line:97] - INFO: epoch 12, step 6320, loss 1.0225, start_recall 0.8491, start_precise 0.8654, start_f1 0.8571, end_recall 0.9057, end_precise 0.9412, end_f1 0.9231
+2020-11-30 20:19:31 - role_extract_train.py[line:97] - INFO: epoch 12, step 6340, loss 0.6302, start_recall 0.9245, start_precise 0.9423, start_f1 0.9333, end_recall 0.9623, end_precise 0.9623, end_f1 0.9623
+2020-11-30 20:19:44 - role_extract_train.py[line:97] - INFO: epoch 12, step 6360, loss 1.0955, start_recall 0.8727, start_precise 0.9600, start_f1 0.9143, end_recall 0.8727, end_precise 0.9600, end_f1 0.9143
+2020-11-30 20:19:58 - role_extract_train.py[line:97] - INFO: epoch 12, step 6380, loss 0.9964, start_recall 0.8793, start_precise 0.8226, start_f1 0.8500, end_recall 0.9138, end_precise 0.9464, end_f1 0.9298
+2020-11-30 20:20:11 - role_extract_train.py[line:97] - INFO: epoch 12, step 6400, loss 2.0871, start_recall 0.7541, start_precise 0.8519, start_f1 0.8000, end_recall 0.8033, end_precise 0.9423, end_f1 0.8673
+2020-11-30 20:20:25 - role_extract_train.py[line:97] - INFO: epoch 12, step 6420, loss 1.1762, start_recall 0.9273, start_precise 0.9444, start_f1 0.9358, end_recall 0.8909, end_precise 0.9074, end_f1 0.8991
+2020-11-30 20:20:38 - role_extract_train.py[line:97] - INFO: epoch 12, step 6440, loss 1.5844, start_recall 0.7925, start_precise 0.9130, start_f1 0.8485, end_recall 0.8679, end_precise 0.9020, end_f1 0.8846
+2020-11-30 20:20:52 - role_extract_train.py[line:97] - INFO: epoch 12, step 6460, loss 2.3113, start_recall 0.8305, start_precise 0.8596, start_f1 0.8448, end_recall 0.7966, end_precise 0.8868, end_f1 0.8393
+2020-11-30 20:21:06 - role_extract_train.py[line:97] - INFO: epoch 12, step 6480, loss 1.5380, start_recall 0.7969, start_precise 0.8947, start_f1 0.8430, end_recall 0.8594, end_precise 0.9649, end_f1 0.9091
+2020-11-30 20:21:19 - role_extract_train.py[line:97] - INFO: epoch 12, step 6500, loss 1.1425, start_recall 0.9194, start_precise 0.9500, start_f1 0.9344, end_recall 0.8871, end_precise 0.9322, end_f1 0.9091
+2020-11-30 20:21:33 - role_extract_train.py[line:97] - INFO: epoch 12, step 6520, loss 0.6342, start_recall 0.9259, start_precise 0.8333, start_f1 0.8772, end_recall 0.9630, end_precise 0.9630, end_f1 0.9630
+2020-11-30 20:21:51 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:21:51 - role_extract_train.py[line:139] - INFO: epoch 12, step 6526, loss 0.9165, start_recall 0.8116, start_precise 0.8519, start_f1 0.8302, end_recall 0.8455, end_precise 0.8733, end_f1 0.8584
+2020-11-30 20:21:51 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:22:01 - role_extract_train.py[line:97] - INFO: epoch 13, step 6540, loss 1.2982, start_recall 0.8519, start_precise 0.8214, start_f1 0.8364, end_recall 0.8889, end_precise 0.8421, end_f1 0.8649
+2020-11-30 20:22:15 - role_extract_train.py[line:97] - INFO: epoch 13, step 6560, loss 1.2579, start_recall 0.8615, start_precise 0.8750, start_f1 0.8682, end_recall 0.9077, end_precise 0.9365, end_f1 0.9219
+2020-11-30 20:22:29 - role_extract_train.py[line:97] - INFO: epoch 13, step 6580, loss 0.7977, start_recall 0.8704, start_precise 0.9400, start_f1 0.9038, end_recall 0.9444, end_precise 0.9273, end_f1 0.9358
+2020-11-30 20:22:42 - role_extract_train.py[line:97] - INFO: epoch 13, step 6600, loss 1.3969, start_recall 0.8036, start_precise 0.8182, start_f1 0.8108, end_recall 0.9286, end_precise 0.9455, end_f1 0.9369
+2020-11-30 20:22:56 - role_extract_train.py[line:97] - INFO: epoch 13, step 6620, loss 1.2024, start_recall 0.8462, start_precise 0.9167, start_f1 0.8800, end_recall 0.9423, end_precise 0.9245, end_f1 0.9333
+2020-11-30 20:23:09 - role_extract_train.py[line:97] - INFO: epoch 13, step 6640, loss 1.1879, start_recall 0.8889, start_precise 0.9412, start_f1 0.9143, end_recall 0.8889, end_precise 0.9057, end_f1 0.8972
+2020-11-30 20:23:23 - role_extract_train.py[line:97] - INFO: epoch 13, step 6660, loss 1.0323, start_recall 0.8909, start_precise 0.9608, start_f1 0.9245, end_recall 0.9091, end_precise 0.9434, end_f1 0.9259
+2020-11-30 20:23:36 - role_extract_train.py[line:97] - INFO: epoch 13, step 6680, loss 0.8879, start_recall 0.8889, start_precise 0.9412, start_f1 0.9143, end_recall 0.9444, end_precise 0.9444, end_f1 0.9444
+2020-11-30 20:23:50 - role_extract_train.py[line:97] - INFO: epoch 13, step 6700, loss 1.2637, start_recall 0.8793, start_precise 0.8361, start_f1 0.8571, end_recall 0.9483, end_precise 0.8871, end_f1 0.9167
+2020-11-30 20:24:03 - role_extract_train.py[line:97] - INFO: epoch 13, step 6720, loss 0.7785, start_recall 0.9286, start_precise 0.9286, start_f1 0.9286, end_recall 0.9464, end_precise 0.9815, end_f1 0.9636
+2020-11-30 20:24:17 - role_extract_train.py[line:97] - INFO: epoch 13, step 6740, loss 1.0574, start_recall 0.8393, start_precise 0.9216, start_f1 0.8785, end_recall 0.9464, end_precise 0.9636, end_f1 0.9550
+2020-11-30 20:24:31 - role_extract_train.py[line:97] - INFO: epoch 13, step 6760, loss 0.8944, start_recall 0.9310, start_precise 0.9000, start_f1 0.9153, end_recall 0.9310, end_precise 0.9818, end_f1 0.9558
+2020-11-30 20:24:44 - role_extract_train.py[line:97] - INFO: epoch 13, step 6780, loss 1.6002, start_recall 0.8814, start_precise 0.9286, start_f1 0.9043, end_recall 0.8305, end_precise 0.9074, end_f1 0.8673
+2020-11-30 20:24:58 - role_extract_train.py[line:97] - INFO: epoch 13, step 6800, loss 1.2444, start_recall 0.8393, start_precise 0.8868, start_f1 0.8624, end_recall 0.9286, end_precise 0.8966, end_f1 0.9123
+2020-11-30 20:25:11 - role_extract_train.py[line:97] - INFO: epoch 13, step 6820, loss 0.8749, start_recall 0.8909, start_precise 0.9074, start_f1 0.8991, end_recall 0.9636, end_precise 0.9298, end_f1 0.9464
+2020-11-30 20:25:25 - role_extract_train.py[line:97] - INFO: epoch 13, step 6840, loss 1.2533, start_recall 0.8868, start_precise 0.8704, start_f1 0.8785, end_recall 0.8679, end_precise 0.9020, end_f1 0.8846
+2020-11-30 20:25:38 - role_extract_train.py[line:97] - INFO: epoch 13, step 6860, loss 0.5838, start_recall 0.9464, start_precise 0.9636, start_f1 0.9550, end_recall 0.9464, end_precise 0.9464, end_f1 0.9464
+2020-11-30 20:25:52 - role_extract_train.py[line:97] - INFO: epoch 13, step 6880, loss 1.3549, start_recall 0.8750, start_precise 0.9423, start_f1 0.9074, end_recall 0.8571, end_precise 0.9057, end_f1 0.8807
+2020-11-30 20:26:05 - role_extract_train.py[line:97] - INFO: epoch 13, step 6900, loss 1.2788, start_recall 0.8167, start_precise 0.9245, start_f1 0.8673, end_recall 0.9000, end_precise 0.9474, end_f1 0.9231
+2020-11-30 20:26:19 - role_extract_train.py[line:97] - INFO: epoch 13, step 6920, loss 0.8492, start_recall 0.8679, start_precise 0.9200, start_f1 0.8932, end_recall 0.9245, end_precise 0.9608, end_f1 0.9423
+2020-11-30 20:26:33 - role_extract_train.py[line:97] - INFO: epoch 13, step 6940, loss 0.8892, start_recall 0.9273, start_precise 0.9623, start_f1 0.9444, end_recall 0.9455, end_precise 0.9286, end_f1 0.9369
+2020-11-30 20:26:46 - role_extract_train.py[line:97] - INFO: epoch 13, step 6960, loss 1.0644, start_recall 0.9286, start_precise 0.9811, start_f1 0.9541, end_recall 0.9107, end_precise 0.9273, end_f1 0.9189
+2020-11-30 20:27:00 - role_extract_train.py[line:97] - INFO: epoch 13, step 6980, loss 1.0000, start_recall 0.8727, start_precise 0.8889, start_f1 0.8807, end_recall 0.9091, end_precise 0.8772, end_f1 0.8929
+2020-11-30 20:27:13 - role_extract_train.py[line:97] - INFO: epoch 13, step 7000, loss 0.8372, start_recall 0.9455, start_precise 0.9123, start_f1 0.9286, end_recall 0.9636, end_precise 0.9298, end_f1 0.9464
+2020-11-30 20:27:27 - role_extract_train.py[line:97] - INFO: epoch 13, step 7020, loss 0.8648, start_recall 0.9259, start_precise 0.9434, start_f1 0.9346, end_recall 0.9259, end_precise 0.9259, end_f1 0.9259
+2020-11-30 20:27:46 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:27:46 - role_extract_train.py[line:139] - INFO: epoch 13, step 7028, loss 0.5657, start_recall 0.8206, start_precise 0.8422, start_f1 0.8303, end_recall 0.8577, end_precise 0.8600, end_f1 0.8580
+2020-11-30 20:27:46 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:27:56 - role_extract_train.py[line:97] - INFO: epoch 14, step 7040, loss 0.9995, start_recall 0.8704, start_precise 0.9792, start_f1 0.9216, end_recall 0.8519, end_precise 0.9388, end_f1 0.8932
+2020-11-30 20:28:09 - role_extract_train.py[line:97] - INFO: epoch 14, step 7060, loss 1.0526, start_recall 0.9286, start_precise 0.9286, start_f1 0.9286, end_recall 0.9107, end_precise 0.9623, end_f1 0.9358
+2020-11-30 20:28:23 - role_extract_train.py[line:97] - INFO: epoch 14, step 7080, loss 1.7233, start_recall 0.8276, start_precise 0.8571, start_f1 0.8421, end_recall 0.8793, end_precise 0.8644, end_f1 0.8718
+2020-11-30 20:28:36 - role_extract_train.py[line:97] - INFO: epoch 14, step 7100, loss 0.7218, start_recall 0.8793, start_precise 0.8947, start_f1 0.8870, end_recall 0.9655, end_precise 0.9825, end_f1 0.9739
+2020-11-30 20:28:50 - role_extract_train.py[line:97] - INFO: epoch 14, step 7120, loss 1.0600, start_recall 0.8689, start_precise 0.9298, start_f1 0.8983, end_recall 0.9194, end_precise 0.9500, end_f1 0.9344
+2020-11-30 20:29:03 - role_extract_train.py[line:97] - INFO: epoch 14, step 7140, loss 1.2495, start_recall 0.8548, start_precise 0.9464, start_f1 0.8983, end_recall 0.9032, end_precise 0.9655, end_f1 0.9333
+2020-11-30 20:29:17 - role_extract_train.py[line:97] - INFO: epoch 14, step 7160, loss 0.7010, start_recall 0.9828, start_precise 0.9048, start_f1 0.9421, end_recall 0.9828, end_precise 0.9661, end_f1 0.9744
+2020-11-30 20:29:30 - role_extract_train.py[line:97] - INFO: epoch 14, step 7180, loss 0.6965, start_recall 0.9107, start_precise 0.9623, start_f1 0.9358, end_recall 0.9643, end_precise 0.9643, end_f1 0.9643
+2020-11-30 20:29:44 - role_extract_train.py[line:97] - INFO: epoch 14, step 7200, loss 0.6288, start_recall 0.8868, start_precise 0.9592, start_f1 0.9216, end_recall 0.9057, end_precise 0.9796, end_f1 0.9412
+2020-11-30 20:29:58 - role_extract_train.py[line:97] - INFO: epoch 14, step 7220, loss 1.2134, start_recall 0.9455, start_precise 0.8667, start_f1 0.9043, end_recall 0.9273, end_precise 0.8644, end_f1 0.8947
+2020-11-30 20:30:11 - role_extract_train.py[line:97] - INFO: epoch 14, step 7240, loss 0.6871, start_recall 0.9444, start_precise 0.9107, start_f1 0.9273, end_recall 0.9444, end_precise 0.9444, end_f1 0.9444
+2020-11-30 20:30:25 - role_extract_train.py[line:97] - INFO: epoch 14, step 7260, loss 0.8099, start_recall 0.9464, start_precise 0.9138, start_f1 0.9298, end_recall 0.9107, end_precise 0.8644, end_f1 0.8870
+2020-11-30 20:30:38 - role_extract_train.py[line:97] - INFO: epoch 14, step 7280, loss 0.6818, start_recall 0.9643, start_precise 0.9474, start_f1 0.9558, end_recall 0.9643, end_precise 0.9474, end_f1 0.9558
+2020-11-30 20:30:52 - role_extract_train.py[line:97] - INFO: epoch 14, step 7300, loss 1.4067, start_recall 0.8793, start_precise 0.9444, start_f1 0.9107, end_recall 0.8305, end_precise 0.9074, end_f1 0.8673
+2020-11-30 20:31:05 - role_extract_train.py[line:97] - INFO: epoch 14, step 7320, loss 1.4242, start_recall 0.8281, start_precise 0.9298, start_f1 0.8760, end_recall 0.8750, end_precise 0.9333, end_f1 0.9032
+2020-11-30 20:31:19 - role_extract_train.py[line:97] - INFO: epoch 14, step 7340, loss 1.0837, start_recall 0.9138, start_precise 0.9636, start_f1 0.9381, end_recall 0.9310, end_precise 0.9474, end_f1 0.9391
+2020-11-30 20:31:32 - role_extract_train.py[line:97] - INFO: epoch 14, step 7360, loss 0.8283, start_recall 0.9455, start_precise 0.9286, start_f1 0.9369, end_recall 0.8727, end_precise 0.9600, end_f1 0.9143
+2020-11-30 20:31:46 - role_extract_train.py[line:97] - INFO: epoch 14, step 7380, loss 0.8071, start_recall 0.8947, start_precise 0.8947, start_f1 0.8947, end_recall 0.9474, end_precise 0.9153, end_f1 0.9310
+2020-11-30 20:31:59 - role_extract_train.py[line:97] - INFO: epoch 14, step 7400, loss 1.3276, start_recall 0.8983, start_precise 0.9138, start_f1 0.9060, end_recall 0.9138, end_precise 0.9298, end_f1 0.9217
+2020-11-30 20:32:13 - role_extract_train.py[line:97] - INFO: epoch 14, step 7420, loss 1.1605, start_recall 0.9123, start_precise 0.8387, start_f1 0.8739, end_recall 0.9123, end_precise 0.9455, end_f1 0.9286
+2020-11-30 20:32:27 - role_extract_train.py[line:97] - INFO: epoch 14, step 7440, loss 1.3801, start_recall 0.9375, start_precise 0.9524, start_f1 0.9449, end_recall 0.8615, end_precise 0.9180, end_f1 0.8889
+2020-11-30 20:32:40 - role_extract_train.py[line:97] - INFO: epoch 14, step 7460, loss 0.3956, start_recall 0.9636, start_precise 0.9636, start_f1 0.9636, end_recall 0.9455, end_precise 1.0000, end_f1 0.9720
+2020-11-30 20:32:54 - role_extract_train.py[line:97] - INFO: epoch 14, step 7480, loss 1.1185, start_recall 0.8704, start_precise 0.9038, start_f1 0.8868, end_recall 0.9074, end_precise 0.9608, end_f1 0.9333
+2020-11-30 20:33:07 - role_extract_train.py[line:97] - INFO: epoch 14, step 7500, loss 0.6535, start_recall 0.9423, start_precise 0.8448, start_f1 0.8909, end_recall 0.9615, end_precise 0.9434, end_f1 0.9524
+2020-11-30 20:33:21 - role_extract_train.py[line:97] - INFO: epoch 14, step 7520, loss 0.6993, start_recall 0.8966, start_precise 0.9123, start_f1 0.9043, end_recall 0.9483, end_precise 0.9649, end_f1 0.9565
+2020-11-30 20:33:42 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:33:42 - role_extract_train.py[line:139] - INFO: epoch 14, step 7530, loss 0.2246, start_recall 0.8202, start_precise 0.8438, start_f1 0.8309, end_recall 0.8496, end_precise 0.8644, end_f1 0.8565
+2020-11-30 20:33:42 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:33:50 - role_extract_train.py[line:97] - INFO: epoch 15, step 7540, loss 0.7228, start_recall 0.9273, start_precise 0.9623, start_f1 0.9444, end_recall 0.9636, end_precise 0.9464, end_f1 0.9550
+2020-11-30 20:34:03 - role_extract_train.py[line:97] - INFO: epoch 15, step 7560, loss 0.5918, start_recall 0.9464, start_precise 0.9298, start_f1 0.9381, end_recall 0.9286, end_precise 0.9455, end_f1 0.9369
+2020-11-30 20:34:17 - role_extract_train.py[line:97] - INFO: epoch 15, step 7580, loss 1.0510, start_recall 0.9048, start_precise 0.9661, start_f1 0.9344, end_recall 0.9206, end_precise 0.9355, end_f1 0.9280
+2020-11-30 20:34:30 - role_extract_train.py[line:97] - INFO: epoch 15, step 7600, loss 1.0831, start_recall 0.9259, start_precise 0.8621, start_f1 0.8929, end_recall 0.9074, end_precise 0.9423, end_f1 0.9245
+2020-11-30 20:34:44 - role_extract_train.py[line:97] - INFO: epoch 15, step 7620, loss 0.8239, start_recall 0.9818, start_precise 0.9643, start_f1 0.9730, end_recall 0.8909, end_precise 0.9245, end_f1 0.9074
+2020-11-30 20:34:57 - role_extract_train.py[line:97] - INFO: epoch 15, step 7640, loss 0.7224, start_recall 0.9474, start_precise 0.9643, start_f1 0.9558, end_recall 0.9474, end_precise 0.9643, end_f1 0.9558
+2020-11-30 20:35:11 - role_extract_train.py[line:97] - INFO: epoch 15, step 7660, loss 0.9247, start_recall 0.8413, start_precise 0.9815, start_f1 0.9060, end_recall 0.9032, end_precise 0.9492, end_f1 0.9256
+2020-11-30 20:35:24 - role_extract_train.py[line:97] - INFO: epoch 15, step 7680, loss 0.9617, start_recall 0.9286, start_precise 0.9455, start_f1 0.9369, end_recall 0.9464, end_precise 0.9298, end_f1 0.9381
+2020-11-30 20:35:38 - role_extract_train.py[line:97] - INFO: epoch 15, step 7700, loss 1.0207, start_recall 0.8596, start_precise 0.8750, start_f1 0.8673, end_recall 0.8596, end_precise 0.9608, end_f1 0.9074
+2020-11-30 20:35:51 - role_extract_train.py[line:97] - INFO: epoch 15, step 7720, loss 1.1533, start_recall 0.8966, start_precise 0.8966, start_f1 0.8966, end_recall 0.9310, end_precise 0.9310, end_f1 0.9310
+2020-11-30 20:36:05 - role_extract_train.py[line:97] - INFO: epoch 15, step 7740, loss 0.7861, start_recall 0.8889, start_precise 0.9231, start_f1 0.9057, end_recall 0.9444, end_precise 0.9273, end_f1 0.9358
+2020-11-30 20:36:19 - role_extract_train.py[line:97] - INFO: epoch 15, step 7760, loss 0.8563, start_recall 0.9038, start_precise 0.9038, start_f1 0.9038, end_recall 0.9808, end_precise 0.9808, end_f1 0.9808
+2020-11-30 20:36:32 - role_extract_train.py[line:97] - INFO: epoch 15, step 7780, loss 0.7770, start_recall 0.9153, start_precise 0.9474, start_f1 0.9310, end_recall 0.9661, end_precise 0.9661, end_f1 0.9661
+2020-11-30 20:36:46 - role_extract_train.py[line:97] - INFO: epoch 15, step 7800, loss 1.0496, start_recall 0.8868, start_precise 0.8103, start_f1 0.8468, end_recall 0.9057, end_precise 0.9412, end_f1 0.9231
+2020-11-30 20:36:59 - role_extract_train.py[line:97] - INFO: epoch 15, step 7820, loss 0.9120, start_recall 0.8148, start_precise 0.8148, start_f1 0.8148, end_recall 0.9630, end_precise 0.9286, end_f1 0.9455
+2020-11-30 20:37:13 - role_extract_train.py[line:97] - INFO: epoch 15, step 7840, loss 0.5434, start_recall 0.9074, start_precise 1.0000, start_f1 0.9515, end_recall 0.9074, end_precise 0.9608, end_f1 0.9333
+2020-11-30 20:37:26 - role_extract_train.py[line:97] - INFO: epoch 15, step 7860, loss 0.7272, start_recall 0.9273, start_precise 0.9273, start_f1 0.9273, end_recall 0.9455, end_precise 0.9286, end_f1 0.9369
+2020-11-30 20:37:40 - role_extract_train.py[line:97] - INFO: epoch 15, step 7880, loss 0.8796, start_recall 0.9273, start_precise 0.9623, start_f1 0.9444, end_recall 0.8909, end_precise 0.9608, end_f1 0.9245
+2020-11-30 20:37:54 - role_extract_train.py[line:97] - INFO: epoch 15, step 7900, loss 1.2905, start_recall 0.8772, start_precise 0.9615, start_f1 0.9174, end_recall 0.8070, end_precise 0.9200, end_f1 0.8598
+2020-11-30 20:38:07 - role_extract_train.py[line:97] - INFO: epoch 15, step 7920, loss 0.7430, start_recall 0.9630, start_precise 0.9455, start_f1 0.9541, end_recall 0.9444, end_precise 0.8947, end_f1 0.9189
+2020-11-30 20:38:21 - role_extract_train.py[line:97] - INFO: epoch 15, step 7940, loss 0.9872, start_recall 0.9655, start_precise 0.9032, start_f1 0.9333, end_recall 0.8966, end_precise 0.9455, end_f1 0.9204
+2020-11-30 20:38:34 - role_extract_train.py[line:97] - INFO: epoch 15, step 7960, loss 0.8545, start_recall 0.8448, start_precise 0.8909, start_f1 0.8673, end_recall 0.8793, end_precise 0.9444, end_f1 0.9107
+2020-11-30 20:38:48 - role_extract_train.py[line:97] - INFO: epoch 15, step 7980, loss 1.1233, start_recall 0.9153, start_precise 0.9310, start_f1 0.9231, end_recall 0.9333, end_precise 0.9032, end_f1 0.9180
+2020-11-30 20:39:01 - role_extract_train.py[line:97] - INFO: epoch 15, step 8000, loss 0.7456, start_recall 0.9273, start_precise 0.9444, start_f1 0.9358, end_recall 0.9636, end_precise 0.9464, end_f1 0.9550
+2020-11-30 20:39:15 - role_extract_train.py[line:97] - INFO: epoch 15, step 8020, loss 0.7655, start_recall 0.8909, start_precise 0.9245, start_f1 0.9074, end_recall 0.9091, end_precise 0.9434, end_f1 0.9259
+2020-11-30 20:39:37 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:39:37 - role_extract_train.py[line:139] - INFO: epoch 15, step 8032, loss 1.0588, start_recall 0.8109, start_precise 0.8507, start_f1 0.8295, end_recall 0.8501, end_precise 0.8656, end_f1 0.8570
+2020-11-30 20:39:37 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:39:44 - role_extract_train.py[line:97] - INFO: epoch 16, step 8040, loss 0.5490, start_recall 0.9483, start_precise 0.9483, start_f1 0.9483, end_recall 0.9483, end_precise 0.9821, end_f1 0.9649
+2020-11-30 20:39:57 - role_extract_train.py[line:97] - INFO: epoch 16, step 8060, loss 1.3440, start_recall 0.8361, start_precise 0.8947, start_f1 0.8644, end_recall 0.9344, end_precise 0.9661, end_f1 0.9500
+2020-11-30 20:40:11 - role_extract_train.py[line:97] - INFO: epoch 16, step 8080, loss 0.7131, start_recall 0.9273, start_precise 0.9623, start_f1 0.9444, end_recall 0.9273, end_precise 0.9623, end_f1 0.9444
+2020-11-30 20:40:24 - role_extract_train.py[line:97] - INFO: epoch 16, step 8100, loss 0.7993, start_recall 0.9123, start_precise 0.9286, start_f1 0.9204, end_recall 0.9464, end_precise 0.9815, end_f1 0.9636
+2020-11-30 20:40:38 - role_extract_train.py[line:97] - INFO: epoch 16, step 8120, loss 0.8516, start_recall 0.9138, start_precise 0.8983, start_f1 0.9060, end_recall 0.9483, end_precise 0.9016, end_f1 0.9244
+2020-11-30 20:40:52 - role_extract_train.py[line:97] - INFO: epoch 16, step 8140, loss 0.6971, start_recall 0.8889, start_precise 0.9412, start_f1 0.9143, end_recall 0.9630, end_precise 0.9455, end_f1 0.9541
+2020-11-30 20:41:05 - role_extract_train.py[line:97] - INFO: epoch 16, step 8160, loss 0.9911, start_recall 0.8594, start_precise 0.9322, start_f1 0.8943, end_recall 0.9524, end_precise 0.9091, end_f1 0.9302
+2020-11-30 20:41:19 - role_extract_train.py[line:97] - INFO: epoch 16, step 8180, loss 0.7060, start_recall 0.8889, start_precise 0.9412, start_f1 0.9143, end_recall 0.9444, end_precise 0.9107, end_f1 0.9273
+2020-11-30 20:41:32 - role_extract_train.py[line:97] - INFO: epoch 16, step 8200, loss 0.8957, start_recall 0.9057, start_precise 0.9412, start_f1 0.9231, end_recall 0.9245, end_precise 0.9423, end_f1 0.9333
+2020-11-30 20:41:46 - role_extract_train.py[line:97] - INFO: epoch 16, step 8220, loss 0.6891, start_recall 0.9630, start_precise 0.9811, start_f1 0.9720, end_recall 0.9259, end_precise 0.9434, end_f1 0.9346
+2020-11-30 20:41:59 - role_extract_train.py[line:97] - INFO: epoch 16, step 8240, loss 0.8446, start_recall 0.9298, start_precise 0.8689, start_f1 0.8983, end_recall 0.9649, end_precise 0.9167, end_f1 0.9402
+2020-11-30 20:42:13 - role_extract_train.py[line:97] - INFO: epoch 16, step 8260, loss 0.6259, start_recall 0.9057, start_precise 0.9600, start_f1 0.9320, end_recall 0.9434, end_precise 0.9615, end_f1 0.9524
+2020-11-30 20:42:26 - role_extract_train.py[line:97] - INFO: epoch 16, step 8280, loss 1.1872, start_recall 0.8947, start_precise 0.8226, start_f1 0.8571, end_recall 0.9123, end_precise 0.9630, end_f1 0.9369
+2020-11-30 20:42:40 - role_extract_train.py[line:97] - INFO: epoch 16, step 8300, loss 0.6047, start_recall 0.9273, start_precise 0.8947, start_f1 0.9107, end_recall 0.9818, end_precise 0.9474, end_f1 0.9643
+2020-11-30 20:42:54 - role_extract_train.py[line:97] - INFO: epoch 16, step 8320, loss 0.5043, start_recall 0.9649, start_precise 0.9821, start_f1 0.9735, end_recall 0.9474, end_precise 0.9643, end_f1 0.9558
+2020-11-30 20:43:07 - role_extract_train.py[line:97] - INFO: epoch 16, step 8340, loss 0.3099, start_recall 0.9623, start_precise 0.9808, start_f1 0.9714, end_recall 0.9623, end_precise 0.9808, end_f1 0.9714
+2020-11-30 20:43:21 - role_extract_train.py[line:97] - INFO: epoch 16, step 8360, loss 0.9510, start_recall 0.9259, start_precise 0.9091, start_f1 0.9174, end_recall 0.9444, end_precise 0.9444, end_f1 0.9444
+2020-11-30 20:43:34 - role_extract_train.py[line:97] - INFO: epoch 16, step 8380, loss 0.5370, start_recall 0.9091, start_precise 0.9615, start_f1 0.9346, end_recall 0.9273, end_precise 0.9623, end_f1 0.9444
+2020-11-30 20:43:48 - role_extract_train.py[line:97] - INFO: epoch 16, step 8400, loss 0.8980, start_recall 0.8302, start_precise 0.9362, start_f1 0.8800, end_recall 0.9434, end_precise 0.9804, end_f1 0.9615
+2020-11-30 20:44:01 - role_extract_train.py[line:97] - INFO: epoch 16, step 8420, loss 0.9221, start_recall 0.9273, start_precise 0.8644, start_f1 0.8947, end_recall 0.9636, end_precise 0.9464, end_f1 0.9550
+2020-11-30 20:44:15 - role_extract_train.py[line:97] - INFO: epoch 16, step 8440, loss 0.5102, start_recall 0.9655, start_precise 0.9655, start_f1 0.9655, end_recall 0.9138, end_precise 0.9815, end_f1 0.9464
+2020-11-30 20:44:28 - role_extract_train.py[line:97] - INFO: epoch 16, step 8460, loss 0.7096, start_recall 0.9508, start_precise 0.9355, start_f1 0.9431, end_recall 0.9672, end_precise 0.9516, end_f1 0.9593
+2020-11-30 20:44:42 - role_extract_train.py[line:97] - INFO: epoch 16, step 8480, loss 0.7687, start_recall 0.9516, start_precise 0.9516, start_f1 0.9516, end_recall 0.9355, end_precise 0.9508, end_f1 0.9431
+2020-11-30 20:44:56 - role_extract_train.py[line:97] - INFO: epoch 16, step 8500, loss 0.8985, start_recall 0.9259, start_precise 0.9259, start_f1 0.9259, end_recall 0.9444, end_precise 0.9623, end_f1 0.9533
+2020-11-30 20:45:09 - role_extract_train.py[line:97] - INFO: epoch 16, step 8520, loss 0.5349, start_recall 0.9630, start_precise 0.9811, start_f1 0.9720, end_recall 0.9259, end_precise 0.9434, end_f1 0.9346
+2020-11-30 20:45:33 - role_extract_train.py[line:137] - INFO: -----eval----
+2020-11-30 20:45:33 - role_extract_train.py[line:139] - INFO: epoch 16, step 8534, loss 0.5736, start_recall 0.8101, start_precise 0.8472, start_f1 0.8274, end_recall 0.8404, end_precise 0.8687, end_f1 0.8537
+2020-11-30 20:45:33 - role_extract_train.py[line:140] - INFO: -----eval----
+2020-11-30 20:45:38 - role_extract_train.py[line:97] - INFO: epoch 17, step 8540, loss 0.3012, start_recall 0.9811, start_precise 0.9630, start_f1 0.9720, end_recall 0.9811, end_precise 0.9630, end_f1 0.9720
+2020-11-30 20:45:52 - role_extract_train.py[line:97] - INFO: epoch 17, step 8560, loss 0.5702, start_recall 0.9107, start_precise 0.9273, start_f1 0.9189, end_recall 0.9643, end_precise 0.9818, end_f1 0.9730
+2020-11-30 20:46:05 - role_extract_train.py[line:97] - INFO: epoch 17, step 8580, loss 0.7527, start_recall 0.8889, start_precise 0.8889, start_f1 0.8889, end_recall 0.9365, end_precise 0.9833, end_f1 0.9593
+2020-11-30 20:46:19 - role_extract_train.py[line:97] - INFO: epoch 17, step 8600, loss 1.1014, start_recall 0.8393, start_precise 0.8868, start_f1 0.8624, end_recall 0.9286, end_precise 0.8966, end_f1 0.9123
+2020-11-30 20:46:32 - role_extract_train.py[line:97] - INFO: epoch 17, step 8620, loss 0.5053, start_recall 0.9811, start_precise 0.8525, start_f1 0.9123, end_recall 0.9811, end_precise 0.9811, end_f1 0.9811
+2020-11-30 20:46:46 - role_extract_train.py[line:97] - INFO: epoch 17, step 8640, loss 0.7132, start_recall 0.9245, start_precise 0.9423, start_f1 0.9333, end_recall 0.9245, end_precise 0.9423, end_f1 0.9333
+2020-11-30 20:46:59 - role_extract_train.py[line:97] - INFO: epoch 17, step 8660, loss 0.8644, start_recall 0.9286, start_precise 0.9811, start_f1 0.9541, end_recall 0.9286, end_precise 0.9123, end_f1 0.9204
+2020-11-30 20:47:13 - role_extract_train.py[line:97] - INFO: epoch 17, step 8680, loss 0.8285, start_recall 0.8947, start_precise 0.9444, start_f1 0.9189, end_recall 0.9138, end_precise 0.9138, end_f1 0.9138

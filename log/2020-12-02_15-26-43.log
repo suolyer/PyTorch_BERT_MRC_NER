@@ -1,0 +1,10 @@
+2020-12-02 15:27:59 - train.py[line:105] - INFO: epoch 0, step 100, loss 9807.4014, start_recall 0.4082, start_precise 0.0167, start_f1 0.0321, end_recall 0.7551, end_precise 0.0188, end_f1 0.0367, span_recall 0.1224, span_precise 0.0002, span_f1 0.0003
+2020-12-02 15:28:24 - train.py[line:105] - INFO: epoch 0, step 200, loss 4861.6646, start_recall 0.4286, start_precise 0.0187, start_f1 0.0357, end_recall 0.6939, end_precise 0.0172, end_f1 0.0336, span_recall 0.0204, span_precise 0.0002, span_f1 0.0005
+2020-12-02 15:28:49 - train.py[line:105] - INFO: epoch 0, step 300, loss 966.9652, start_recall 0.2963, start_precise 0.0128, start_f1 0.0246, end_recall 0.6481, end_precise 0.0167, end_f1 0.0325, span_recall 0.0000, span_precise nan, span_f1 nan
+2020-12-02 15:29:14 - train.py[line:105] - INFO: epoch 0, step 400, loss 44.0808, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan, span_recall 0.0000, span_precise nan, span_f1 nan
+2020-12-02 15:29:40 - train.py[line:105] - INFO: epoch 0, step 500, loss 18.8060, start_recall 0.0000, start_precise nan, start_f1 nan, end_recall 0.0000, end_precise nan, end_f1 nan, span_recall 0.0000, span_precise nan, span_f1 nan
+2020-12-02 15:29:56 - train.py[line:159] - INFO: -----eval----
+2020-12-02 15:29:56 - train.py[line:161] - INFO: epoch 0, step 544, loss 14.9311, start_recall 0.0008, start_precise nan, start_f1 nan, end_recall 0.0006, end_precise nan, end_f1 nan, span_recall 0.0000, span_precise nan, span_f1 nan
+2020-12-02 15:29:56 - train.py[line:162] - INFO: -----eval----
+2020-12-02 15:30:11 - train.py[line:105] - INFO: epoch 1, step 600, loss 14.8577, start_recall 0.0000, start_precise 0.0000, start_f1 nan, end_recall 0.0000, end_precise 0.0000, end_f1 nan, span_recall 0.0000, span_precise nan, span_f1 nan
+2020-12-02 15:30:36 - train.py[line:105] - INFO: epoch 1, step 700, loss 11.4446, start_recall 0.0588, start_precise 0.5000, start_f1 0.1053, end_recall 0.0196, end_precise 0.5000, end_f1 0.0377, span_recall 0.0000, span_precise nan, span_f1 nan

@@ -1,0 +1,6 @@
+2020-12-15 12:09:42 - train.py[line:134] - INFO: -----eval----
+2020-12-15 12:09:42 - train.py[line:136] - INFO: epoch 0, step 2, loss 61.0114, start_f1 0.0196, end_f1 0.0149
+2020-12-15 12:09:42 - train.py[line:137] - INFO: -----eval----
+2020-12-15 12:09:46 - train.py[line:134] - INFO: -----eval----
+2020-12-15 12:09:46 - train.py[line:136] - INFO: epoch 1, step 4, loss 46.2470, start_f1 0.0179, end_f1 0.0144
+2020-12-15 12:09:46 - train.py[line:137] - INFO: -----eval----

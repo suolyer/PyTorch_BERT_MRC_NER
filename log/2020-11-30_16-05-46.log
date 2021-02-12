@@ -1,0 +1,644 @@
+2020-11-30 16:05:53 - configuration_utils.py[line:281] - INFO: loading configuration file ./pretrained_model/chinese_roberta_wwm_ext\config.json
+2020-11-30 16:05:53 - configuration_utils.py[line:319] - INFO: Model config BertConfig {
+  "_num_labels": 2,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bad_words_ids": null,
+  "bos_token_id": 0,
+  "decoder_start_token_id": null,
+  "directionality": "bidi",
+  "do_sample": false,
+  "early_stopping": false,
+  "eos_token_id": 2,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "is_encoder_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "min_length": 0,
+  "model_type": "bert",
+  "no_repeat_ngram_size": 0,
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "prefix": null,
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "task_specific_params": null,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2020-11-30 16:05:53 - modeling_utils.py[line:505] - INFO: loading weights file ./pretrained_model/chinese_roberta_wwm_ext\pytorch_model.bin
+2020-11-30 16:06:11 - event_type_train.py[line:92] - INFO: epoch 0, step 20, loss 5.1677, recall 0.5088, precise 0.0181, f1 0.0350
+2020-11-30 16:06:24 - event_type_train.py[line:92] - INFO: epoch 0, step 40, loss 5.1949, recall 0.6190, precise 0.0261, f1 0.0501
+2020-11-30 16:06:38 - event_type_train.py[line:92] - INFO: epoch 0, step 60, loss 5.1570, recall 0.4483, precise 0.0198, f1 0.0380
+2020-11-30 16:06:51 - event_type_train.py[line:92] - INFO: epoch 0, step 80, loss 5.1172, recall 0.6000, precise 0.0306, f1 0.0581
+2020-11-30 16:07:04 - event_type_train.py[line:92] - INFO: epoch 0, step 100, loss 5.1127, recall 0.6034, precise 0.0413, f1 0.0773
+2020-11-30 16:07:18 - event_type_train.py[line:92] - INFO: epoch 0, step 120, loss 5.0827, recall 0.5789, precise 0.0545, f1 0.0995
+2020-11-30 16:07:31 - event_type_train.py[line:92] - INFO: epoch 0, step 140, loss 5.0783, recall 0.4828, precise 0.0607, f1 0.1079
+2020-11-30 16:07:44 - event_type_train.py[line:92] - INFO: epoch 0, step 160, loss 5.0540, recall 0.5424, precise 0.0825, f1 0.1432
+2020-11-30 16:07:58 - event_type_train.py[line:92] - INFO: epoch 0, step 180, loss 4.9900, recall 0.6667, precise 0.1108, f1 0.1900
+2020-11-30 16:08:11 - event_type_train.py[line:92] - INFO: epoch 0, step 200, loss 4.9910, recall 0.5091, precise 0.0943, f1 0.1591
+2020-11-30 16:08:24 - event_type_train.py[line:92] - INFO: epoch 0, step 220, loss 4.9651, recall 0.6271, precise 0.1609, f1 0.2561
+2020-11-30 16:08:38 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:08:38 - event_type_train.py[line:115] - INFO: epoch 0, step 230, loss 4.9542, recall 0.6285, precise 0.1676, f1 0.2645
+2020-11-30 16:08:38 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:08:46 - event_type_train.py[line:92] - INFO: epoch 1, step 240, loss 4.9551, recall 0.5614, precise 0.1675, f1 0.2581
+2020-11-30 16:09:00 - event_type_train.py[line:92] - INFO: epoch 1, step 260, loss 4.9014, recall 0.6607, precise 0.2079, f1 0.3162
+2020-11-30 16:09:13 - event_type_train.py[line:92] - INFO: epoch 1, step 280, loss 4.9150, recall 0.6333, precise 0.2517, f1 0.3602
+2020-11-30 16:09:27 - event_type_train.py[line:92] - INFO: epoch 1, step 300, loss 4.8783, recall 0.6379, precise 0.2624, f1 0.3719
+2020-11-30 16:09:40 - event_type_train.py[line:92] - INFO: epoch 1, step 320, loss 4.8908, recall 0.5536, precise 0.2279, f1 0.3229
+2020-11-30 16:09:54 - event_type_train.py[line:92] - INFO: epoch 1, step 340, loss 4.8570, recall 0.8000, precise 0.3692, f1 0.5053
+2020-11-30 16:10:07 - event_type_train.py[line:92] - INFO: epoch 1, step 360, loss 4.8514, recall 0.7119, precise 0.3590, f1 0.4773
+2020-11-30 16:10:21 - event_type_train.py[line:92] - INFO: epoch 1, step 380, loss 4.8345, recall 0.8033, precise 0.4495, f1 0.5765
+2020-11-30 16:10:34 - event_type_train.py[line:92] - INFO: epoch 1, step 400, loss 4.8219, recall 0.7759, precise 0.4206, f1 0.5455
+2020-11-30 16:10:48 - event_type_train.py[line:92] - INFO: epoch 1, step 420, loss 4.7799, recall 0.7963, precise 0.5309, f1 0.6370
+2020-11-30 16:11:01 - event_type_train.py[line:92] - INFO: epoch 1, step 440, loss 4.8138, recall 0.8500, precise 0.5426, f1 0.6623
+2020-11-30 16:11:15 - event_type_train.py[line:92] - INFO: epoch 1, step 460, loss 4.7474, recall 0.8704, precise 0.5465, f1 0.6714
+2020-11-30 16:11:21 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:11:21 - event_type_train.py[line:115] - INFO: epoch 1, step 460, loss 4.7474, recall 0.8059, precise 0.5165, f1 0.6289
+2020-11-30 16:11:21 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:11:36 - event_type_train.py[line:92] - INFO: epoch 2, step 480, loss 4.7776, recall 0.8103, precise 0.5732, f1 0.6714
+2020-11-30 16:11:49 - event_type_train.py[line:92] - INFO: epoch 2, step 500, loss 4.7578, recall 0.8947, precise 0.5426, f1 0.6755
+2020-11-30 16:12:03 - event_type_train.py[line:92] - INFO: epoch 2, step 520, loss 4.7441, recall 0.8750, precise 0.6125, f1 0.7206
+2020-11-30 16:12:16 - event_type_train.py[line:92] - INFO: epoch 2, step 540, loss 4.7224, recall 0.8772, precise 0.6944, f1 0.7752
+2020-11-30 16:12:30 - event_type_train.py[line:92] - INFO: epoch 2, step 560, loss 4.7538, recall 0.8852, precise 0.6353, f1 0.7397
+2020-11-30 16:12:43 - event_type_train.py[line:92] - INFO: epoch 2, step 580, loss 4.7061, recall 0.9455, precise 0.6582, f1 0.7761
+2020-11-30 16:12:56 - event_type_train.py[line:92] - INFO: epoch 2, step 600, loss 4.7237, recall 0.8772, precise 0.6173, f1 0.7246
+2020-11-30 16:13:10 - event_type_train.py[line:92] - INFO: epoch 2, step 620, loss 4.6855, recall 0.8929, precise 0.6944, f1 0.7812
+2020-11-30 16:13:23 - event_type_train.py[line:92] - INFO: epoch 2, step 640, loss 4.7069, recall 0.8545, precise 0.6528, f1 0.7402
+2020-11-30 16:13:37 - event_type_train.py[line:92] - INFO: epoch 2, step 660, loss 4.7155, recall 0.8393, precise 0.6912, f1 0.7581
+2020-11-30 16:13:50 - event_type_train.py[line:92] - INFO: epoch 2, step 680, loss 4.6708, recall 0.9091, precise 0.6757, f1 0.7752
+2020-11-30 16:14:03 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:14:03 - event_type_train.py[line:115] - INFO: epoch 2, step 690, loss 4.7178, recall 0.8732, precise 0.7285, f1 0.7934
+2020-11-30 16:14:03 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:14:11 - event_type_train.py[line:92] - INFO: epoch 3, step 700, loss 4.7074, recall 0.9016, precise 0.7333, f1 0.8088
+2020-11-30 16:14:25 - event_type_train.py[line:92] - INFO: epoch 3, step 720, loss 4.6883, recall 0.8929, precise 0.6579, f1 0.7576
+2020-11-30 16:14:38 - event_type_train.py[line:92] - INFO: epoch 3, step 740, loss 4.6659, recall 0.8947, precise 0.8095, f1 0.8500
+2020-11-30 16:14:52 - event_type_train.py[line:92] - INFO: epoch 3, step 760, loss 4.6934, recall 0.8889, precise 0.8750, f1 0.8819
+2020-11-30 16:15:05 - event_type_train.py[line:92] - INFO: epoch 3, step 780, loss 4.6768, recall 0.8750, precise 0.7313, f1 0.7967
+2020-11-30 16:15:19 - event_type_train.py[line:92] - INFO: epoch 3, step 800, loss 4.6939, recall 0.8793, precise 0.7500, f1 0.8095
+2020-11-30 16:15:32 - event_type_train.py[line:92] - INFO: epoch 3, step 820, loss 4.6499, recall 0.9286, precise 0.7324, f1 0.8189
+2020-11-30 16:15:45 - event_type_train.py[line:92] - INFO: epoch 3, step 840, loss 4.6439, recall 0.9821, precise 0.8209, f1 0.8943
+2020-11-30 16:15:59 - event_type_train.py[line:92] - INFO: epoch 3, step 860, loss 4.6742, recall 0.8947, precise 0.7500, f1 0.8160
+2020-11-30 16:16:12 - event_type_train.py[line:92] - INFO: epoch 3, step 880, loss 4.6616, recall 0.8909, precise 0.7656, f1 0.8235
+2020-11-30 16:16:26 - event_type_train.py[line:92] - INFO: epoch 3, step 900, loss 4.6665, recall 0.8621, precise 0.8065, f1 0.8333
+2020-11-30 16:16:39 - event_type_train.py[line:92] - INFO: epoch 3, step 920, loss 4.6496, recall 0.9259, precise 0.7692, f1 0.8403
+2020-11-30 16:16:46 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:16:46 - event_type_train.py[line:115] - INFO: epoch 3, step 920, loss 4.6496, recall 0.8926, precise 0.7972, f1 0.8414
+2020-11-30 16:16:46 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:17:00 - event_type_train.py[line:92] - INFO: epoch 4, step 940, loss 4.6781, recall 0.9048, precise 0.8636, f1 0.8837
+2020-11-30 16:17:14 - event_type_train.py[line:92] - INFO: epoch 4, step 960, loss 4.6325, recall 0.8889, precise 0.8136, f1 0.8496
+2020-11-30 16:17:27 - event_type_train.py[line:92] - INFO: epoch 4, step 980, loss 4.6240, recall 0.9643, precise 0.9000, f1 0.9310
+2020-11-30 16:17:41 - event_type_train.py[line:92] - INFO: epoch 4, step 1000, loss 4.6212, recall 0.9444, precise 0.7286, f1 0.8226
+2020-11-30 16:17:54 - event_type_train.py[line:92] - INFO: epoch 4, step 1020, loss 4.6749, recall 0.8833, precise 0.7794, f1 0.8281
+2020-11-30 16:18:07 - event_type_train.py[line:92] - INFO: epoch 4, step 1040, loss 4.6395, recall 0.8750, precise 0.8596, f1 0.8673
+2020-11-30 16:18:21 - event_type_train.py[line:92] - INFO: epoch 4, step 1060, loss 4.6409, recall 0.9483, precise 0.8462, f1 0.8943
+2020-11-30 16:18:34 - event_type_train.py[line:92] - INFO: epoch 4, step 1080, loss 4.6309, recall 0.9091, precise 0.7937, f1 0.8475
+2020-11-30 16:18:48 - event_type_train.py[line:92] - INFO: epoch 4, step 1100, loss 4.6339, recall 0.9455, precise 0.7879, f1 0.8595
+2020-11-30 16:19:01 - event_type_train.py[line:92] - INFO: epoch 4, step 1120, loss 4.6244, recall 0.9310, precise 0.9000, f1 0.9153
+2020-11-30 16:19:15 - event_type_train.py[line:92] - INFO: epoch 4, step 1140, loss 4.6353, recall 0.9310, precise 0.8571, f1 0.8926
+2020-11-30 16:19:28 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:19:28 - event_type_train.py[line:115] - INFO: epoch 4, step 1150, loss 4.6271, recall 0.9187, precise 0.8295, f1 0.8711
+2020-11-30 16:19:28 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:19:36 - event_type_train.py[line:92] - INFO: epoch 5, step 1160, loss 4.6204, recall 0.9661, precise 0.8906, f1 0.9268
+2020-11-30 16:19:49 - event_type_train.py[line:92] - INFO: epoch 5, step 1180, loss 4.5831, recall 0.9821, precise 0.9649, f1 0.9735
+2020-11-30 16:20:03 - event_type_train.py[line:92] - INFO: epoch 5, step 1200, loss 4.6184, recall 0.9464, precise 0.8833, f1 0.9138
+2020-11-30 16:20:16 - event_type_train.py[line:92] - INFO: epoch 5, step 1220, loss 4.6538, recall 0.9688, precise 0.8986, f1 0.9323
+2020-11-30 16:20:29 - event_type_train.py[line:92] - INFO: epoch 5, step 1240, loss 4.5963, recall 0.9643, precise 0.8710, f1 0.9153
+2020-11-30 16:20:43 - event_type_train.py[line:92] - INFO: epoch 5, step 1260, loss 4.6223, recall 0.8966, precise 0.8966, f1 0.8966
+2020-11-30 16:20:56 - event_type_train.py[line:92] - INFO: epoch 5, step 1280, loss 4.6097, recall 0.9643, precise 0.8852, f1 0.9231
+2020-11-30 16:21:10 - event_type_train.py[line:92] - INFO: epoch 5, step 1300, loss 4.5889, recall 0.9649, precise 0.9167, f1 0.9402
+2020-11-30 16:21:23 - event_type_train.py[line:92] - INFO: epoch 5, step 1320, loss 4.6149, recall 1.0000, precise 0.9242, f1 0.9606
+2020-11-30 16:21:37 - event_type_train.py[line:92] - INFO: epoch 5, step 1340, loss 4.6303, recall 0.9672, precise 0.8806, f1 0.9219
+2020-11-30 16:21:50 - event_type_train.py[line:92] - INFO: epoch 5, step 1360, loss 4.6105, recall 0.9661, precise 0.8507, f1 0.9048
+2020-11-30 16:22:03 - event_type_train.py[line:92] - INFO: epoch 5, step 1380, loss 4.5904, recall 0.9630, precise 0.8525, f1 0.9043
+2020-11-30 16:22:10 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:22:10 - event_type_train.py[line:115] - INFO: epoch 5, step 1380, loss 4.5904, recall 0.9297, precise 0.8638, f1 0.8949
+2020-11-30 16:22:10 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:22:25 - event_type_train.py[line:92] - INFO: epoch 6, step 1400, loss 4.5880, recall 0.9630, precise 0.8667, f1 0.9123
+2020-11-30 16:22:38 - event_type_train.py[line:92] - INFO: epoch 6, step 1420, loss 4.6224, recall 0.9500, precise 0.9344, f1 0.9421
+2020-11-30 16:22:51 - event_type_train.py[line:92] - INFO: epoch 6, step 1440, loss 4.5761, recall 0.9815, precise 0.8833, f1 0.9298
+2020-11-30 16:23:05 - event_type_train.py[line:92] - INFO: epoch 6, step 1460, loss 4.5841, recall 0.9815, precise 0.9464, f1 0.9636
+2020-11-30 16:23:18 - event_type_train.py[line:92] - INFO: epoch 6, step 1480, loss 4.5620, recall 1.0000, precise 0.8852, f1 0.9391
+2020-11-30 16:23:32 - event_type_train.py[line:92] - INFO: epoch 6, step 1500, loss 4.5846, recall 0.9821, precise 0.9167, f1 0.9483
+2020-11-30 16:23:45 - event_type_train.py[line:92] - INFO: epoch 6, step 1520, loss 4.5907, recall 0.9828, precise 0.9500, f1 0.9661
+2020-11-30 16:23:58 - event_type_train.py[line:92] - INFO: epoch 6, step 1540, loss 4.5700, recall 0.9434, precise 0.9434, f1 0.9434
+2020-11-30 16:24:12 - event_type_train.py[line:92] - INFO: epoch 6, step 1560, loss 4.5907, recall 0.9464, precise 0.8281, f1 0.8833
+2020-11-30 16:24:25 - event_type_train.py[line:92] - INFO: epoch 6, step 1580, loss 4.5673, recall 1.0000, precise 0.9180, f1 0.9573
+2020-11-30 16:24:39 - event_type_train.py[line:92] - INFO: epoch 6, step 1600, loss 4.6029, recall 0.9483, precise 0.9483, f1 0.9483
+2020-11-30 16:24:52 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:24:52 - event_type_train.py[line:115] - INFO: epoch 6, step 1610, loss 4.6194, recall 0.9255, precise 0.8873, f1 0.9055
+2020-11-30 16:24:52 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:25:00 - event_type_train.py[line:92] - INFO: epoch 7, step 1620, loss 4.5782, recall 0.9286, precise 0.8814, f1 0.9043
+2020-11-30 16:25:13 - event_type_train.py[line:92] - INFO: epoch 7, step 1640, loss 4.5694, recall 0.9815, precise 0.8281, f1 0.8983
+2020-11-30 16:25:27 - event_type_train.py[line:92] - INFO: epoch 7, step 1660, loss 4.5840, recall 0.9483, precise 0.9483, f1 0.9483
+2020-11-30 16:25:40 - event_type_train.py[line:92] - INFO: epoch 7, step 1680, loss 4.5820, recall 0.9643, precise 0.9474, f1 0.9558
+2020-11-30 16:25:53 - event_type_train.py[line:92] - INFO: epoch 7, step 1700, loss 4.5647, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 16:26:07 - event_type_train.py[line:92] - INFO: epoch 7, step 1720, loss 4.5984, recall 0.9677, precise 0.9524, f1 0.9600
+2020-11-30 16:26:20 - event_type_train.py[line:92] - INFO: epoch 7, step 1740, loss 4.5874, recall 0.9483, precise 0.9167, f1 0.9322
+2020-11-30 16:26:33 - event_type_train.py[line:92] - INFO: epoch 7, step 1760, loss 4.5498, recall 1.0000, precise 0.9000, f1 0.9474
+2020-11-30 16:26:47 - event_type_train.py[line:92] - INFO: epoch 7, step 1780, loss 4.5910, recall 0.9661, precise 0.9500, f1 0.9580
+2020-11-30 16:27:00 - event_type_train.py[line:92] - INFO: epoch 7, step 1800, loss 4.5887, recall 0.9344, precise 0.8906, f1 0.9120
+2020-11-30 16:27:14 - event_type_train.py[line:92] - INFO: epoch 7, step 1820, loss 4.5955, recall 0.9508, precise 0.9508, f1 0.9508
+2020-11-30 16:27:27 - event_type_train.py[line:92] - INFO: epoch 7, step 1840, loss 4.6014, recall 0.9500, precise 0.9048, f1 0.9268
+2020-11-30 16:27:33 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:27:33 - event_type_train.py[line:115] - INFO: epoch 7, step 1840, loss 4.6014, recall 0.9365, precise 0.8879, f1 0.9110
+2020-11-30 16:27:33 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:27:48 - event_type_train.py[line:92] - INFO: epoch 8, step 1860, loss 4.5554, recall 0.9818, precise 0.9310, f1 0.9558
+2020-11-30 16:28:01 - event_type_train.py[line:92] - INFO: epoch 8, step 1880, loss 4.5643, recall 0.9821, precise 0.9483, f1 0.9649
+2020-11-30 16:28:15 - event_type_train.py[line:92] - INFO: epoch 8, step 1900, loss 4.5720, recall 1.0000, precise 0.9375, f1 0.9677
+2020-11-30 16:28:28 - event_type_train.py[line:92] - INFO: epoch 8, step 1920, loss 4.5769, recall 0.9831, precise 0.9667, f1 0.9748
+2020-11-30 16:28:41 - event_type_train.py[line:92] - INFO: epoch 8, step 1940, loss 4.5515, recall 0.9630, precise 0.9455, f1 0.9541
+2020-11-30 16:28:55 - event_type_train.py[line:92] - INFO: epoch 8, step 1960, loss 4.5934, recall 0.9516, precise 0.9365, f1 0.9440
+2020-11-30 16:29:08 - event_type_train.py[line:92] - INFO: epoch 8, step 1980, loss 4.5680, recall 0.9831, precise 0.9667, f1 0.9748
+2020-11-30 16:29:22 - event_type_train.py[line:92] - INFO: epoch 8, step 2000, loss 4.5798, recall 0.9107, precise 0.9444, f1 0.9273
+2020-11-30 16:29:35 - event_type_train.py[line:92] - INFO: epoch 8, step 2020, loss 4.5755, recall 0.9649, precise 0.9322, f1 0.9483
+2020-11-30 16:29:48 - event_type_train.py[line:92] - INFO: epoch 8, step 2040, loss 4.5678, recall 0.9655, precise 0.9655, f1 0.9655
+2020-11-30 16:30:02 - event_type_train.py[line:92] - INFO: epoch 8, step 2060, loss 4.5569, recall 0.9825, precise 0.9655, f1 0.9739
+2020-11-30 16:30:15 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:30:15 - event_type_train.py[line:115] - INFO: epoch 8, step 2070, loss 4.5396, recall 0.9326, precise 0.9035, f1 0.9174
+2020-11-30 16:30:15 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:30:23 - event_type_train.py[line:92] - INFO: epoch 9, step 2080, loss 4.5857, recall 0.9839, precise 0.9683, f1 0.9760
+2020-11-30 16:30:36 - event_type_train.py[line:92] - INFO: epoch 9, step 2100, loss 4.5693, recall 0.9474, precise 0.8852, f1 0.9153
+2020-11-30 16:30:49 - event_type_train.py[line:92] - INFO: epoch 9, step 2120, loss 4.5530, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:31:03 - event_type_train.py[line:92] - INFO: epoch 9, step 2140, loss 4.5912, recall 0.9500, precise 0.9048, f1 0.9268
+2020-11-30 16:31:16 - event_type_train.py[line:92] - INFO: epoch 9, step 2160, loss 4.5602, recall 0.9821, precise 0.9016, f1 0.9402
+2020-11-30 16:31:30 - event_type_train.py[line:92] - INFO: epoch 9, step 2180, loss 4.5478, recall 0.9818, precise 0.9643, f1 0.9730
+2020-11-30 16:31:43 - event_type_train.py[line:92] - INFO: epoch 9, step 2200, loss 4.5364, recall 0.9623, precise 0.9444, f1 0.9533
+2020-11-30 16:31:56 - event_type_train.py[line:92] - INFO: epoch 9, step 2220, loss 4.5438, recall 0.9630, precise 0.9455, f1 0.9541
+2020-11-30 16:32:10 - event_type_train.py[line:92] - INFO: epoch 9, step 2240, loss 4.5528, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 16:32:23 - event_type_train.py[line:92] - INFO: epoch 9, step 2260, loss 4.5660, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 16:32:36 - event_type_train.py[line:92] - INFO: epoch 9, step 2280, loss 4.5719, recall 0.9661, precise 0.9500, f1 0.9580
+2020-11-30 16:32:50 - event_type_train.py[line:92] - INFO: epoch 9, step 2300, loss 4.5852, recall 0.9310, precise 0.9643, f1 0.9474
+2020-11-30 16:32:56 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:32:56 - event_type_train.py[line:115] - INFO: epoch 9, step 2300, loss 4.5852, recall 0.9357, precise 0.9031, f1 0.9187
+2020-11-30 16:32:56 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:33:11 - event_type_train.py[line:92] - INFO: epoch 10, step 2320, loss 4.5722, recall 0.9492, precise 1.0000, f1 0.9739
+2020-11-30 16:33:24 - event_type_train.py[line:92] - INFO: epoch 10, step 2340, loss 4.5320, recall 1.0000, precise 0.9298, f1 0.9636
+2020-11-30 16:33:38 - event_type_train.py[line:92] - INFO: epoch 10, step 2360, loss 4.5492, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:33:51 - event_type_train.py[line:92] - INFO: epoch 10, step 2380, loss 4.5614, recall 0.9831, precise 0.9206, f1 0.9508
+2020-11-30 16:34:04 - event_type_train.py[line:92] - INFO: epoch 10, step 2400, loss 4.5543, recall 0.9828, precise 0.9500, f1 0.9661
+2020-11-30 16:34:18 - event_type_train.py[line:92] - INFO: epoch 10, step 2420, loss 4.5551, recall 0.9828, precise 0.9344, f1 0.9580
+2020-11-30 16:34:31 - event_type_train.py[line:92] - INFO: epoch 10, step 2440, loss 4.5656, recall 0.9483, precise 0.9483, f1 0.9483
+2020-11-30 16:34:44 - event_type_train.py[line:92] - INFO: epoch 10, step 2460, loss 4.5845, recall 0.9683, precise 0.9531, f1 0.9606
+2020-11-30 16:34:58 - event_type_train.py[line:92] - INFO: epoch 10, step 2480, loss 4.5646, recall 0.9667, precise 1.0000, f1 0.9831
+2020-11-30 16:35:11 - event_type_train.py[line:92] - INFO: epoch 10, step 2500, loss 4.5280, recall 1.0000, precise 0.9818, f1 0.9908
+2020-11-30 16:35:25 - event_type_train.py[line:92] - INFO: epoch 10, step 2520, loss 4.5467, recall 0.9821, precise 0.9649, f1 0.9735
+2020-11-30 16:35:38 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:35:38 - event_type_train.py[line:115] - INFO: epoch 10, step 2530, loss 4.5634, recall 0.9336, precise 0.9055, f1 0.9190
+2020-11-30 16:35:38 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:35:46 - event_type_train.py[line:92] - INFO: epoch 11, step 2540, loss 4.5534, recall 0.9474, precise 0.9818, f1 0.9643
+2020-11-30 16:35:59 - event_type_train.py[line:92] - INFO: epoch 11, step 2560, loss 4.5527, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 16:36:12 - event_type_train.py[line:92] - INFO: epoch 11, step 2580, loss 4.5629, recall 0.9655, precise 0.9655, f1 0.9655
+2020-11-30 16:36:26 - event_type_train.py[line:92] - INFO: epoch 11, step 2600, loss 4.5476, recall 0.9821, precise 0.9649, f1 0.9735
+2020-11-30 16:36:39 - event_type_train.py[line:92] - INFO: epoch 11, step 2620, loss 4.5267, recall 0.9623, precise 0.9808, f1 0.9714
+2020-11-30 16:36:52 - event_type_train.py[line:92] - INFO: epoch 11, step 2640, loss 4.5512, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 16:37:06 - event_type_train.py[line:92] - INFO: epoch 11, step 2660, loss 4.5392, recall 0.9630, precise 0.9630, f1 0.9630
+2020-11-30 16:37:19 - event_type_train.py[line:92] - INFO: epoch 11, step 2680, loss 4.5320, recall 1.0000, precise 0.9825, f1 0.9912
+2020-11-30 16:37:33 - event_type_train.py[line:92] - INFO: epoch 11, step 2700, loss 4.5609, recall 0.9492, precise 0.9825, f1 0.9655
+2020-11-30 16:37:46 - event_type_train.py[line:92] - INFO: epoch 11, step 2720, loss 4.5365, recall 0.9623, precise 0.9808, f1 0.9714
+2020-11-30 16:37:59 - event_type_train.py[line:92] - INFO: epoch 11, step 2740, loss 4.5505, recall 1.0000, precise 0.9836, f1 0.9917
+2020-11-30 16:38:13 - event_type_train.py[line:92] - INFO: epoch 11, step 2760, loss 4.5463, recall 0.9423, precise 0.9608, f1 0.9515
+2020-11-30 16:38:19 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:38:19 - event_type_train.py[line:115] - INFO: epoch 11, step 2760, loss 4.5463, recall 0.9359, precise 0.9185, f1 0.9265
+2020-11-30 16:38:19 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:38:34 - event_type_train.py[line:92] - INFO: epoch 12, step 2780, loss 4.5396, recall 0.9636, precise 0.9815, f1 0.9725
+2020-11-30 16:38:47 - event_type_train.py[line:92] - INFO: epoch 12, step 2800, loss 4.5448, recall 0.9821, precise 0.9483, f1 0.9649
+2020-11-30 16:39:01 - event_type_train.py[line:92] - INFO: epoch 12, step 2820, loss 4.5266, recall 0.9815, precise 0.9815, f1 0.9815
+2020-11-30 16:39:14 - event_type_train.py[line:92] - INFO: epoch 12, step 2840, loss 4.5451, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:39:27 - event_type_train.py[line:92] - INFO: epoch 12, step 2860, loss 4.5473, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 16:39:41 - event_type_train.py[line:92] - INFO: epoch 12, step 2880, loss 4.5655, recall 0.9310, precise 0.9643, f1 0.9474
+2020-11-30 16:39:54 - event_type_train.py[line:92] - INFO: epoch 12, step 2900, loss 4.5396, recall 1.0000, precise 0.9667, f1 0.9831
+2020-11-30 16:40:07 - event_type_train.py[line:92] - INFO: epoch 12, step 2920, loss 4.5622, recall 0.9836, precise 0.9677, f1 0.9756
+2020-11-30 16:40:21 - event_type_train.py[line:92] - INFO: epoch 12, step 2940, loss 4.5372, recall 1.0000, precise 0.9828, f1 0.9913
+2020-11-30 16:40:34 - event_type_train.py[line:92] - INFO: epoch 12, step 2960, loss 4.5577, recall 0.9655, precise 0.9492, f1 0.9573
+2020-11-30 16:40:47 - event_type_train.py[line:92] - INFO: epoch 12, step 2980, loss 4.5687, recall 0.9508, precise 0.9831, f1 0.9667
+2020-11-30 16:41:01 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:41:01 - event_type_train.py[line:115] - INFO: epoch 12, step 2990, loss 4.5387, recall 0.9305, precise 0.9223, f1 0.9258
+2020-11-30 16:41:01 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:41:09 - event_type_train.py[line:92] - INFO: epoch 13, step 3000, loss 4.5430, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:41:22 - event_type_train.py[line:92] - INFO: epoch 13, step 3020, loss 4.5409, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:41:35 - event_type_train.py[line:92] - INFO: epoch 13, step 3040, loss 4.5444, recall 0.9455, precise 1.0000, f1 0.9720
+2020-11-30 16:41:49 - event_type_train.py[line:92] - INFO: epoch 13, step 3060, loss 4.5443, recall 0.9464, precise 0.9464, f1 0.9464
+2020-11-30 16:42:02 - event_type_train.py[line:92] - INFO: epoch 13, step 3080, loss 4.5316, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 16:42:15 - event_type_train.py[line:92] - INFO: epoch 13, step 3100, loss 4.5496, recall 0.9464, precise 1.0000, f1 0.9725
+2020-11-30 16:42:29 - event_type_train.py[line:92] - INFO: epoch 13, step 3120, loss 4.5429, recall 0.9825, precise 0.9333, f1 0.9573
+2020-11-30 16:42:42 - event_type_train.py[line:92] - INFO: epoch 13, step 3140, loss 4.5375, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:42:55 - event_type_train.py[line:92] - INFO: epoch 13, step 3160, loss 4.5503, recall 0.9833, precise 0.9672, f1 0.9752
+2020-11-30 16:43:09 - event_type_train.py[line:92] - INFO: epoch 13, step 3180, loss 4.5239, recall 1.0000, precise 0.9649, f1 0.9821
+2020-11-30 16:43:22 - event_type_train.py[line:92] - INFO: epoch 13, step 3200, loss 4.5662, recall 0.9672, precise 0.9833, f1 0.9752
+2020-11-30 16:43:35 - event_type_train.py[line:92] - INFO: epoch 13, step 3220, loss 4.5533, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:43:42 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:43:42 - event_type_train.py[line:115] - INFO: epoch 13, step 3220, loss 4.5533, recall 0.9399, precise 0.9119, f1 0.9252
+2020-11-30 16:43:42 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:43:57 - event_type_train.py[line:92] - INFO: epoch 14, step 3240, loss 4.5483, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 16:44:10 - event_type_train.py[line:92] - INFO: epoch 14, step 3260, loss 4.5435, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 16:44:23 - event_type_train.py[line:92] - INFO: epoch 14, step 3280, loss 4.5272, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:44:37 - event_type_train.py[line:92] - INFO: epoch 14, step 3300, loss 4.5281, recall 0.9630, precise 0.9630, f1 0.9630
+2020-11-30 16:44:50 - event_type_train.py[line:92] - INFO: epoch 14, step 3320, loss 4.5596, recall 0.9483, precise 0.9649, f1 0.9565
+2020-11-30 16:45:03 - event_type_train.py[line:92] - INFO: epoch 14, step 3340, loss 4.5164, recall 0.9811, precise 1.0000, f1 0.9905
+2020-11-30 16:45:17 - event_type_train.py[line:92] - INFO: epoch 14, step 3360, loss 4.5577, recall 0.9107, precise 1.0000, f1 0.9533
+2020-11-30 16:45:30 - event_type_train.py[line:92] - INFO: epoch 14, step 3380, loss 4.5312, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 16:45:43 - event_type_train.py[line:92] - INFO: epoch 14, step 3400, loss 4.5421, recall 0.9649, precise 0.9322, f1 0.9483
+2020-11-30 16:45:57 - event_type_train.py[line:92] - INFO: epoch 14, step 3420, loss 4.5404, recall 0.9825, precise 0.9655, f1 0.9739
+2020-11-30 16:46:10 - event_type_train.py[line:92] - INFO: epoch 14, step 3440, loss 4.5504, recall 0.9483, precise 0.9821, f1 0.9649
+2020-11-30 16:46:23 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:46:23 - event_type_train.py[line:115] - INFO: epoch 14, step 3450, loss 4.5248, recall 0.9367, precise 0.9229, f1 0.9293
+2020-11-30 16:46:23 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:46:31 - event_type_train.py[line:92] - INFO: epoch 15, step 3460, loss 4.5669, recall 0.9844, precise 0.9844, f1 0.9844
+2020-11-30 16:46:44 - event_type_train.py[line:92] - INFO: epoch 15, step 3480, loss 4.5398, recall 1.0000, precise 0.9836, f1 0.9917
+2020-11-30 16:46:58 - event_type_train.py[line:92] - INFO: epoch 15, step 3500, loss 4.5238, recall 0.9818, precise 0.9643, f1 0.9730
+2020-11-30 16:47:11 - event_type_train.py[line:92] - INFO: epoch 15, step 3520, loss 4.5304, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 16:47:25 - event_type_train.py[line:92] - INFO: epoch 15, step 3540, loss 4.5490, recall 0.9661, precise 0.9661, f1 0.9661
+2020-11-30 16:47:38 - event_type_train.py[line:92] - INFO: epoch 15, step 3560, loss 4.5198, recall 0.9815, precise 1.0000, f1 0.9907
+2020-11-30 16:47:51 - event_type_train.py[line:92] - INFO: epoch 15, step 3580, loss 4.5204, recall 0.9815, precise 0.9298, f1 0.9550
+2020-11-30 16:48:05 - event_type_train.py[line:92] - INFO: epoch 15, step 3600, loss 4.5598, recall 0.9839, precise 0.9839, f1 0.9839
+2020-11-30 16:48:18 - event_type_train.py[line:92] - INFO: epoch 15, step 3620, loss 4.5511, recall 0.9091, precise 0.9434, f1 0.9259
+2020-11-30 16:48:31 - event_type_train.py[line:92] - INFO: epoch 15, step 3640, loss 4.5340, recall 1.0000, precise 0.9667, f1 0.9831
+2020-11-30 16:48:45 - event_type_train.py[line:92] - INFO: epoch 15, step 3660, loss 4.5877, recall 0.9385, precise 0.9531, f1 0.9457
+2020-11-30 16:48:58 - event_type_train.py[line:92] - INFO: epoch 15, step 3680, loss 4.5061, recall 1.0000, precise 0.9623, f1 0.9808
+2020-11-30 16:49:04 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:49:04 - event_type_train.py[line:115] - INFO: epoch 15, step 3680, loss 4.5061, recall 0.9322, precise 0.9179, f1 0.9245
+2020-11-30 16:49:04 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:49:19 - event_type_train.py[line:92] - INFO: epoch 16, step 3700, loss 4.5195, recall 0.9818, precise 0.9818, f1 0.9818
+2020-11-30 16:49:32 - event_type_train.py[line:92] - INFO: epoch 16, step 3720, loss 4.5241, recall 0.9818, precise 0.9818, f1 0.9818
+2020-11-30 16:49:46 - event_type_train.py[line:92] - INFO: epoch 16, step 3740, loss 4.5168, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:49:59 - event_type_train.py[line:92] - INFO: epoch 16, step 3760, loss 4.5252, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:50:12 - event_type_train.py[line:92] - INFO: epoch 16, step 3780, loss 4.5301, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 16:50:26 - event_type_train.py[line:92] - INFO: epoch 16, step 3800, loss 4.5030, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:50:39 - event_type_train.py[line:92] - INFO: epoch 16, step 3820, loss 4.5594, recall 0.9672, precise 0.9516, f1 0.9593
+2020-11-30 16:50:53 - event_type_train.py[line:92] - INFO: epoch 16, step 3840, loss 4.5323, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 16:51:06 - event_type_train.py[line:92] - INFO: epoch 16, step 3860, loss 4.5333, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 16:51:19 - event_type_train.py[line:92] - INFO: epoch 16, step 3880, loss 4.5661, recall 0.9524, precise 1.0000, f1 0.9756
+2020-11-30 16:51:33 - event_type_train.py[line:92] - INFO: epoch 16, step 3900, loss 4.5405, recall 0.9464, precise 0.9464, f1 0.9464
+2020-11-30 16:51:46 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:51:46 - event_type_train.py[line:115] - INFO: epoch 16, step 3910, loss 4.5643, recall 0.9336, precise 0.9218, f1 0.9272
+2020-11-30 16:51:46 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:51:54 - event_type_train.py[line:92] - INFO: epoch 17, step 3920, loss 4.5191, recall 1.0000, precise 0.9655, f1 0.9825
+2020-11-30 16:52:07 - event_type_train.py[line:92] - INFO: epoch 17, step 3940, loss 4.5303, recall 0.9825, precise 0.9825, f1 0.9825
+2020-11-30 16:52:20 - event_type_train.py[line:92] - INFO: epoch 17, step 3960, loss 4.5546, recall 0.9672, precise 0.9672, f1 0.9672
+2020-11-30 16:52:34 - event_type_train.py[line:92] - INFO: epoch 17, step 3980, loss 4.5364, recall 0.9661, precise 1.0000, f1 0.9828
+2020-11-30 16:52:47 - event_type_train.py[line:92] - INFO: epoch 17, step 4000, loss 4.5195, recall 0.9623, precise 1.0000, f1 0.9808
+2020-11-30 16:53:00 - event_type_train.py[line:92] - INFO: epoch 17, step 4020, loss 4.5473, recall 0.9836, precise 0.9836, f1 0.9836
+2020-11-30 16:53:14 - event_type_train.py[line:92] - INFO: epoch 17, step 4040, loss 4.5282, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 16:53:27 - event_type_train.py[line:92] - INFO: epoch 17, step 4060, loss 4.5552, recall 0.9841, precise 1.0000, f1 0.9920
+2020-11-30 16:53:40 - event_type_train.py[line:92] - INFO: epoch 17, step 4080, loss 4.5145, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 16:53:54 - event_type_train.py[line:92] - INFO: epoch 17, step 4100, loss 4.5342, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 16:54:07 - event_type_train.py[line:92] - INFO: epoch 17, step 4120, loss 4.5502, recall 0.9667, precise 1.0000, f1 0.9831
+2020-11-30 16:54:21 - event_type_train.py[line:92] - INFO: epoch 17, step 4140, loss 4.5528, recall 0.9474, precise 0.9643, f1 0.9558
+2020-11-30 16:54:27 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:54:27 - event_type_train.py[line:115] - INFO: epoch 17, step 4140, loss 4.5528, recall 0.9347, precise 0.9158, f1 0.9246
+2020-11-30 16:54:27 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:54:42 - event_type_train.py[line:92] - INFO: epoch 18, step 4160, loss 4.5352, recall 0.9828, precise 0.9661, f1 0.9744
+2020-11-30 16:54:55 - event_type_train.py[line:92] - INFO: epoch 18, step 4180, loss 4.5486, recall 0.9667, precise 1.0000, f1 0.9831
+2020-11-30 16:55:08 - event_type_train.py[line:92] - INFO: epoch 18, step 4200, loss 4.5342, recall 0.9649, precise 0.9016, f1 0.9322
+2020-11-30 16:55:22 - event_type_train.py[line:92] - INFO: epoch 18, step 4220, loss 4.5638, recall 0.9344, precise 0.9828, f1 0.9580
+2020-11-30 16:55:35 - event_type_train.py[line:92] - INFO: epoch 18, step 4240, loss 4.5374, recall 0.9455, precise 0.9123, f1 0.9286
+2020-11-30 16:55:48 - event_type_train.py[line:92] - INFO: epoch 18, step 4260, loss 4.5325, recall 1.0000, precise 0.9833, f1 0.9916
+2020-11-30 16:56:02 - event_type_train.py[line:92] - INFO: epoch 18, step 4280, loss 4.5537, recall 0.9492, precise 1.0000, f1 0.9739
+2020-11-30 16:56:15 - event_type_train.py[line:92] - INFO: epoch 18, step 4300, loss 4.5187, recall 0.9818, precise 0.9643, f1 0.9730
+2020-11-30 16:56:28 - event_type_train.py[line:92] - INFO: epoch 18, step 4320, loss 4.5257, recall 0.9636, precise 1.0000, f1 0.9815
+2020-11-30 16:56:42 - event_type_train.py[line:92] - INFO: epoch 18, step 4340, loss 4.5194, recall 0.9818, precise 0.9818, f1 0.9818
+2020-11-30 16:56:55 - event_type_train.py[line:92] - INFO: epoch 18, step 4360, loss 4.5544, recall 0.8929, precise 0.9804, f1 0.9346
+2020-11-30 16:57:08 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:57:08 - event_type_train.py[line:115] - INFO: epoch 18, step 4370, loss 4.5394, recall 0.9370, precise 0.9194, f1 0.9276
+2020-11-30 16:57:08 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 16:57:16 - event_type_train.py[line:92] - INFO: epoch 19, step 4380, loss 4.5350, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 16:57:30 - event_type_train.py[line:92] - INFO: epoch 19, step 4400, loss 4.5380, recall 0.9474, precise 1.0000, f1 0.9730
+2020-11-30 16:57:43 - event_type_train.py[line:92] - INFO: epoch 19, step 4420, loss 4.5411, recall 0.9833, precise 1.0000, f1 0.9916
+2020-11-30 16:57:56 - event_type_train.py[line:92] - INFO: epoch 19, step 4440, loss 4.5350, recall 1.0000, precise 0.9836, f1 0.9917
+2020-11-30 16:58:10 - event_type_train.py[line:92] - INFO: epoch 19, step 4460, loss 4.5284, recall 0.9825, precise 0.9655, f1 0.9739
+2020-11-30 16:58:23 - event_type_train.py[line:92] - INFO: epoch 19, step 4480, loss 4.5374, recall 0.9831, precise 0.9831, f1 0.9831
+2020-11-30 16:58:36 - event_type_train.py[line:92] - INFO: epoch 19, step 4500, loss 4.5512, recall 0.9492, precise 0.9492, f1 0.9492
+2020-11-30 16:58:50 - event_type_train.py[line:92] - INFO: epoch 19, step 4520, loss 4.5399, recall 0.9483, precise 0.9483, f1 0.9483
+2020-11-30 16:59:03 - event_type_train.py[line:92] - INFO: epoch 19, step 4540, loss 4.5245, recall 0.9821, precise 0.9821, f1 0.9821
+2020-11-30 16:59:16 - event_type_train.py[line:92] - INFO: epoch 19, step 4560, loss 4.5295, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 16:59:30 - event_type_train.py[line:92] - INFO: epoch 19, step 4580, loss 4.5277, recall 1.0000, precise 0.9667, f1 0.9831
+2020-11-30 16:59:43 - event_type_train.py[line:92] - INFO: epoch 19, step 4600, loss 4.5380, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 16:59:50 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 16:59:50 - event_type_train.py[line:115] - INFO: epoch 19, step 4600, loss 4.5380, recall 0.9375, precise 0.9232, f1 0.9298
+2020-11-30 16:59:50 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:00:05 - event_type_train.py[line:92] - INFO: epoch 20, step 4620, loss 4.5353, recall 0.9831, precise 0.9831, f1 0.9831
+2020-11-30 17:00:18 - event_type_train.py[line:92] - INFO: epoch 20, step 4640, loss 4.5543, recall 0.9841, precise 0.9841, f1 0.9841
+2020-11-30 17:00:31 - event_type_train.py[line:92] - INFO: epoch 20, step 4660, loss 4.5318, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 17:00:45 - event_type_train.py[line:92] - INFO: epoch 20, step 4680, loss 4.5302, recall 1.0000, precise 0.9833, f1 0.9916
+2020-11-30 17:00:58 - event_type_train.py[line:92] - INFO: epoch 20, step 4700, loss 4.5161, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:01:11 - event_type_train.py[line:92] - INFO: epoch 20, step 4720, loss 4.5230, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:01:25 - event_type_train.py[line:92] - INFO: epoch 20, step 4740, loss 4.5115, recall 1.0000, precise 0.9821, f1 0.9910
+2020-11-30 17:01:38 - event_type_train.py[line:92] - INFO: epoch 20, step 4760, loss 4.5057, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:01:51 - event_type_train.py[line:92] - INFO: epoch 20, step 4780, loss 4.5344, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:02:05 - event_type_train.py[line:92] - INFO: epoch 20, step 4800, loss 4.5185, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:02:18 - event_type_train.py[line:92] - INFO: epoch 20, step 4820, loss 4.5296, recall 0.9828, precise 0.9344, f1 0.9580
+2020-11-30 17:02:31 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:02:31 - event_type_train.py[line:115] - INFO: epoch 20, step 4830, loss 4.5160, recall 0.9343, precise 0.9231, f1 0.9283
+2020-11-30 17:02:31 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:02:39 - event_type_train.py[line:92] - INFO: epoch 21, step 4840, loss 4.5579, recall 0.9508, precise 0.9831, f1 0.9667
+2020-11-30 17:02:52 - event_type_train.py[line:92] - INFO: epoch 21, step 4860, loss 4.5414, recall 0.9833, precise 0.9672, f1 0.9752
+2020-11-30 17:03:06 - event_type_train.py[line:92] - INFO: epoch 21, step 4880, loss 4.5334, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 17:03:19 - event_type_train.py[line:92] - INFO: epoch 21, step 4900, loss 4.5452, recall 0.9836, precise 0.9836, f1 0.9836
+2020-11-30 17:03:33 - event_type_train.py[line:92] - INFO: epoch 21, step 4920, loss 4.5655, recall 0.9524, precise 0.9524, f1 0.9524
+2020-11-30 17:03:46 - event_type_train.py[line:92] - INFO: epoch 21, step 4940, loss 4.5369, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:03:59 - event_type_train.py[line:92] - INFO: epoch 21, step 4960, loss 4.5274, recall 1.0000, precise 0.9833, f1 0.9916
+2020-11-30 17:04:13 - event_type_train.py[line:92] - INFO: epoch 21, step 4980, loss 4.5284, recall 0.9825, precise 0.9655, f1 0.9739
+2020-11-30 17:04:26 - event_type_train.py[line:92] - INFO: epoch 21, step 5000, loss 4.5276, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:04:39 - event_type_train.py[line:92] - INFO: epoch 21, step 5020, loss 4.5389, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:04:53 - event_type_train.py[line:92] - INFO: epoch 21, step 5040, loss 4.5410, recall 0.9661, precise 1.0000, f1 0.9828
+2020-11-30 17:05:06 - event_type_train.py[line:92] - INFO: epoch 21, step 5060, loss 4.5091, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:05:12 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:05:12 - event_type_train.py[line:115] - INFO: epoch 21, step 5060, loss 4.5091, recall 0.9346, precise 0.9221, f1 0.9276
+2020-11-30 17:05:12 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:05:27 - event_type_train.py[line:92] - INFO: epoch 22, step 5080, loss 4.5236, recall 0.9636, precise 1.0000, f1 0.9815
+2020-11-30 17:05:40 - event_type_train.py[line:92] - INFO: epoch 22, step 5100, loss 4.5144, recall 0.9815, precise 0.9636, f1 0.9725
+2020-11-30 17:05:54 - event_type_train.py[line:92] - INFO: epoch 22, step 5120, loss 4.5361, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:06:07 - event_type_train.py[line:92] - INFO: epoch 22, step 5140, loss 4.5176, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:06:20 - event_type_train.py[line:92] - INFO: epoch 22, step 5160, loss 4.5322, recall 0.9259, precise 0.9804, f1 0.9524
+2020-11-30 17:06:34 - event_type_train.py[line:92] - INFO: epoch 22, step 5180, loss 4.5146, recall 0.9623, precise 1.0000, f1 0.9808
+2020-11-30 17:06:47 - event_type_train.py[line:92] - INFO: epoch 22, step 5200, loss 4.5175, recall 1.0000, precise 0.9828, f1 0.9913
+2020-11-30 17:07:00 - event_type_train.py[line:92] - INFO: epoch 22, step 5220, loss 4.5328, recall 0.9649, precise 0.9483, f1 0.9565
+2020-11-30 17:07:14 - event_type_train.py[line:92] - INFO: epoch 22, step 5240, loss 4.5360, recall 0.9464, precise 0.9464, f1 0.9464
+2020-11-30 17:07:27 - event_type_train.py[line:92] - INFO: epoch 22, step 5260, loss 4.5375, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:07:40 - event_type_train.py[line:92] - INFO: epoch 22, step 5280, loss 4.5114, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:07:53 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:07:53 - event_type_train.py[line:115] - INFO: epoch 22, step 5290, loss 4.5155, recall 0.9373, precise 0.9265, f1 0.9313
+2020-11-30 17:07:53 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:08:01 - event_type_train.py[line:92] - INFO: epoch 23, step 5300, loss 4.5263, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:08:15 - event_type_train.py[line:92] - INFO: epoch 23, step 5320, loss 4.5358, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:08:28 - event_type_train.py[line:92] - INFO: epoch 23, step 5340, loss 4.5402, recall 0.9483, precise 1.0000, f1 0.9735
+2020-11-30 17:08:41 - event_type_train.py[line:92] - INFO: epoch 23, step 5360, loss 4.5093, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:08:55 - event_type_train.py[line:92] - INFO: epoch 23, step 5380, loss 4.5085, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:09:08 - event_type_train.py[line:92] - INFO: epoch 23, step 5400, loss 4.5445, recall 0.9483, precise 0.9649, f1 0.9565
+2020-11-30 17:09:21 - event_type_train.py[line:92] - INFO: epoch 23, step 5420, loss 4.5288, recall 0.9455, precise 0.9455, f1 0.9455
+2020-11-30 17:09:35 - event_type_train.py[line:92] - INFO: epoch 23, step 5440, loss 4.5335, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:09:48 - event_type_train.py[line:92] - INFO: epoch 23, step 5460, loss 4.5323, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:10:01 - event_type_train.py[line:92] - INFO: epoch 23, step 5480, loss 4.5425, recall 0.9667, precise 0.9667, f1 0.9667
+2020-11-30 17:10:15 - event_type_train.py[line:92] - INFO: epoch 23, step 5500, loss 4.5252, recall 0.9825, precise 0.9655, f1 0.9739
+2020-11-30 17:10:28 - event_type_train.py[line:92] - INFO: epoch 23, step 5520, loss 4.5331, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:10:34 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:10:34 - event_type_train.py[line:115] - INFO: epoch 23, step 5520, loss 4.5331, recall 0.9297, precise 0.9293, f1 0.9290
+2020-11-30 17:10:34 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:10:49 - event_type_train.py[line:92] - INFO: epoch 24, step 5540, loss 4.5258, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:11:02 - event_type_train.py[line:92] - INFO: epoch 24, step 5560, loss 4.5277, recall 1.0000, precise 0.9833, f1 0.9916
+2020-11-30 17:11:16 - event_type_train.py[line:92] - INFO: epoch 24, step 5580, loss 4.5083, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:11:29 - event_type_train.py[line:92] - INFO: epoch 24, step 5600, loss 4.5167, recall 0.9818, precise 0.9818, f1 0.9818
+2020-11-30 17:11:42 - event_type_train.py[line:92] - INFO: epoch 24, step 5620, loss 4.5180, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:11:56 - event_type_train.py[line:92] - INFO: epoch 24, step 5640, loss 4.5266, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 17:12:09 - event_type_train.py[line:92] - INFO: epoch 24, step 5660, loss 4.5249, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:12:23 - event_type_train.py[line:92] - INFO: epoch 24, step 5680, loss 4.5098, recall 0.9815, precise 1.0000, f1 0.9907
+2020-11-30 17:12:36 - event_type_train.py[line:92] - INFO: epoch 24, step 5700, loss 4.5258, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:12:49 - event_type_train.py[line:92] - INFO: epoch 24, step 5720, loss 4.5263, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 17:13:03 - event_type_train.py[line:92] - INFO: epoch 24, step 5740, loss 4.5234, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:13:16 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:13:16 - event_type_train.py[line:115] - INFO: epoch 24, step 5750, loss 4.5451, recall 0.9332, precise 0.9231, f1 0.9276
+2020-11-30 17:13:16 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:13:24 - event_type_train.py[line:92] - INFO: epoch 25, step 5760, loss 4.5330, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:13:37 - event_type_train.py[line:92] - INFO: epoch 25, step 5780, loss 4.5189, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:13:50 - event_type_train.py[line:92] - INFO: epoch 25, step 5800, loss 4.5542, recall 0.9322, precise 0.9483, f1 0.9402
+2020-11-30 17:14:04 - event_type_train.py[line:92] - INFO: epoch 25, step 5820, loss 4.5401, recall 0.9492, precise 1.0000, f1 0.9739
+2020-11-30 17:14:17 - event_type_train.py[line:92] - INFO: epoch 25, step 5840, loss 4.5356, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:14:30 - event_type_train.py[line:92] - INFO: epoch 25, step 5860, loss 4.5230, recall 0.9444, precise 0.9808, f1 0.9623
+2020-11-30 17:14:44 - event_type_train.py[line:92] - INFO: epoch 25, step 5880, loss 4.5558, recall 0.9683, precise 1.0000, f1 0.9839
+2020-11-30 17:14:57 - event_type_train.py[line:92] - INFO: epoch 25, step 5900, loss 4.5412, recall 0.9500, precise 0.9828, f1 0.9661
+2020-11-30 17:15:10 - event_type_train.py[line:92] - INFO: epoch 25, step 5920, loss 4.5500, recall 0.9672, precise 0.9516, f1 0.9593
+2020-11-30 17:15:24 - event_type_train.py[line:92] - INFO: epoch 25, step 5940, loss 4.5130, recall 1.0000, precise 0.9828, f1 0.9913
+2020-11-30 17:15:37 - event_type_train.py[line:92] - INFO: epoch 25, step 5960, loss 4.5181, recall 0.9821, precise 0.9821, f1 0.9821
+2020-11-30 17:15:50 - event_type_train.py[line:92] - INFO: epoch 25, step 5980, loss 4.5363, recall 0.9643, precise 0.9818, f1 0.9730
+2020-11-30 17:15:57 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:15:57 - event_type_train.py[line:115] - INFO: epoch 25, step 5980, loss 4.5363, recall 0.9325, precise 0.9264, f1 0.9289
+2020-11-30 17:15:57 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:16:11 - event_type_train.py[line:92] - INFO: epoch 26, step 6000, loss 4.5227, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 17:16:25 - event_type_train.py[line:92] - INFO: epoch 26, step 6020, loss 4.5301, recall 1.0000, precise 0.9677, f1 0.9836
+2020-11-30 17:16:38 - event_type_train.py[line:92] - INFO: epoch 26, step 6040, loss 4.5346, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:16:51 - event_type_train.py[line:92] - INFO: epoch 26, step 6060, loss 4.5233, recall 0.9444, precise 1.0000, f1 0.9714
+2020-11-30 17:17:05 - event_type_train.py[line:92] - INFO: epoch 26, step 6080, loss 4.5327, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:17:18 - event_type_train.py[line:92] - INFO: epoch 26, step 6100, loss 4.5218, recall 1.0000, precise 0.9508, f1 0.9748
+2020-11-30 17:17:31 - event_type_train.py[line:92] - INFO: epoch 26, step 6120, loss 4.5436, recall 0.9836, precise 0.9524, f1 0.9677
+2020-11-30 17:17:45 - event_type_train.py[line:92] - INFO: epoch 26, step 6140, loss 4.5115, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:17:58 - event_type_train.py[line:92] - INFO: epoch 26, step 6160, loss 4.5104, recall 0.9815, precise 0.9636, f1 0.9725
+2020-11-30 17:18:12 - event_type_train.py[line:92] - INFO: epoch 26, step 6180, loss 4.5181, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:18:25 - event_type_train.py[line:92] - INFO: epoch 26, step 6200, loss 4.5414, recall 0.9667, precise 0.9831, f1 0.9748
+2020-11-30 17:18:38 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:18:38 - event_type_train.py[line:115] - INFO: epoch 26, step 6210, loss 4.5351, recall 0.9340, precise 0.9203, f1 0.9266
+2020-11-30 17:18:38 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:18:46 - event_type_train.py[line:92] - INFO: epoch 27, step 6220, loss 4.5126, recall 0.9818, precise 1.0000, f1 0.9908
+2020-11-30 17:18:59 - event_type_train.py[line:92] - INFO: epoch 27, step 6240, loss 4.5358, recall 0.9655, precise 0.9655, f1 0.9655
+2020-11-30 17:19:13 - event_type_train.py[line:92] - INFO: epoch 27, step 6260, loss 4.5283, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:19:26 - event_type_train.py[line:92] - INFO: epoch 27, step 6280, loss 4.5205, recall 0.9636, precise 1.0000, f1 0.9815
+2020-11-30 17:19:39 - event_type_train.py[line:92] - INFO: epoch 27, step 6300, loss 4.5079, recall 0.9815, precise 0.9815, f1 0.9815
+2020-11-30 17:19:53 - event_type_train.py[line:92] - INFO: epoch 27, step 6320, loss 4.5570, recall 0.9508, precise 0.9508, f1 0.9508
+2020-11-30 17:20:06 - event_type_train.py[line:92] - INFO: epoch 27, step 6340, loss 4.5337, recall 0.9464, precise 1.0000, f1 0.9725
+2020-11-30 17:20:19 - event_type_train.py[line:92] - INFO: epoch 27, step 6360, loss 4.5170, recall 0.9630, precise 1.0000, f1 0.9811
+2020-11-30 17:20:33 - event_type_train.py[line:92] - INFO: epoch 27, step 6380, loss 4.5382, recall 0.9483, precise 1.0000, f1 0.9735
+2020-11-30 17:20:46 - event_type_train.py[line:92] - INFO: epoch 27, step 6400, loss 4.5076, recall 1.0000, precise 0.9322, f1 0.9649
+2020-11-30 17:20:59 - event_type_train.py[line:92] - INFO: epoch 27, step 6420, loss 4.5282, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:21:13 - event_type_train.py[line:92] - INFO: epoch 27, step 6440, loss 4.4974, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:21:19 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:21:19 - event_type_train.py[line:115] - INFO: epoch 27, step 6440, loss 4.4974, recall 0.9378, precise 0.9191, f1 0.9279
+2020-11-30 17:21:19 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:21:34 - event_type_train.py[line:92] - INFO: epoch 28, step 6460, loss 4.5384, recall 0.9661, precise 1.0000, f1 0.9828
+2020-11-30 17:21:47 - event_type_train.py[line:92] - INFO: epoch 28, step 6480, loss 4.5216, recall 0.9636, precise 0.9815, f1 0.9725
+2020-11-30 17:22:00 - event_type_train.py[line:92] - INFO: epoch 28, step 6500, loss 4.5205, recall 1.0000, precise 0.9831, f1 0.9915
+2020-11-30 17:22:14 - event_type_train.py[line:92] - INFO: epoch 28, step 6520, loss 4.5319, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:22:27 - event_type_train.py[line:92] - INFO: epoch 28, step 6540, loss 4.5522, recall 0.9677, precise 0.9677, f1 0.9677
+2020-11-30 17:22:40 - event_type_train.py[line:92] - INFO: epoch 28, step 6560, loss 4.5321, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:22:54 - event_type_train.py[line:92] - INFO: epoch 28, step 6580, loss 4.5247, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:23:07 - event_type_train.py[line:92] - INFO: epoch 28, step 6600, loss 4.5218, recall 0.9636, precise 0.9815, f1 0.9725
+2020-11-30 17:23:20 - event_type_train.py[line:92] - INFO: epoch 28, step 6620, loss 4.5289, recall 0.9259, precise 0.9804, f1 0.9524
+2020-11-30 17:23:34 - event_type_train.py[line:92] - INFO: epoch 28, step 6640, loss 4.5269, recall 0.9649, precise 1.0000, f1 0.9821
+2020-11-30 17:23:47 - event_type_train.py[line:92] - INFO: epoch 28, step 6660, loss 4.5291, recall 0.9455, precise 0.9455, f1 0.9455
+2020-11-30 17:24:00 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:24:00 - event_type_train.py[line:115] - INFO: epoch 28, step 6670, loss 4.5034, recall 0.9394, precise 0.9211, f1 0.9297
+2020-11-30 17:24:00 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:24:08 - event_type_train.py[line:92] - INFO: epoch 29, step 6680, loss 4.5129, recall 0.9818, precise 1.0000, f1 0.9908
+2020-11-30 17:24:21 - event_type_train.py[line:92] - INFO: epoch 29, step 6700, loss 4.5328, recall 0.9833, precise 0.9833, f1 0.9833
+2020-11-30 17:24:35 - event_type_train.py[line:92] - INFO: epoch 29, step 6720, loss 4.5161, recall 0.9630, precise 0.9811, f1 0.9720
+2020-11-30 17:24:48 - event_type_train.py[line:92] - INFO: epoch 29, step 6740, loss 4.5122, recall 0.9818, precise 1.0000, f1 0.9908
+2020-11-30 17:25:01 - event_type_train.py[line:92] - INFO: epoch 29, step 6760, loss 4.5141, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:25:15 - event_type_train.py[line:92] - INFO: epoch 29, step 6780, loss 4.5482, recall 0.9672, precise 1.0000, f1 0.9833
+2020-11-30 17:25:28 - event_type_train.py[line:92] - INFO: epoch 29, step 6800, loss 4.5298, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:25:41 - event_type_train.py[line:92] - INFO: epoch 29, step 6820, loss 4.5168, recall 0.9821, precise 0.9821, f1 0.9821
+2020-11-30 17:25:55 - event_type_train.py[line:92] - INFO: epoch 29, step 6840, loss 4.5162, recall 0.9630, precise 0.9630, f1 0.9630
+2020-11-30 17:26:08 - event_type_train.py[line:92] - INFO: epoch 29, step 6860, loss 4.5337, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:26:21 - event_type_train.py[line:92] - INFO: epoch 29, step 6880, loss 4.5128, recall 0.9818, precise 1.0000, f1 0.9908
+2020-11-30 17:26:35 - event_type_train.py[line:92] - INFO: epoch 29, step 6900, loss 4.5105, recall 0.9608, precise 0.9608, f1 0.9608
+2020-11-30 17:26:41 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:26:41 - event_type_train.py[line:115] - INFO: epoch 29, step 6900, loss 4.5105, recall 0.9390, precise 0.9194, f1 0.9288
+2020-11-30 17:26:41 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:26:56 - event_type_train.py[line:92] - INFO: epoch 30, step 6920, loss 4.5231, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:27:09 - event_type_train.py[line:92] - INFO: epoch 30, step 6940, loss 4.5299, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 17:27:22 - event_type_train.py[line:92] - INFO: epoch 30, step 6960, loss 4.5434, recall 0.9839, precise 1.0000, f1 0.9919
+2020-11-30 17:27:36 - event_type_train.py[line:92] - INFO: epoch 30, step 6980, loss 4.5021, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:27:49 - event_type_train.py[line:92] - INFO: epoch 30, step 7000, loss 4.5008, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:28:02 - event_type_train.py[line:92] - INFO: epoch 30, step 7020, loss 4.5302, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:28:16 - event_type_train.py[line:92] - INFO: epoch 30, step 7040, loss 4.5391, recall 0.9661, precise 0.9828, f1 0.9744
+2020-11-30 17:28:29 - event_type_train.py[line:92] - INFO: epoch 30, step 7060, loss 4.5130, recall 0.9818, precise 0.9818, f1 0.9818
+2020-11-30 17:28:42 - event_type_train.py[line:92] - INFO: epoch 30, step 7080, loss 4.5467, recall 0.9298, precise 0.9464, f1 0.9381
+2020-11-30 17:28:56 - event_type_train.py[line:92] - INFO: epoch 30, step 7100, loss 4.5254, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 17:29:09 - event_type_train.py[line:92] - INFO: epoch 30, step 7120, loss 4.5015, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:29:22 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:29:22 - event_type_train.py[line:115] - INFO: epoch 30, step 7130, loss 4.5403, recall 0.9417, precise 0.9211, f1 0.9309
+2020-11-30 17:29:22 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:29:30 - event_type_train.py[line:92] - INFO: epoch 31, step 7140, loss 4.5217, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:29:44 - event_type_train.py[line:92] - INFO: epoch 31, step 7160, loss 4.5553, recall 0.9167, precise 0.9483, f1 0.9322
+2020-11-30 17:29:57 - event_type_train.py[line:92] - INFO: epoch 31, step 7180, loss 4.5123, recall 0.9818, precise 1.0000, f1 0.9908
+2020-11-30 17:30:10 - event_type_train.py[line:92] - INFO: epoch 31, step 7200, loss 4.5545, recall 0.9683, precise 1.0000, f1 0.9839
+2020-11-30 17:30:24 - event_type_train.py[line:92] - INFO: epoch 31, step 7220, loss 4.5272, recall 0.9828, precise 0.9661, f1 0.9744
+2020-11-30 17:30:37 - event_type_train.py[line:92] - INFO: epoch 31, step 7240, loss 4.5093, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:30:50 - event_type_train.py[line:92] - INFO: epoch 31, step 7260, loss 4.5280, recall 0.9831, precise 0.9831, f1 0.9831
+2020-11-30 17:31:04 - event_type_train.py[line:92] - INFO: epoch 31, step 7280, loss 4.5345, recall 0.9661, precise 1.0000, f1 0.9828
+2020-11-30 17:31:17 - event_type_train.py[line:92] - INFO: epoch 31, step 7300, loss 4.5144, recall 0.9630, precise 1.0000, f1 0.9811
+2020-11-30 17:31:30 - event_type_train.py[line:92] - INFO: epoch 31, step 7320, loss 4.5321, recall 0.9831, precise 0.9667, f1 0.9748
+2020-11-30 17:31:44 - event_type_train.py[line:92] - INFO: epoch 31, step 7340, loss 4.5214, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:31:57 - event_type_train.py[line:92] - INFO: epoch 31, step 7360, loss 4.5124, recall 0.9811, precise 0.9811, f1 0.9811
+2020-11-30 17:32:03 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:32:03 - event_type_train.py[line:115] - INFO: epoch 31, step 7360, loss 4.5124, recall 0.9320, precise 0.9260, f1 0.9286
+2020-11-30 17:32:03 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:32:18 - event_type_train.py[line:92] - INFO: epoch 32, step 7380, loss 4.5271, recall 0.9455, precise 0.9811, f1 0.9630
+2020-11-30 17:32:31 - event_type_train.py[line:92] - INFO: epoch 32, step 7400, loss 4.5257, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:32:45 - event_type_train.py[line:92] - INFO: epoch 32, step 7420, loss 4.5104, recall 1.0000, precise 0.9655, f1 0.9825
+2020-11-30 17:32:58 - event_type_train.py[line:92] - INFO: epoch 32, step 7440, loss 4.5188, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:33:11 - event_type_train.py[line:92] - INFO: epoch 32, step 7460, loss 4.5101, recall 1.0000, precise 0.9825, f1 0.9912
+2020-11-30 17:33:25 - event_type_train.py[line:92] - INFO: epoch 32, step 7480, loss 4.5390, recall 0.9667, precise 1.0000, f1 0.9831
+2020-11-30 17:33:38 - event_type_train.py[line:92] - INFO: epoch 32, step 7500, loss 4.5288, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:33:51 - event_type_train.py[line:92] - INFO: epoch 32, step 7520, loss 4.5080, recall 0.9815, precise 0.9815, f1 0.9815
+2020-11-30 17:34:05 - event_type_train.py[line:92] - INFO: epoch 32, step 7540, loss 4.5302, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 17:34:18 - event_type_train.py[line:92] - INFO: epoch 32, step 7560, loss 4.5148, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:34:31 - event_type_train.py[line:92] - INFO: epoch 32, step 7580, loss 4.5377, recall 0.9661, precise 0.9828, f1 0.9744
+2020-11-30 17:34:45 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:34:45 - event_type_train.py[line:115] - INFO: epoch 32, step 7590, loss 4.4999, recall 0.9396, precise 0.9215, f1 0.9303
+2020-11-30 17:34:45 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:34:53 - event_type_train.py[line:92] - INFO: epoch 33, step 7600, loss 4.5292, recall 0.9464, precise 0.9815, f1 0.9636
+2020-11-30 17:35:06 - event_type_train.py[line:92] - INFO: epoch 33, step 7620, loss 4.5366, recall 0.9661, precise 0.9828, f1 0.9744
+2020-11-30 17:35:19 - event_type_train.py[line:92] - INFO: epoch 33, step 7640, loss 4.5216, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:35:33 - event_type_train.py[line:92] - INFO: epoch 33, step 7660, loss 4.5240, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:35:46 - event_type_train.py[line:92] - INFO: epoch 33, step 7680, loss 4.5272, recall 0.9649, precise 1.0000, f1 0.9821
+2020-11-30 17:35:59 - event_type_train.py[line:92] - INFO: epoch 33, step 7700, loss 4.5312, recall 0.9655, precise 0.9825, f1 0.9739
+2020-11-30 17:36:13 - event_type_train.py[line:92] - INFO: epoch 33, step 7720, loss 4.5198, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:36:26 - event_type_train.py[line:92] - INFO: epoch 33, step 7740, loss 4.5254, recall 0.9455, precise 1.0000, f1 0.9720
+2020-11-30 17:36:40 - event_type_train.py[line:92] - INFO: epoch 33, step 7760, loss 4.5236, recall 0.9643, precise 0.9818, f1 0.9730
+2020-11-30 17:36:53 - event_type_train.py[line:92] - INFO: epoch 33, step 7780, loss 4.5357, recall 0.9661, precise 0.9828, f1 0.9744
+2020-11-30 17:37:06 - event_type_train.py[line:92] - INFO: epoch 33, step 7800, loss 4.5319, recall 0.9833, precise 1.0000, f1 0.9916
+2020-11-30 17:37:19 - event_type_train.py[line:92] - INFO: epoch 33, step 7820, loss 4.5236, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:37:26 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:37:26 - event_type_train.py[line:115] - INFO: epoch 33, step 7820, loss 4.5236, recall 0.9354, precise 0.9261, f1 0.9300
+2020-11-30 17:37:26 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:37:41 - event_type_train.py[line:92] - INFO: epoch 34, step 7840, loss 4.5126, recall 1.0000, precise 0.9661, f1 0.9828
+2020-11-30 17:37:54 - event_type_train.py[line:92] - INFO: epoch 34, step 7860, loss 4.5145, recall 0.9630, precise 0.9811, f1 0.9720
+2020-11-30 17:38:07 - event_type_train.py[line:92] - INFO: epoch 34, step 7880, loss 4.5449, recall 0.9672, precise 0.9833, f1 0.9752
+2020-11-30 17:38:21 - event_type_train.py[line:92] - INFO: epoch 34, step 7900, loss 4.5400, recall 0.9483, precise 1.0000, f1 0.9735
+2020-11-30 17:38:34 - event_type_train.py[line:92] - INFO: epoch 34, step 7920, loss 4.5275, recall 0.9649, precise 1.0000, f1 0.9821
+2020-11-30 17:38:47 - event_type_train.py[line:92] - INFO: epoch 34, step 7940, loss 4.5342, recall 0.9661, precise 1.0000, f1 0.9828
+2020-11-30 17:39:01 - event_type_train.py[line:92] - INFO: epoch 34, step 7960, loss 4.5292, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:39:14 - event_type_train.py[line:92] - INFO: epoch 34, step 7980, loss 4.5351, recall 0.9474, precise 1.0000, f1 0.9730
+2020-11-30 17:39:27 - event_type_train.py[line:92] - INFO: epoch 34, step 8000, loss 4.5407, recall 0.9483, precise 1.0000, f1 0.9735
+2020-11-30 17:39:41 - event_type_train.py[line:92] - INFO: epoch 34, step 8020, loss 4.5293, recall 0.9649, precise 0.9821, f1 0.9735
+2020-11-30 17:39:54 - event_type_train.py[line:92] - INFO: epoch 34, step 8040, loss 4.5207, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:40:07 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:40:07 - event_type_train.py[line:115] - INFO: epoch 34, step 8050, loss 4.5480, recall 0.9398, precise 0.9134, f1 0.9259
+2020-11-30 17:40:07 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:40:15 - event_type_train.py[line:92] - INFO: epoch 35, step 8060, loss 4.5720, recall 0.8814, precise 0.9811, f1 0.9286
+2020-11-30 17:40:28 - event_type_train.py[line:92] - INFO: epoch 35, step 8080, loss 4.4993, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:40:42 - event_type_train.py[line:92] - INFO: epoch 35, step 8100, loss 4.5240, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:40:55 - event_type_train.py[line:92] - INFO: epoch 35, step 8120, loss 4.5077, recall 0.9815, precise 1.0000, f1 0.9907
+2020-11-30 17:41:08 - event_type_train.py[line:92] - INFO: epoch 35, step 8140, loss 4.5138, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:41:22 - event_type_train.py[line:92] - INFO: epoch 35, step 8160, loss 4.5036, recall 0.9811, precise 0.9811, f1 0.9811
+2020-11-30 17:41:35 - event_type_train.py[line:92] - INFO: epoch 35, step 8180, loss 4.5265, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 17:41:49 - event_type_train.py[line:92] - INFO: epoch 35, step 8200, loss 4.5473, recall 0.9310, precise 1.0000, f1 0.9643
+2020-11-30 17:42:02 - event_type_train.py[line:92] - INFO: epoch 35, step 8220, loss 4.5127, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:42:15 - event_type_train.py[line:92] - INFO: epoch 35, step 8240, loss 4.5130, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:42:29 - event_type_train.py[line:92] - INFO: epoch 35, step 8260, loss 4.5351, recall 0.9474, precise 1.0000, f1 0.9730
+2020-11-30 17:42:42 - event_type_train.py[line:92] - INFO: epoch 35, step 8280, loss 4.5097, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:42:48 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:42:48 - event_type_train.py[line:115] - INFO: epoch 35, step 8280, loss 4.5097, recall 0.9363, precise 0.9266, f1 0.9310
+2020-11-30 17:42:48 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:43:03 - event_type_train.py[line:92] - INFO: epoch 36, step 8300, loss 4.5544, recall 0.9333, precise 1.0000, f1 0.9655
+2020-11-30 17:43:16 - event_type_train.py[line:92] - INFO: epoch 36, step 8320, loss 4.5184, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:43:30 - event_type_train.py[line:92] - INFO: epoch 36, step 8340, loss 4.5187, recall 0.9636, precise 1.0000, f1 0.9815
+2020-11-30 17:43:43 - event_type_train.py[line:92] - INFO: epoch 36, step 8360, loss 4.5185, recall 0.9636, precise 0.9815, f1 0.9725
+2020-11-30 17:43:56 - event_type_train.py[line:92] - INFO: epoch 36, step 8380, loss 4.5187, recall 0.9825, precise 1.0000, f1 0.9912
+2020-11-30 17:44:10 - event_type_train.py[line:92] - INFO: epoch 36, step 8400, loss 4.5339, recall 0.9474, precise 1.0000, f1 0.9730
+2020-11-30 17:44:23 - event_type_train.py[line:92] - INFO: epoch 36, step 8420, loss 4.4906, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:44:37 - event_type_train.py[line:92] - INFO: epoch 36, step 8440, loss 4.5212, recall 0.9643, precise 0.9818, f1 0.9730
+2020-11-30 17:44:50 - event_type_train.py[line:92] - INFO: epoch 36, step 8460, loss 4.5232, recall 0.9643, precise 0.9818, f1 0.9730
+2020-11-30 17:45:03 - event_type_train.py[line:92] - INFO: epoch 36, step 8480, loss 4.5151, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:45:17 - event_type_train.py[line:92] - INFO: epoch 36, step 8500, loss 4.5082, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:45:30 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:45:30 - event_type_train.py[line:115] - INFO: epoch 36, step 8510, loss 4.4909, recall 0.9365, precise 0.9298, f1 0.9327
+2020-11-30 17:45:30 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:45:38 - event_type_train.py[line:92] - INFO: epoch 37, step 8520, loss 4.5211, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:45:51 - event_type_train.py[line:92] - INFO: epoch 37, step 8540, loss 4.5450, recall 0.9672, precise 1.0000, f1 0.9833
+2020-11-30 17:46:04 - event_type_train.py[line:92] - INFO: epoch 37, step 8560, loss 4.5161, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:46:18 - event_type_train.py[line:92] - INFO: epoch 37, step 8580, loss 4.5230, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 17:46:31 - event_type_train.py[line:92] - INFO: epoch 37, step 8600, loss 4.5431, recall 0.9500, precise 1.0000, f1 0.9744
+2020-11-30 17:46:44 - event_type_train.py[line:92] - INFO: epoch 37, step 8620, loss 4.5080, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:46:58 - event_type_train.py[line:92] - INFO: epoch 37, step 8640, loss 4.5292, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:47:11 - event_type_train.py[line:92] - INFO: epoch 37, step 8660, loss 4.5257, recall 0.9649, precise 1.0000, f1 0.9821
+2020-11-30 17:47:24 - event_type_train.py[line:92] - INFO: epoch 37, step 8680, loss 4.5300, recall 0.9273, precise 1.0000, f1 0.9623
+2020-11-30 17:47:38 - event_type_train.py[line:92] - INFO: epoch 37, step 8700, loss 4.5420, recall 0.9492, precise 1.0000, f1 0.9739
+2020-11-30 17:47:51 - event_type_train.py[line:92] - INFO: epoch 37, step 8720, loss 4.5158, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:48:04 - event_type_train.py[line:92] - INFO: epoch 37, step 8740, loss 4.5313, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:48:11 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:48:11 - event_type_train.py[line:115] - INFO: epoch 37, step 8740, loss 4.5313, recall 0.9337, precise 0.9306, f1 0.9319
+2020-11-30 17:48:11 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:48:25 - event_type_train.py[line:92] - INFO: epoch 38, step 8760, loss 4.5214, recall 0.9643, precise 1.0000, f1 0.9818
+2020-11-30 17:48:39 - event_type_train.py[line:92] - INFO: epoch 38, step 8780, loss 4.5147, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:48:52 - event_type_train.py[line:92] - INFO: epoch 38, step 8800, loss 4.5294, recall 0.9833, precise 1.0000, f1 0.9916
+2020-11-30 17:49:06 - event_type_train.py[line:92] - INFO: epoch 38, step 8820, loss 4.5244, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 17:49:19 - event_type_train.py[line:92] - INFO: epoch 38, step 8840, loss 4.5347, recall 0.9661, precise 0.9828, f1 0.9744
+2020-11-30 17:49:32 - event_type_train.py[line:92] - INFO: epoch 38, step 8860, loss 4.5458, recall 0.9310, precise 1.0000, f1 0.9643
+2020-11-30 17:49:46 - event_type_train.py[line:92] - INFO: epoch 38, step 8880, loss 4.5066, recall 0.9815, precise 0.9815, f1 0.9815
+2020-11-30 17:49:59 - event_type_train.py[line:92] - INFO: epoch 38, step 8900, loss 4.5162, recall 0.9821, precise 0.9821, f1 0.9821
+2020-11-30 17:50:12 - event_type_train.py[line:92] - INFO: epoch 38, step 8920, loss 4.5231, recall 0.9828, precise 1.0000, f1 0.9913
+2020-11-30 17:50:26 - event_type_train.py[line:92] - INFO: epoch 38, step 8940, loss 4.5315, recall 0.9655, precise 1.0000, f1 0.9825
+2020-11-30 17:50:39 - event_type_train.py[line:92] - INFO: epoch 38, step 8960, loss 4.5282, recall 0.9831, precise 0.9831, f1 0.9831
+2020-11-30 17:50:52 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:50:52 - event_type_train.py[line:115] - INFO: epoch 38, step 8970, loss 4.5261, recall 0.9349, precise 0.9304, f1 0.9324
+2020-11-30 17:50:52 - event_type_train.py[line:116] - INFO: -----eval----
+2020-11-30 17:51:00 - event_type_train.py[line:92] - INFO: epoch 39, step 8980, loss 4.5244, recall 0.9828, precise 0.9828, f1 0.9828
+2020-11-30 17:51:13 - event_type_train.py[line:92] - INFO: epoch 39, step 9000, loss 4.5388, recall 0.9483, precise 0.9649, f1 0.9565
+2020-11-30 17:51:27 - event_type_train.py[line:92] - INFO: epoch 39, step 9020, loss 4.4994, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:51:40 - event_type_train.py[line:92] - INFO: epoch 39, step 9040, loss 4.5164, recall 0.9821, precise 1.0000, f1 0.9910
+2020-11-30 17:51:53 - event_type_train.py[line:92] - INFO: epoch 39, step 9060, loss 4.5321, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:52:07 - event_type_train.py[line:92] - INFO: epoch 39, step 9080, loss 4.5347, recall 0.9474, precise 1.0000, f1 0.9730
+2020-11-30 17:52:20 - event_type_train.py[line:92] - INFO: epoch 39, step 9100, loss 4.4983, recall 0.9808, precise 1.0000, f1 0.9903
+2020-11-30 17:52:33 - event_type_train.py[line:92] - INFO: epoch 39, step 9120, loss 4.5168, recall 0.9821, precise 0.9821, f1 0.9821
+2020-11-30 17:52:47 - event_type_train.py[line:92] - INFO: epoch 39, step 9140, loss 4.5274, recall 0.9831, precise 1.0000, f1 0.9915
+2020-11-30 17:53:00 - event_type_train.py[line:92] - INFO: epoch 39, step 9160, loss 4.5238, recall 0.9643, precise 0.9818, f1 0.9730
+2020-11-30 17:53:13 - event_type_train.py[line:92] - INFO: epoch 39, step 9180, loss 4.4994, recall 1.0000, precise 1.0000, f1 1.0000
+2020-11-30 17:53:27 - event_type_train.py[line:92] - INFO: epoch 39, step 9200, loss 4.5173, recall 0.9815, precise 1.0000, f1 0.9907
+2020-11-30 17:53:33 - event_type_train.py[line:114] - INFO: -----eval----
+2020-11-30 17:53:33 - event_type_train.py[line:115] - INFO: epoch 39, step 9200, loss 4.5173, recall 0.9349, precise 0.9315, f1 0.9329
+2020-11-30 17:53:33 - event_type_train.py[line:116] - INFO: -----eval----

@@ -1,0 +1,93 @@
+2020-12-15 14:30:42 - configuration_utils.py[line:281] - INFO: loading configuration file ./pretrained_model/chinese-roberta-wwm-ext-large\config.json
+2020-12-15 14:30:42 - configuration_utils.py[line:319] - INFO: Model config BertConfig {
+  "_num_labels": 2,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bad_words_ids": null,
+  "bos_token_id": 0,
+  "decoder_start_token_id": null,
+  "directionality": "bidi",
+  "do_sample": false,
+  "early_stopping": false,
+  "eos_token_id": 2,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "is_encoder_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "min_length": 0,
+  "model_type": "bert",
+  "no_repeat_ngram_size": 0,
+  "num_attention_heads": 16,
+  "num_beams": 1,
+  "num_hidden_layers": 24,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "prefix": null,
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "task_specific_params": null,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2020-12-15 14:30:43 - modeling_utils.py[line:505] - INFO: loading weights file ./pretrained_model/chinese-roberta-wwm-ext-large\pytorch_model.bin
+2020-12-15 14:31:10 - train.py[line:105] - INFO: epoch 0, step 50, loss 41.4963, start_f1 0.0244, end_f1 0.0645
+2020-12-15 14:31:29 - train.py[line:105] - INFO: epoch 0, step 100, loss 73.6751, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:31:47 - train.py[line:105] - INFO: epoch 0, step 150, loss 64.3835, start_f1 0.0000, end_f1 0.0104
+2020-12-15 14:32:05 - train.py[line:105] - INFO: epoch 0, step 200, loss 43.6421, start_f1 0.0000, end_f1 0.0202
+2020-12-15 14:32:24 - train.py[line:105] - INFO: epoch 0, step 250, loss 17.3190, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:32:42 - train.py[line:105] - INFO: epoch 0, step 300, loss 19.6865, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:33:01 - train.py[line:105] - INFO: epoch 0, step 350, loss 12.2662, start_f1 0.0435, end_f1 0.0000
+2020-12-15 14:33:19 - train.py[line:105] - INFO: epoch 0, step 400, loss 10.5791, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:33:38 - train.py[line:105] - INFO: epoch 0, step 450, loss 9.4355, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:33:56 - train.py[line:105] - INFO: epoch 0, step 500, loss 6.3903, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:34:15 - train.py[line:105] - INFO: epoch 0, step 550, loss 6.6865, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:34:34 - train.py[line:105] - INFO: epoch 0, step 600, loss 7.4458, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:34:52 - train.py[line:105] - INFO: epoch 0, step 650, loss 4.4599, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:35:11 - train.py[line:105] - INFO: epoch 0, step 700, loss 5.6779, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:35:29 - train.py[line:105] - INFO: epoch 0, step 750, loss 1.6354, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:35:48 - train.py[line:105] - INFO: epoch 0, step 800, loss 4.0972, start_f1 0.1053, end_f1 0.1667
+2020-12-15 14:36:07 - train.py[line:105] - INFO: epoch 0, step 850, loss 2.2685, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:36:25 - train.py[line:105] - INFO: epoch 0, step 900, loss 3.8970, start_f1 0.0833, end_f1 0.3158
+2020-12-15 14:36:44 - train.py[line:105] - INFO: epoch 0, step 950, loss 3.0547, start_f1 0.0667, end_f1 0.3333
+2020-12-15 14:37:03 - train.py[line:105] - INFO: epoch 0, step 1000, loss 3.5058, start_f1 0.2222, end_f1 0.3636
+2020-12-15 14:37:21 - train.py[line:105] - INFO: epoch 0, step 1050, loss 2.5803, start_f1 0.0851, end_f1 0.2857
+2020-12-15 14:37:40 - train.py[line:105] - INFO: epoch 0, step 1100, loss 4.5290, start_f1 0.0909, end_f1 0.1818
+2020-12-15 14:37:58 - train.py[line:105] - INFO: epoch 0, step 1150, loss 2.3722, start_f1 0.4000, end_f1 0.2000
+2020-12-15 14:38:17 - train.py[line:105] - INFO: epoch 0, step 1200, loss 2.5051, start_f1 0.0741, end_f1 0.3750
+2020-12-15 14:38:36 - train.py[line:105] - INFO: epoch 0, step 1250, loss 3.2859, start_f1 0.0941, end_f1 0.4211
+2020-12-15 14:38:55 - train.py[line:105] - INFO: epoch 0, step 1300, loss 3.4044, start_f1 0.2857, end_f1 0.2500
+2020-12-15 14:39:13 - train.py[line:105] - INFO: epoch 0, step 1350, loss 2.1893, start_f1 0.0860, end_f1 0.5333
+2020-12-15 14:39:32 - train.py[line:105] - INFO: epoch 0, step 1400, loss 1.2828, start_f1 0.0000, end_f1 0.0000
+2020-12-15 14:39:50 - train.py[line:105] - INFO: epoch 0, step 1450, loss 3.2402, start_f1 0.0769, end_f1 0.1667
